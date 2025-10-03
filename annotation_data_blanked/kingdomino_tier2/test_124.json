@@ -1,0 +1,13 @@
+{
+  "ID": 124,
+  "Game": "Kingdomino",
+  "Test Description": "",
+  "Difficulty Notes": "",
+  "Question": "How many points does this kingdom score?",
+  "Answer": "31",
+  "Rationale": "(7 fields X 2 crowns) + (1 wasteland X 2 crowns) + (1 wasteland X 1 crown) + (2 meadows X 3 crowns) + (2 mines X 4 crowns)",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/hard_kingdom_variants.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0
+}

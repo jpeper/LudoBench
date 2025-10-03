@@ -1,0 +1,13 @@
+{
+  "ID": 16,
+  "Game": "Kingdomino",
+  "Test Description": "",
+  "Difficulty Notes": "",
+  "Question": "How many crowns are pictured?",
+  "Answer": "",
+  "Rationale": "",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/basic_full_env.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0
+}

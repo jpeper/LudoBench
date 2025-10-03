@@ -1,0 +1,13 @@
+{
+  "ID": 14,
+  "Game": "Kingdomino",
+  "Test Description": "",
+  "Difficulty Notes": "",
+  "Question": "How many tiles are there that have meeples on them but no crowns?",
+  "Answer": "",
+  "Rationale": "",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/meeples_on_dominoes.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0
+}

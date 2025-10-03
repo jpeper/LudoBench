@@ -1,0 +1,13 @@
+{
+  "ID": 120,
+  "Game": "Kingdomino",
+  "Test Description": "",
+  "Difficulty Notes": "",
+  "Question": "Which player will place third in the next round?",
+  "Answer": "Green",
+  "Rationale": "The order of playing is in the ascending order of dominos which are placed first to last, so the order here will be left to right. This suggests that in the next round, green will place third.",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/turn_order_horizontal_flipped_crown_green.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 3,
+  "Strategy Difficulty": 0
+}

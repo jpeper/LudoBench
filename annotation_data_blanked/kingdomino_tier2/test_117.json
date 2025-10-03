@@ -1,0 +1,13 @@
+{
+  "ID": 117,
+  "Game": "Kingdomino",
+  "Test Description": "",
+  "Difficulty Notes": "",
+  "Question": "Which player will place second in the next round?",
+  "Answer": "Green",
+  "Rationale": "The order of playing is decided by the order in which the meeples were placed before, which is top to bottom. So the order of playing in the next round is pink, green, pink, green, with green placed second.",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/turn_order_staggered.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0
+}

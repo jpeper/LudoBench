@@ -1,0 +1,13 @@
+{
+  "ID": 115,
+  "Game": "Kingdomino",
+  "Test Description": "",
+  "Difficulty Notes": "",
+  "Question": "Which player will place last in the next round?",
+  "Answer": "green",
+  "Rationale": "the green is last",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/turn_order_staggered.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 0
+}

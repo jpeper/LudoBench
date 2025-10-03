@@ -1,0 +1,13 @@
+{
+  "ID": 118,
+  "Game": "Kingdomino",
+  "Test Description": "",
+  "Difficulty Notes": "",
+  "Question": "Which player will place second in the next round?",
+  "Answer": "Pink",
+  "Rationale": "The order of playing for the next round will be in the ascending order of dominos which is top to bottom, here left to right (even if its right to left, the order of colours won't change), suggesting that the second turn would be of pink.",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/kingdomino/turn_order_horizontal_normal_crown_2.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0
+}
