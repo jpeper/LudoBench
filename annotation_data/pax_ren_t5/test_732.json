@@ -1,0 +1,15 @@
+{
+  "ID": "732",
+  "Game": "pax_ren",
+  "Test Description": "Testing victory activation",
+  "Difficulty Notes": "",
+  "Question": "How many victory cards are in inactive status now?",
+  "Answer": "0",
+  "Rationale": "",
+  "game_state_url": [
+    "https://raw.githubusercontent.com/jpeper/rb2/main/game_states/pax_ren/211_1.png"
+  ],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0
+}

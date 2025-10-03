@@ -1,0 +1,15 @@
+{
+  "ID": 312,
+  "Game": "Res Arcana",
+  "Tier": 1,
+  "Test Description": "Tests basic symbol identification",
+  "Difficulty Notes": "Tests the comprehension of some symbols. Note, in this game there are many forms of arrows, relating to different concepts",
+  "Question": "How many arrow symbols are present on the pictured cards?",
+  "Answer": "17",
+  "Rationale": "Reanimate: 3, Fire Dragon: 3, Sacred Grove: 7, Corrupt Altar: 4",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t1_multi_all_sizes.png",
+  "game_state_description": "",
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0
+}

@@ -1,0 +1,15 @@
+{
+  "ID": 416,
+  "Game": "Res Arcana",
+  "Tier": 2,
+  "Test Description": "Testing Powers + Abilities",
+  "Difficulty Notes": "Testing basic combinations of abilities and powers",
+  "Question": "What essences would the player have after they activate all of the powers currently available to them.",
+  "Answer": "6 Life, 1 Elan, 1 Gold",
+  "Rationale": "The Fire Dragon doesn't affect the player itself. The first power of the Sacred Grove makes the player lose 1 water to gain 5 life. The second power can't be activated as it doesn't meet the criteria. No essences are gained from the other two cards.",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t2_passive2.png",
+  "game_state_description": "",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 3,
+  "Strategy Difficulty": 0
+}

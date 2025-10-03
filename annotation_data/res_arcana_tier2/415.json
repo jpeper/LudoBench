@@ -1,0 +1,15 @@
+{
+  "ID": 415,
+  "Game": "Res Arcana",
+  "Tier": 2,
+  "Test Description": "Testing Powers + Abilities",
+  "Difficulty Notes": "Testing basic combinations of abilities and powers",
+  "Question": "How many activatible powers are currently available to the player?",
+  "Answer": "Two",
+  "Rationale": "The player can activate either the fire dragon, or, the top-most sacred grove by spending one calm essence from their personal supply.",
+  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t2_passive2.png",
+  "game_state_description": "",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 0
+}
