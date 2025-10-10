@@ -14,11 +14,11 @@ To run it locally:
 
 2. Install dependencies:
 
-pip install streamlit pillow requests
+    pip install streamlit pillow requests
 
 3. Finally run the visualiser:
 
-streamlit run src/visualize_dataset.py -- --folder ./annotation_data_blanked
+    streamlit run src/visualize_dataset.py -- --folder ./annotation_data_blanked
 
 
 <p align="center">
