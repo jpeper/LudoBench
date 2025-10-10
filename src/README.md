@@ -22,7 +22,7 @@ streamlit run src/visualize_dataset.py -- --folder ./annotation_data_blanked
 
 
 <p align="center">
-  <img src="src/screenshots/Ludobench_data_visualiser.png" alt="LudoBench Visualizer Screenshot" width="700">
+  <img src="/screenshots/Ludobench_data_visualiser.png" alt="LudoBench Visualizer Screenshot" width="700">
   <br>
   <em>Example of the LudoBench Visualizer interface</em>
 </p>
