@@ -12,6 +12,7 @@ import os
 import pathlib
 import sys
 from io import BytesIO
+import re
 
 import requests
 import streamlit as st
@@ -77,37 +78,75 @@ if st.session_state.get("current_file") != selected_name:
 col_left, col_right = st.columns(2)
 
 # -----------------------------
-# Left – JSON details + editor
+# Left question – JSON details + editor
 with col_left:
-    st.header(f"{data.get('Game','?')} (ID {data.get('ID','?')})")
-    st.markdown(f"**Question:** {data.get('Question','')}")
-    # (skip answer/rationale here to encourage blind editing)
+    
+   
+    game = data.get('Game', '?')
+    qid = data.get('ID', '?')
+    question = data.get('Question', 'No question provided.')
 
-    with st.form("json_editor", clear_on_submit=False):
-        st.session_state.json_buffer = st.text_area(
-            "Edit JSON below ⤵",
-            value=(
-                st.session_state.json_buffer
-                or json.dumps(data, indent=2, ensure_ascii=False)
-            ),
-            height=400,
-            key="editor_text",
-        )
-        submitted = st.form_submit_button("💾 Save JSON", type="primary")
+    st.markdown(
+        f"""
+        <div style="
+            background-color:rgba(255,255,255,0.05);
+            border-radius:12px;
+            padding:18px 20px;
+            border:1px solid rgba(255,255,255,0.15);
+            box-shadow:0 2px 6px rgba(0,0,0,0.25);
+        ">
+            <h3 style="margin-top:0; color:#FFFFFF;">
+                 {game} <span style="font-size:0.8em; color:#BBBBBB;">(ID {qid})</span>
+            </h3>
+            <p style="font-size:18px; line-height:1.6; color:#EEEEEE;">
+                <strong style="color:#FF6666;">❓ Question:</strong><br>
+                {question}
+            </p>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+    # --- Build accepted answers set from JSON ("Answer")
+    raw_answer = str(data.get("Answer", "")).strip()
+    # allow multiple forms like "2", "two" or "3/three", or "A, B"
+    accepted = {
+        token.strip().lower()
+        for token in re.split(r",|/|\bor\b", raw_answer)
+        if token.strip()
+    }
 
-    if submitted:
-        with st.spinner("Saving…"):
-            try:
-                parsed = json.loads(st.session_state.json_buffer)
-                json_path.write_text(
-                    json.dumps(parsed, indent=2, ensure_ascii=False),
-                    encoding="utf-8"
-                )
-                data = parsed           # refresh preview
-                st.success("Saved!")
-            except json.JSONDecodeError as err:
-                st.error(f"Invalid JSON: {err}")
+    def _is_number(s: str):
+        try:
+            float(s)
+            return True
+        except Exception:
+            return False
 
+    user = st.text_input("Your answer", key=f"ans_{data.get('ID','')}")
+    check = st.button("Check", key=f"check_{data.get('ID','')}")
+
+    if check:
+        norm = user.strip().lower()
+
+        correct = False
+        # text match (case-insensitive)
+        if norm in accepted:
+            correct = True
+        # numeric match with tiny tolerance
+        elif _is_number(norm):
+            for a in accepted:
+                if _is_number(a) and abs(float(a) - float(norm)) < 1e-9:
+                    correct = True
+                    break
+
+        if correct:
+            st.success("✅ Correct!")
+        else:
+            st.error("❌ Not quite. Try again.")
+
+        with st.expander("Show solution / rationale"):
+            st.markdown(f"**Expected:** {raw_answer or '—'}")
+            st.markdown(f"**Rationale:** {data.get('Rationale','—')}")
 # -----------------------------
 # Right – image viewer (with simple caching)
 with col_right:
@@ -136,7 +175,7 @@ with col_right:
             if img_file.exists():
                 try:
                     image = Image.open(img_file)
-                    st.image(image, caption=f"Game state: {pathlib.Path(url).name}", use_column_width=True)
+                    st.image(image, caption=f"Game state: {pathlib.Path(url).name}", width="stretch")
                     st.markdown(f"[🖼️ Open full image]({url})", unsafe_allow_html=True)
                 except Exception as exc:
                     st.error(f"Failed to open cached image: {exc}")
@@ -145,5 +184,5 @@ with col_right:
 
 # -----------------------------
 # Debug raw view (optional)
-with st.expander("▶ Raw JSON object"):
-    st.json(data)
+# with st.expander("▶ Raw JSON object"):
+#     st.json(data)
