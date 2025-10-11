@@ -1,0 +1,17 @@
+{
+  "ID": "605",
+  "Game": "pax_ren",
+  "Test Description": "Testing spatial relationship",
+  "Difficulty Notes": "Identify the adjacent country",
+  "Question": "Which country borders England to the east according to the map?",
+  "Answer": "France",
+  "Rationale": "The country on the right side of England is France.",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/202_1.jpg"
+  ],
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/pax_ren/202_1.json"
+}

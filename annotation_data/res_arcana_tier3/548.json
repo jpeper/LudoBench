@@ -7,9 +7,11 @@
   "Question": "Assume all other players have already passed. Given this game state, what is the maximum guaranteed net number of VP the player can gain in one action? Output the answer as: Previous amount: <num>, New amount: <num>",
   "Answer": "Previous amount: 4, New amount: 5",
   "Rationale": "Action 1: Activate mermaid, discarding calm token to place one on sunken reef. This nets three total on sunken reef.",
-  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t3_mermaid_synergy3.png",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/res_arcana/t3_mermaid_synergy3.png",
   "game_state_description": "",
   "Game State Difficulty": 2,
   "Rules Difficulty": 2,
-  "Strategy Difficulty": 3
+  "Strategy Difficulty": 3,
+  "tier": 3,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/res_arcana/t3_mermaid_synergy3.json"
 }

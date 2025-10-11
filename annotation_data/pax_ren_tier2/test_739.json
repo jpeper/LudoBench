@@ -1,0 +1,17 @@
+{
+  "ID": "739",
+  "Game": "pax_ren",
+  "Test Description": "Testing counting",
+  "Difficulty Notes": "",
+  "Question": "What is the type of chess piece for the Agent on the Duchy of Ferrara card? Output one of the following answer: Bishop, Knight, Rook, Pawn.",
+  "Answer": "Rook",
+  "Rationale": "",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/219_2.png"
+  ],
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 3,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/pax_ren/219_2.json"
+}

@@ -1,0 +1,20 @@
+{
+  "ID": "731",
+  "Game": "pax_ren",
+  "Test Description": "Testing winning condition",
+  "Difficulty Notes": "",
+  "Question": "Given the provided game state, what victory can the blue player declare after performing the following 2 actions? 1. East Tableau Ops --- launch Campain Op, spend 1 florin to attack Papal States, place one concession on border; 2. West Tableau Ops --- launch Campain Op, spend 1 florin to attack France, place one concession on border. Your answer should be one of the following: \"Imperial Victory\", \"Globalization Victory\", \"Renaissance Victory\", or \"Holy Victory\".",
+  "Answer": "Globalization Victory",
+  "Rationale": "",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/213_1.png",
+    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/213_2.png",
+    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/213_3.png",
+    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/213_4.png"
+  ],
+  "Game State Difficulty": 4,
+  "Rules Difficulty": 4,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/pax_ren/213_combined.json"
+}
