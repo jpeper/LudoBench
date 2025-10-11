@@ -1,0 +1,90 @@
+{
+    "Serialized Game State": {
+        "Shared Area": {
+            "FaceUpMonuments": [],
+            "PlacesOfPower": []
+        },
+        "Player1PlayArea": {
+            "FirstPlayerVP":  "False",
+            "Essences": {
+                "Gold": 1,
+                "Elan": 1,
+                "Life": 1,
+                "Calm": 1,
+                "Death": 0
+            },
+            "MonumentsOwned": [],
+            "PlacesOfPowerOwned": [
+                {
+                    "Name": "Sacred Grove",
+                    "OnComponentEssences": [{"essence": "life", "amount": 2}],
+                    "CostToBuy": [{"essence": "life", "amount": 8}, {"essence": "calm", "amount": 4}],
+                    "CollectAbility": null,
+                    "Action": [
+                        {
+                            "Cost": ["Rotate this component", "Pay 1 calm essence"],
+                            "Effect": "Gain 5 life essences"
+                        },
+                        {
+                            "Cost": ["Rotate this component", "Rotate any creature"],
+                            "Effect": "Gain 1 life essence on this component"
+                        }
+                    ],
+                    "VictoryPoints": {
+                        "Base": 2,
+                        "Bonus": "Gain +1 VP for each life essence stored on this component"
+                    },
+	                "ComponentTurned": false,
+                    "SpecialAbility": []
+                }
+            ],
+            "ArtifactsInPlay": [
+                {
+                    "Name": "Fire Dragon",
+                    "OnComponentEssences": [],
+                    "CardCost": [{"essence": "elan", "amount": 6}],
+                    "Type": "Dragon",
+                    "VictoryPoints": 1,
+                    "CollectAbility": null,
+                    "Action": [
+                        {
+                            "Cost": ["Rotate this component"],
+                            "Effect": "All rivals lose 2 life essences; rivals may choose to pay 1 calm essence to ignore this effect"
+                        }
+                    ],
+                    "ComponentTurned": false,
+                    "SpecialAbility": []
+                },
+                {
+                    "Name": "Druid",
+                    "OnComponentEssences": [],
+                    "CardCost": [],
+                    "Type": "Mage",
+                    "VictoryPoints": 0,
+                    "CollectAbility": "Collect 1 life essence",
+                    "Action": [
+                        {
+                            "Cost": ["Rotate this component"],
+                            "Effect": "Straighten any 1 creature component"
+                        }
+                    ],
+                    "ComponentTurned": false,
+                    "SpecialAbility": []
+                }
+            ],
+            "MagicItemsInPlay": {
+                "Name": "Reanimate",
+                "Action": [
+                    {
+                        "Cost": ["Rotate this component", "Lose any 1 essence"],
+                        "Effect": "Straighten any 1 component"
+                    }
+                ],
+               "ComponentTurned": false,
+               "SpecialAbility": []
+            }
+        },
+        "Player1Hand": [],
+        "Player1DiscardPile": []
+    }
+}

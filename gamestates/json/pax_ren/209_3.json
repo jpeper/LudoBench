@@ -1,0 +1,49 @@
+{
+    "PlayerHand": [
+        {
+            "Name": "Jacob Fugger",
+            "Color": "Blue",
+            "Florins": 3,
+            "TableauCards": {
+                "West": [
+                    {
+                        "CardType": "PurchasedCard",
+                        "Name": "The Mary Rose",
+                        "Ops": [{ "Name": "Repress", "Location": null, "Religion": null, "Agent": ["Rook", "Knight"] },
+                                { "Name": "Corsair", "Location": null, "Religion": "Reformist", "Agent": [] },
+                                { "Name": "Tax", "Location": null, "Religion": null, "Agent": [] }],
+                        "Location": "England",
+                        "Prestige": ["Discovery"],
+                        "OneShot": "",
+                        "Agent": [{"Agent": "Pirate Ship", "Religion": "Reformist", "Color": "Red"}],
+                        "SpecialConditions": [],
+                        "BishopOnCard": false
+                    }
+                ],
+                "East": []
+            }
+        },
+        {
+            "Name": "Jacques Coeur",
+            "Color": "Pink",
+            "Florins": 4,
+            "TableauCards": {
+                "West": [],
+                "East": [
+                    {
+                        "CardType": "PurchasedCard",
+                        "Name": "The Handsome",
+                        "Ops": [{ "Name": "Siege", "Location": null, "Religion": null, "Agent": [] },
+                                { "Name": "Inquisitor", "Location": null, "Religion": "Islamic", "Agent": [] }],
+                        "Location": "Hungary",
+                        "Prestige": ["Islamic"],
+                        "OneShot": "Jihad",
+                        "Agent": [{"Agent": "Knight", "Religion": "Islamic", "Color": "Green"}, {"Agent": "Knight", "Religion": "Islamic", "Color": "Green"}],
+                        "SpecialConditions": [],
+                        "BishopOnCard": false
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "Serialized Game State": {
+        "Cards": [
+            {
+                    "Name": "Fire Dragon",
+                    "OnComponentEssences": [],
+                    "CostToBuy": [{"essence": "elan", "amount": 6}],
+                    "Type": "Dragon",
+                    "VictoryPoints": {
+                        "Base": 1,
+                        "Bonus": 0
+                    },
+                    "CollectAbility": null,
+                    "Action": [
+                        {
+                            "Cost": ["Rotate this component"],
+                            "Effect": "All rivals lose 2 life essences; rivals may choose to pay 1 calm essence to ignore this effect"
+                        }
+                    ],
+                    "ComponentTurned": false,
+                    "SpecialAbility": []
+                },
+                {
+                "Name": "Earth Dragon",
+                "Type": "Dragon",
+                "OnComponentEssences": [],
+                "CostToBuy": [{"essence": "elan", "amount": 4}, {"essence": "life", "amount": 3}],
+                "CollectAbility": "",
+                "Action": [
+                    {
+                        "Cost": ["Rotate this component"],
+                        "Effect": "all rivals loose 2 life essences; rivals may choose to ignore this by losing a gold essence"
+                    }
+                ],
+                "VictoryPoints": {
+                    "Base": 1,
+                    "Bonus": 0
+                },
+                "ComponentTurned": false,
+                "SpecialAbility": []
+              },
+              {
+                    "Name": "Coral Castle",
+                    "Type": "Monument",
+                    "OnComponentEssences": [],
+                    "CostToBuy": [{"essence": "life", "amount": 5}, {"essence": "calm", "amount": 5}, {"essence": "elan", "amount": 5}],
+                    "CollectAbility": null,
+                    "Action": [
+                        {
+                            "Cost": ["Rotate this component"],
+                            "Effect": "Check Victory now"
+                        },
+                        {
+                            "Cost": ["React to life essence loss (any amount)", "Rotate this component"],
+                            "Effect": "Ignore that life essence loss (any amount)"
+                        }
+                    ],
+                    "VictoryPoints": {
+                        "Base": 3,
+                        "Bonus": 0
+                    },
+                    "ComponentTurned": false,
+                    "SpecialAbility": []
+                }
+        ],
+        "FirstPlayerVP": false,
+        "EssencesInCenter": null
+    }
+}

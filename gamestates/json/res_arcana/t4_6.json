@@ -1,0 +1,73 @@
+{
+    "Serialized Game State": {
+        "Cards": [
+              {
+                "Name": "Oracle",
+                "Type": "Monument",
+                "OnComponentEssences": [],
+                "CostToBuy": [{"essence": "gold", "amount": 4}],
+                "CollectAbility": null,
+                "Action": [
+                    {
+                        "Cost": ["Rotate this component"],
+                        "Effect": "Draw 3 cards, reorder, put back (may also use on monument deck)"
+                    }
+                ],
+                "VictoryPoints": {
+                    "Base": 2,
+                    "Bonus": 0
+                },
+                "ComponentTurned": true,
+                "SpecialAbility": []
+              },
+              {
+                    "Name": "Dwarven Mines",
+                    "Type": "Place of Power",
+                    "OnComponentEssences": [],
+                    "CostToBuy": [{"essence": "life", "amount": 2}, {"essence": "elan", "amount": 4}, {"essence": "gold", "amount": 1}],
+                    "CollectAbility": "Collect 1 gold essence",
+                    "Action": [
+                        {
+                            "Cost": ["Turn this component", "Pay 5 elan essences"],
+                            "Effect": "Gain 3 gold essences"
+                        },
+                        {
+                            "Cost": ["Turn this component", "Pay 3 death essences", "Pay 3 elan essences"],
+                            "Effect": "Gain 2 gold essences on this component"
+                        }
+                    ],
+                    "VictoryPoints": {
+                        "Base": 0,
+                        "Bonus": "Gain +1 VP for each gold essence stored on this component"
+                    },
+                    "ComponentTurned": false,
+                    "SpecialAbility": []
+                },
+                {
+                    "Name": "Coral Castle",
+                    "Type": "Monument",
+                    "OnComponentEssences": [],
+                    "CostToBuy": [{"essence": "life", "amount": 5}, {"essence": "calm", "amount": 5}, {"essence": "elan", "amount": 5}],
+                    "CollectAbility": null,
+                    "Action": [
+                        {
+                            "Cost": ["Rotate this component"],
+                            "Effect": "Check Victory now"
+                        },
+                        {
+                            "Cost": ["React to life essence loss (any amount)", "Rotate this component"],
+                            "Effect": "Ignore that life essence loss (any amount)"
+                        }
+                    ],
+                    "VictoryPoints": {
+                        "Base": 3,
+                        "Bonus": 0
+                    },
+                    "ComponentTurned": true,
+                    "SpecialAbility": []
+                }
+        ],
+        "FirstPlayerVP": true,
+        "EssencesInCenter": null
+    }
+}

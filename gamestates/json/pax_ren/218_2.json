@@ -1,0 +1,140 @@
+{
+   "Market": {
+       "MarketCards": {
+           "West": [
+               {
+                   "TradeFairCoins": 0,
+                   "CardsOrderedLeftToRight": [
+                       {
+                           "CardNumber": 1,
+                           "Name": "Humanism",
+                           "Ops": [],
+                           "Location": "France",
+                           "Prestige": ["Patron"],
+                           "OneShot": "",
+                           "Agent": [{"Agent": "Bishop", "Religion": "Catholic", "Color": "Gold"}],
+                           "SpecialConditions": ["Declaring Holy Victory costs 2 Actions (all Players)", "Collegium Trinigue: Your cards are immune to silencing by Bishops"],
+                           "FlorinsOnCard": 0
+                       },
+                       {
+                            "CardNumber": 2,
+                            "Name": "Cornish Tin",
+                            "Ops": [
+                                {"Name": "Vote", "Location": "West", "Religion": null, "Agent": []},
+                                {"Name": "Commerce", "Location": "West", "Religion": null, "Agent": []}
+                            ],
+                            "Location": "England",
+                            "Prestige": ["Law"],
+                            "OneShot": "Peasant Revolt",
+                            "Agent": [{"Agent": "Concession", "Religion": null, "Color": null}],
+                            "SpecialConditions": [],
+                            "FlorinsOnCard": 0
+                       },
+                       {
+                           "CardNumber": 3,
+                           "Name": "Duchy of Ferrara",
+                           "Ops": [
+                               {"Name": "Siege", "Location": null, "Religion": null, "Agent": []},
+                               {"Name": "Commerce", "Location": "West", "Religion": null, "Agent": []}
+                           ],
+                           "Location": "Papal States",
+                           "Prestige": ["Patron"],
+                           "OneShot": "Conspiracy",
+                           "Agent": [{"Agent": "Rook", "Religion": "Catholic", "Color": "Gold"}],
+                           "SpecialConditions": ["Condottiere: Venice can hold 2 gold knights instead of one"],
+                           "FlorinsOnCard": 0
+                       },
+                       {
+                           "CardNumber": 4,
+                           "Name": "Teutonic Knights",
+                           "Ops": [
+                                {"Name": "Repress", "Location": null, "Religion": null, "Agent": ["Concession", "Rook"]},
+                                {"Name": "Siege", "Location": null, "Religion": null, "Agent": []}
+                           ],
+                           "Location": "Holy Roman Empire",
+                           "Prestige": [],
+                           "OneShot": "Conspiracy",
+                           "Agent": [{"Agent": "Knight", "Religion": "Catholic", "Color": "Gold"}, {"Agent": "Knight", "Religion": "Catholic", "Color": "Gold"}],
+                           "SpecialConditions": [],
+                           "FlorinsOnCard": 0
+                       },
+                       {
+                           "CardNumber": 5,
+                           "Name": "Machiavellianism",
+                           "Ops": [],
+                           "Location": "West",
+                           "Prestige": [],
+                           "OneShot":"",
+                           "Agent":[],
+                           "SpecialConditions": ["Pragmatic Trachery: If you sell a card additionally may perform a civil war, crusade or apostacy One-shot including its agents"],
+                           "FlorinsOnCard": 0
+                       }
+                   ]
+               }
+           ],
+           "East": [
+               {
+                   "TradeFairCoins": 0,
+                   "CardsOrderedLeftToRight": [
+                       {
+                           "CardNumber": 1,
+                           "Name": "Zupy Krakowskie Company",
+                           "Ops": [{"Name": "Tax", "Location": null, "Religion": null, "Agent": []}, {"Name": "Commerce", "Location": "East", "Religion": null, "Agent": []}, {"Name": "Repress", "Location": null, "Religion": null, "Agent": ["Rook"]}],
+                           "Location": "Hungary",
+                           "Prestige": [],
+                           "OneShot": "Peasant Revolt",
+                           "Agent": [{"Agent": "Knight", "Religion": "Catholic", "Color": "Gold"}],
+                           "SpecialConditions": [],
+                           "FlorinsOnCard": 0
+                       },
+                       {
+                           "CardNumber": 2,
+                           "Name": "Sophia Palaeologina",
+                           "Ops": [{"Name": "Repress", "Location": null, "Religion": null, "Agent": ["Concession"]}, {"Name": "Inquisitor", "Location": null, "Religion": "Reformist", "Agent": []}],
+                           "Location": null,
+                           "Prestige": ["Reformist"],
+                           "OneShot": "Coronation",
+                           "Agent": [],
+                           "SpecialConditions": [],
+                           "Suitors": ["Hungary", "Byzantium", "Holy Roman Empire"],
+                           "FlorinsOnCard": 0
+                       },
+                       {
+                           "CardNumber": 3,
+                           "Name": "Safavids",
+                           "Ops": [{"Name": "Behead", "Location": null, "Religion": null, "Agent": []}, {"Name": "Inquisitor", "Location": null, "Religion": "Islamic", "Agent": []}],
+                           "Location": "Byzantium",
+                           "Prestige": ["Islamic"],
+                           "OneShot": "Jihad",
+                           "Agent": [{"Agent": "Bishop", "Religion": "Islamic", "Color": "Green"}],
+                           "SpecialConditions": [],
+                           "FlorinsOnCard": 0
+                       },
+                       {
+                           "CardNumber": 4,
+                           "Name": "Vlad the Impaler",
+                           "Ops": [{"Name": "Siege", "Location": null, "Religion": null, "Agent": []}, {"Name": "Behead", "Location": null, "Religion": null, "Agent": []}, {"Name": "Inquisitor", "Location": null, "Religion": "Catholic", "Agent": []}],
+                           "Location": "Hungary",
+                           "Prestige": [],
+                           "OneShot":"Conspiracy",
+                           "Agent":[{"Agent": "Rook", "Religion": "Catholic", "Color": "Gold"}, {"Agent": "Rook", "Religion": "Catholic", "Color": "Gold"}],
+                           "SpecialConditions": [],
+                           "FlorinsOnCard": 0
+                       },
+                       {
+                           "CardNumber": 5,
+                           "Name": "The Last Sigh",
+                           "Ops": [{"Name": "Tax", "Location": null, "Religion": null, "Agent": []}, {"Name": "Siege", "Location": null, "Religion": null, "Agent": []}],
+                           "Location": "Portugal",
+                           "Prestige": [],
+                           "OneShot": "Trade Shift Timbuktu",
+                           "Agent": [{"Agent": "Rook", "Religion": "Islamic", "Color": "Green"}],
+                           "SpecialConditions": ["Leo Africanus: May do East and West Ops in one action"],
+                           "FlorinsOnCard": 0
+                       }
+                   ]
+               }
+           ]
+       }
+   }
+}

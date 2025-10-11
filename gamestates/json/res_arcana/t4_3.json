@@ -1,0 +1,85 @@
+{
+    "Serialized Game State": {
+        "Cards": [
+            {
+                    "Name": "Fire Dragon",
+                    "OnComponentEssences": [],
+                    "CostToBuy": [{"essence": "elan", "amount": 6}],
+                    "Type": "Dragon",
+                    "VictoryPoints": {
+                        "Base": 1,
+                        "Bonus": 0
+                    },
+                    "CollectAbility": null,
+                    "Action": [
+                        {
+                            "Cost": ["Rotate this component"],
+                            "Effect": "All rivals lose 2 life essences; rivals may choose to pay 1 calm essence to ignore this effect"
+                        }
+                    ],
+                    "ComponentTurned": false,
+                    "SpecialAbility": []
+                },
+                {
+                    "Name": "Scholar",
+                    "Type": "Mage",
+                    "OnComponentEssences": [],
+                    "CostToBuy": [],
+                    "VictoryPoints": {
+                        "Base": 0,
+                        "Bonus": 0
+                    },
+                    "CollectAbility": null,
+                    "Action": [
+                        {
+                            "Cost": ["Rotate this component", "Pay any 1 essence"],
+                            "Effect": "Draw 1 card"
+                        }
+                    ],
+                    "ComponentTurned": false,
+                    "SpecialAbility": []
+                },
+                {
+                    "Name": "Alchemy",
+                    "Type": "Magic Item",
+                    "OnComponentEssences": [],
+                    "CostToBuy": [],
+                    "VictoryPoints": {
+                        "Base": 0,
+                        "Bonus": 0
+                    },
+                    "CollectAbility": null,
+                    "Action": [
+                        {
+                            "Cost": ["Rotate this component", "Pay any 4 essence"],
+                            "Effect": "Gain 2 gold essences"
+                        }
+                    ],
+                    "ComponentTurned": false,
+                    "SpecialAbility": []
+                },
+                {
+                    "Name": "Calm / Elan",
+                    "Type": "Magic Item",
+                    "OnComponentEssences": [],
+                    "CostToBuy": [],
+                    "VictoryPoints": {
+                        "Base": 0,
+                        "Bonus": 0
+                    },
+                    "CollectAbility": "Collect 1 calm or 1 elan essences",
+                    "Action": [],
+                    "ComponentTurned": false,
+                    "SpecialAbility": []
+                }
+        ],
+        "FirstPlayerVP": false,
+        "Essences": {
+            "Gold": 4,
+            "Elan": 0,
+            "Life": 0,
+            "Calm": 0,
+            "Death": 0
+        }
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "Player": {
+      "color": "",
+      "castle_position": { "x": 0, "y": 0 }
+    },
+  
+    "Drafted Tiles": {
+      "SelectedTiles": [
+        {
+          "label": "",
+          "terrain": ["grassland", "grassland"],
+          "crowns": [0, 0],
+          "meeple": "green"
+        },
+   {
+          "label": "",
+          "terrain": ["grass", "grass"],
+          "crowns": [0, 0],
+          "meeple": ""
+        },
+        {
+          "label": "",
+          "terrain": ["lake", "wheat"],
+          "crowns": [1, 0],
+          "meeple": "pink"
+        },
+        {
+          "label": "",
+          "terrain": ["wheat", "swamp"],
+          "crowns": [0, 1],
+          "meeple": ""
+        }
+      ],
+      "UpcomingTiles": [
+        {
+          "label": "",
+          "terrain": ["forest", "wheat"],
+          "crowns": [1, 0],
+          "meeple": ""
+        },
+        {
+          "label": "",
+          "terrain": ["lake", "wheat"],
+          "crowns": [1, 0],
+          "meeple": "green"
+        },
+        {
+          "label": "",
+          "terrain": ["lake", "forest"],
+          "crowns": [0, 0],
+          "meeple": ""
+        },
+        {
+          "label": "",
+          "terrain": ["lake", "grassland"],
+          "crowns": [0, 1],
+          "meeple": "pink"
+        }
+      ]
+    },
+  
+    "PlayersKingdom": {
+      "castle": { "x": 0, "y": 0 },
+      "dominoes": [
+        {
+          "Tiles 1": [
+            { "x": 0, "y": 2, "terrain": "wheat", "crowns": 0 },
+            { "x": -1, "y": 2, "terrain": "swamp", "crowns": 2 }
+          ]
+        },
+        {
+          "Tiles 2": [
+            { "x": 0, "y": 1, "terrain": "grassland", "crowns": 0 },
+            { "x": -1, "y": 1, "terrain": "wheat", "crowns": 0 }
+          ]
+        },
+        {
+          "Tiles 3": [
+            { "x": 1, "y": 1, "terrain": "wheat", "crowns": 0 },
+            { "x": 2, "y": 1, "terrain": "wheat", "crowns": 0 }
+          ]
+        },
+        {
+          "Tiles 4": [
+            { "x": 1, "y": 0, "terrain": "wheat", "crowns": 0 },
+            { "x": 2, "y": 0, "terrain": "wheat", "crowns": 0 }
+          ]
+        },
+        {
+          "Tiles 5": [
+            { "x": 1, "y": 2, "terrain": "swamp", "crowns": 0 },
+            { "x": -2, "y": 2, "terrain": "mine", "crowns": 2 }
+          ]
+        },
+        {
+          "Tiles 6": [
+            { "x": -1, "y": -1, "terrain": "forest", "crowns": 0 },
+            { "x": -2, "y": -1, "terrain": "wheat", "crowns": 1 }
+          ]
+        }
+      ]
+    }
+  }
+  

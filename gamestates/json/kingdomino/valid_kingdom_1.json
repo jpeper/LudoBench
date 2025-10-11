@@ -1,0 +1,59 @@
+{
+    "name": "kingdomino_game_state",
+    "schema": {
+      "draftedTiles": {
+        "selectedTiles": [],
+        "upcomingTiles": []
+      },
+      "kingdom": {
+        "castle": {
+          "x": 0,
+          "y": 0
+        },
+        "dominos": [
+            [
+                { "x": 1, "y": 0, "terrain": "wheat", "crowns": 0 },
+                { "x": 2, "y": 0, "terrain": "wheat", "crowns": 0 }
+            ],
+            [
+                { "x": -1, "y": 0, "terrain": "wheat", "crowns": 0 },
+                { "x": -2, "y": 0, "terrain": "swamp", "crowns": 1 }
+            ],
+            [
+                { "x": 1, "y": 1, "terrain": "wheat", "crowns": 1 },
+                { "x": 2, "y": 1, "terrain": "forest", "crowns": 0 }
+            ],
+            [
+                { "x": 0, "y": 1, "terrain": "grassland", "crowns": 0 },
+                { "x": -1, "y": 1, "terrain": "wheat", "crowns": 0 }
+            ],
+            [
+                { "x": 1, "y": 2, "terrain": "wheat", "crowns": 0 },
+                { "x": 2, "y": 2, "terrain": "swamp", "crowns": 2 }
+            ],
+            [
+                { "x": 0, "y": 2, "terrain": "wheat", "crowns": 0 },
+                { "x": -1, "y": 2, "terrain": "grassland", "crowns": 2 }
+            ],
+            [
+                { "x": 1, "y": 3, "terrain": "wheat", "crowns": 0 },
+                { "x": 2, "y": 3, "terrain": "wheat", "crowns": 0 }
+            ],
+            [
+                { "x": 0, "y": 3, "terrain": "swamp", "crowns": 0 },
+                { "x": -1, "y": 3, "terrain": "mine", "crowns": 2 }
+            ],
+            [
+                { "x": 1, "y": 4, "terrain": "swamp", "crowns": 0 },
+                { "x": 2, "y": 4, "terrain": "wheat", "crowns": 1 }
+            ],
+            [
+                { "x": 0, "y": 4, "terrain": "swamp", "crowns": 0 },
+                { "x": -1, "y": 4, "terrain": "mine", "crowns": 2 }
+            ]
+        ]
+    }
+    },
+    "strict": true
+}
+

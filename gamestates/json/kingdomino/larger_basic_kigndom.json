@@ -1,0 +1,48 @@
+{
+    "Player": {
+      "color": "green",
+      "castle_position": { "x": 0, "y": 0 }
+    },
+  
+    "Drafted Tiles": {
+      "SelectedTiles": [],
+      "UpcomingTiles": []
+    },
+  
+    "PlayersKingdom": {
+      "castle": { "x": 0, "y": 0 },
+      "dominoes": [
+        {
+          "Tiles 1": [
+            { "x": 0, "y": 2, "terrain": "swamp", "crowns": 2 },
+            { "x": 1, "y": 2, "terrain": "wheat", "crowns": 0 }
+          ]
+        },
+        {
+          "Tiles 2": [
+            { "x": 0, "y": 1, "terrain": "forest", "crowns": 1 },
+            { "x": 1, "y": 1, "terrain": "grassland", "crowns": 0 }
+          ]
+        },
+        {
+          "Tiles 3": [
+            { "x": -1, "y": 0, "terrain": "mine", "crowns": 2 },
+            { "x": -2, "y": -1, "terrain": "swamp", "crowns": 0 }
+          ]
+        },
+        {
+          "Tiles 4": [
+            { "x": 1, "y": 0, "terrain": "forest", "crowns": 1 },
+            { "x": 2, "y": 0, "terrain": "lake", "crowns": 0 }
+          ]
+        },
+        {
+          "Tiles 5": [
+            { "x": -1, "y": 1, "terrain": "forest", "crowns": 0 },
+            { "x": -2, "y": 1, "terrain": "wheat", "crowns": 1 }
+          ]
+        }
+      ]
+    }
+  }
+  

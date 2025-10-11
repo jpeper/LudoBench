@@ -1,0 +1,39 @@
+{
+    "PlayerHand": [
+        {
+            "Name": "Jacob Fugger",
+            "Color": "Blue",
+            "Florins": 0,
+            "TableauCards": {
+                "West": [],
+                "East": [
+                    {
+                        "CardType": "PurchasedCard", 
+                        "Name": "Phocoean Alum",
+                        "Ops": [{ "Name": "Repress", "Location": null, "Religion": null, "Agent": ["Concession", "Rook"]},
+                                { "Name": "Commerce", "Location": "East", "Religion": null, "Agent": [] }],
+                        "Location": "Ottoman",
+                        "Prestige": [],
+                        "OneShot": "",
+                        "Agent": [{"Agent": "Concession", "Religion": "", "Color": ""}, {"Agent": "Concession", "Religion": "", "Color": ""}],
+                        "SpecialConditions": [],
+                        "BishopOnCard": false
+                    },
+                    {
+                        "CardType": "PurchasedCard",
+                        "Name": "Carlotta Lusignan of Cyprus",
+                        "Ops": [{"Name": "Siege", "Location": null, "Religion": null, "Agent": []},
+                                {"Name": "Commerce", "Location": "East", "Religion": null, "Agent": []}],
+                        "Location": "Ottoman",
+                        "Prestige": [],
+                        "OneShot": "Coronation",
+                        "Agent": [],
+                        "SpecialConditions": [],
+                        "Suitors": ["Byzantium", "Ottoman", "Mamluk"],
+                        "BishopOnCard": false
+                    }
+                ]
+            }
+        }
+    ]
+}

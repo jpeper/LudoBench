@@ -1,0 +1,33 @@
+{
+    "Serialized Game State": {
+        "Cards": [
+              {
+                "Name": "Earth Dragon",
+                "Type": "Dragon",
+                "OnComponentEssences": [],
+                "CostToBuy": [{"essence": "elan", "amount": 4}, {"essence": "life", "amount": 3}],
+                "CollectAbility": "",
+                "Action": [
+                    {
+                        "Cost": ["Rotate this component"],
+                        "Effect": "all rivals loose 2 life essences; rivals may choose to ignore this by losing a gold essence"
+                    }
+                ],
+                "VictoryPoints": {
+                    "Base": 1,
+                    "Bonus": 0
+                },
+                "ComponentTurned": false,
+                "SpecialAbility": []
+              }
+        ],
+        "FirstPlayerVP": false,
+        "Essences": {
+            "Gold": 5,
+            "Elan": 0,
+            "Life": 0,
+            "Calm": 0,
+            "Death": 0
+        }
+    }
+}

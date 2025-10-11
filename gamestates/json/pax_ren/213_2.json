@@ -1,0 +1,115 @@
+{
+   "Market": {
+       "MarketCards": {
+           "West": [
+               {
+                   "TradeFairCoins": 0,
+                   "CardsOrderedLeftToRight": [
+                       {
+                           "CardNumber": 1,
+                           "Name": "Cryptography",
+                           "Ops": [],
+                           "Location": "Papal States",
+                           "Prestige": ["Patron"],
+                           "OneShot": "",
+                           "Agent": [],
+                           "SpecialConditions": ["Medici Ciphers Broken: If you sell this card, may do an additional purple op from an opponents tableau, exactly as if his card was in your tableau"],
+                           "FlorinsOnCard": 0
+                       },
+                       {
+                           "CardNumber": 2,
+                           "Name": "Margaret of Anjou",
+                           "Ops": [{"Name": "Repress", "Location": null, "Religion": null, "Agent": ["Rook"]}, {"Name": "Siege", "Location": null, "Religion": null, "Agent": []}],
+                           "Location": null,
+                           "Prestige": [],
+                           "OneShot": "Coronation",
+                           "Agent": [],
+                           "SpecialConditions": [],
+                           "Suitors": ["France", "England", "Aragon"],
+                           "FlorinsOnCard": 0
+                       },
+                       {
+                           "CardNumber": 4,
+                           "Name": "The Bold",
+                           "Ops": [
+                                {"Name": "Inquisitor", "Location": null, "Religion": "Catholic", "Agent": []},
+                                {"Name": "Siege", "Location": null, "Religion": null, "Agent": []},
+                                {"Name": "Tax", "Location": null, "Religion": null, "Agent": []}
+                           ],
+                           "Location": "France",
+                           "Prestige": [],
+                           "OneShot": "Conspiracy",
+                           "Agent": [{"Agent": "Knight", "Religion": "Catholic", "Color": "Gold"}, {"Agent": "Knight", "Religion": "Catholic", "Color": "Gold"}],
+                           "SpecialConditions": [],
+                           "FlorinsOnCard": 0
+                       },
+                       {
+                           "CardNumber": 5,
+                           "Name": "Order of Preachers",
+                           "Ops": [
+                               {"Name": "Inquisitor", "Location": null, "Religion": "Catholic", "Agent": []}
+                           ],
+                           "Location": "West",
+                           "Prestige": ["Catholic"],
+                           "OneShot": "Crusade",
+                           "Agent": [{"Agent": "Bishop", "Religion": "Catholic", "Color": "Gold"}],
+                           "SpecialConditions": [],
+                           "FlorinsOnCard": 0
+                       }
+                   ]
+               }
+           ],
+           "East": [
+               {
+                   "TradeFairCoins": 0,
+                   "CardsOrderedLeftToRight": [
+                       {
+                           "CardNumber": 1,
+                           "Name": "Funj Nomads",
+                           "Ops": [{"Name": "Siege", "Location": null, "Religion": null, "Agent": []}, {"Name": "Commerce", "Location": "East", "Religion": null, "Agent": []}, {"Name": "Repress", "Location": null, "Religion": null, "Agent": ["Concession"]}],
+                           "Location": "Mamluk",
+                           "Prestige": [],
+                           "OneShot": "Peasant Revolt",
+                           "Agent": [{"Agent": "Knight", "Religion": "Islamic", "Color": "Green"}],
+                           "SpecialConditions": [],
+                           "FlorinsOnCard": 0
+                       },
+                       {
+                           "CardNumber": 2,
+                           "Name": "Transylvanian Plot",
+                           "Ops": [{"Name": "Inquisitor", "Location": null, "Religion": "Catholic", "Agent": []}, {"Name": "Siege", "Location": null, "Religion": null, "Agent": []}],
+                           "Location": "Hungary",
+                           "Prestige": [],
+                           "OneShot": "Conspiracy",
+                           "Agent": [{"Agent": "Knight", "Religion": "Islamic", "Color": "Green"}, {"Agent": "Knight", "Religion": "Reformist", "Color": "Red"}],
+                           "SpecialConditions": ["Gritti Spies: May do East and West Ops in one action"],
+                           "FlorinsOnCard": 0
+                       },
+                       {
+                           "CardNumber": 3,
+                           "Name": "Pospolite Ruszenie",
+                           "Ops": [{"Name": "Siege", "Location": null, "Religion": null, "Agent": []}, {"Name": "Vote", "Location": "East", "Religion": null, "Agent": []}],
+                           "Location": "Hungary",
+                           "Prestige": ["Law"],
+                           "OneShot": "Conspiracy",
+                           "Agent": [{"Agent": "Rook", "Religion": "Catholic", "Color": "Gold"}],
+                           "SpecialConditions": [],
+                           "FlorinsOnCard": 0
+                       },
+                       {
+                           "CardNumber": 4,
+                           "Name": "The Handsome",
+                           "Ops": [{"Name": "Siege", "Location": null, "Religion": null, "Agent": []}, {"Name": "Inquisitor", "Location": null, "Religion": "Islamic", "Agent": []}],
+                           "Location": "Hungary",
+                           "Prestige": ["Islamic"],
+                           "OneShot":"Jihad",
+                           "Agent":[{"Agent": "Knight", "Religion": "Islamic", "Color": "Green"}, {"Agent": "Knight", "Religion": "Islamic", "Color": "Green"}],
+                           "SpecialConditions": [],
+                           "FlorinsOnCard": 0
+                       }
+                   ]
+               }
+           ]
+       }
+   }
+}

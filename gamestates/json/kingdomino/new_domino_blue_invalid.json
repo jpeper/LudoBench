@@ -1,0 +1,69 @@
+{
+    "name": "kingdomino_game_state",
+    "schema": {
+      "draftedTiles": {
+        "selectedTiles": [
+          {
+            "label": "New Domino",
+            "squares": [
+              {
+                "terrain": "lake",
+                "crowns": 0
+              },
+              {
+                "terrain": "lake",
+                "crowns": 0
+              }
+            ],
+            "meeple": null
+          }
+        ],
+        "upcomingTiles": []
+      },
+      "kingdom": {
+        "castle": {
+          "x": 0,
+          "y": 0
+        },
+        "dominos": [
+            [
+                { "x": 1, "y": 0, "terrain": "wheat", "crowns": 0 },
+                { "x": 2, "y": 0, "terrain": "wheat", "crowns": 0 }
+            ],
+            [
+                { "x": 1, "y": 1, "terrain": "wheat", "crowns": 0 },
+                { "x": 2, "y": 1, "terrain": "wheat", "crowns": 0 }
+            ],
+            [
+                { "x": 0, "y": 1, "terrain": "grassland", "crowns": 0 },
+                { "x": -1, "y": 1, "terrain": "wheat", "crowns": 0 }
+            ],
+            [
+                { "x": 0, "y": -1, "terrain": "forest", "crowns": 0 },
+                { "x": -1, "y": -1, "terrain": "wheat", "crowns": 1 }
+            ],
+            [
+                { "x": 1, "y": 2, "terrain": "swamp", "crowns": 0 },
+                { "x": 2, "y": 2, "terrain": "mine", "crowns": 2 }
+            ],
+            [
+                { "x": 1, "y": 3, "terrain": "wheat", "crowns": 0 },
+                { "x": 2, "y": 3, "terrain": "grassland", "crowns": 2 }
+            ],
+            [
+                { "x": 0, "y": 2, "terrain": "wheat", "crowns": 0 },
+                { "x": -1, "y": 2, "terrain": "swamp", "crowns": 2 }
+            ],
+            [
+                { "x": 0, "y": 3, "terrain": "mine", "crowns": 2 },
+                { "x": -1, "y": 3, "terrain": "swamp", "crowns": 0 }
+            ],
+            [
+                { "x": -1, "y": 0, "terrain": "wheat", "crowns": 0 },
+                { "x": -2, "y": 0, "terrain": "swamp", "crowns": 1 }
+            ]
+        ]
+    }
+    },
+    "strict": true
+}

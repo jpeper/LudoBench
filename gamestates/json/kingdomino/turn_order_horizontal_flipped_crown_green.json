@@ -1,0 +1,72 @@
+{
+    "name": "kingdomino_game_state",
+    "schema": {
+      "draftedTiles": {
+        "selectedTiles": [
+          {
+            "label": null,
+            "squares": [
+              {
+                "terrain": "forest",
+                "crowns": 0
+              },
+              {
+                "terrain": "forest",
+                "crowns": 0
+              }
+            ],
+            "meeple": "green"
+          },
+          {
+            "label": null,
+            "squares": [
+              {
+                "terrain": "forest",
+                "crowns": 0
+              },
+              {
+                "terrain": "forest",
+                "crowns": 0
+              }
+            ],
+            "meeple": "pink"
+          },
+          {
+            "label": null,
+            "squares": [
+              {
+                "terrain": "lake",
+                "crowns": 0
+              },
+              {
+                "terrain": "wheat",
+                "crowns": 0
+              }
+            ],
+            "meeple": "green"
+          },
+          {
+            "label": null,
+            "squares": [
+              {
+                "terrain": "wheat",
+                "crowns": 0
+              },
+              {
+                "terrain": "mine",
+                "crowns": 2
+              }
+            ],
+            "meeple": "pink"
+          }
+        ],
+        "upcomingTiles": []
+      },
+      "kingdom": {
+        "castle": null,
+        "dominos": []
+    }
+    },
+    "strict": true
+}
+
