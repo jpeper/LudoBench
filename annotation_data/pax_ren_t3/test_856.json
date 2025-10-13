@@ -1,0 +1,32 @@
+{
+  "ID": "856",
+  "Game": "pax_ren",
+  "Test Description": "Testing winning conditions (Renaissance Victory). Test Vote Op",
+  "Difficulty Notes": "Strategy problem while testing winning conditions. Requires understanding game actions like vote op and the icons on kingdom card. It is somehow tricky because you need to remember that there is a law prestige on the back (republic) side of England kingdom card.",
+  "Question": "Given the provided game state, how can the blue player win the game in 2 actions?\n**Please format your response as an ordered JSON list of actions. Each action should follow the format shown below:**\n\n```json\n[\n  {\n    \"action\": \"West Tableau Ops\",\n    \"cards\": {\n      \"Tolfa Alum\": {}\n    }\n  },\n  {\n    \"action\": \"West Trade Fair\",\n    \"cards\": {\n      \"West\": {}\n    }\n  },\n  {\n    \"action\": \"Victory\",\n    \"cards\": {\n      \"Renaissance Victory\" : {}\n    }\n  }\n]\n```\n\n### Format Specifications:\n\nEach list item represents one **action** as a dictionary with the following keys:\n\n1. **\"action\"** (string):\n  Must be one of the following valid actions:\n  `[\"Purchase\", \"Play\", \"Sell\", \"West Tableau Ops\", \"East Tableau Ops\", \"West Trade Fair\", \"East Trade Fair\", \"Victory\"]`\n\n2. **\"cards\"** (dictionary):\n  A mapping from **card names** to empty dictionaries. If the action is \"Trade Fair\", indicate \"West\" or \"East\" as card name. If the action is \"Victory\", indicate the type of victory to be declared, including \"Imperial Victory\", \"Globalization Victory\", \"Renaissance Victory\", and \"Holy Victory\".",
+  "Answer": [
+    {
+      "action": "West Tableau Ops",
+      "cards": {
+        "Cornish Tin": {}
+      }
+    },
+    {
+      "action": "Victory",
+      "cards": {
+        "Globalization Victory": {}
+      }
+    }
+  ],
+  "Answer_str": "1. Western tableau ops --- launch vote ops against England, England regime change to republic; 2. Declare Globalization Victory.",
+  "Rationale": "Observing the given game state, In order to win in 2 actions, the best possible victory that we can look at is globalization victory. This is because the blue player already has more discovery prestige than the opponent and has 2 concessions on the map (opponent has 1), and just requires one more concession with which he would have all conditions required for Globalization victory. The actions that can be played for this are as follows: 1: Play the West Tableau Ops, perform the Vote op on Cornish Tin (on England). Since England does not have any repressed tokens, it does not cost any florins, and because there is only one concession on the border of England which is blue, the player wins the Vote, as a result of which there would be a regime change. Blue player gets to place a concession on any empty spot neighboring England. This way the blue player gets Globalization Victory. (NOTE: if the republic side of England after the regime change has a law prestige then the player can also opt for a Renaissance Victory.) 2: Declare Globalization Victory. This way the blue player wins the game.",
+  "game_state_url": [
+    "https://raw.githubusercontent.com/jpeper/rb2/main/game_states/pax_ren/219_1.png",
+    "https://raw.githubusercontent.com/jpeper/rb2/main/game_states/pax_ren/219_2.png",
+    "https://raw.githubusercontent.com/jpeper/rb2/main/game_states/pax_ren/219_3.png",
+    "https://raw.githubusercontent.com/jpeper/rb2/main/game_states/pax_ren/219_4.png"
+  ],
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 4,
+  "Strategy Difficulty": 3
+}

@@ -1,0 +1,37 @@
+{
+    "Serialized Game State": {
+        "Cards": [
+              {
+                "Name": "Corrupt Altar",
+                "Type": "Artifact",
+                "OnComponentEssences": [],
+                "CostToBuy": [{"essence": "death", "amount": 2}, {"essence": "any", "amount": 3}],
+                "CollectAbility": "Collect 1 life and 1 death essence",
+                "Action": [
+                    {
+                        "Cost": ["Rotate this component", "Destroy any one of your artifacts"],
+                        "Effect": "Gain the placement cost of this artifact plus another 2 essences other than gold"
+                    },
+                    {
+                        "Cost": ["loose two life essence"],
+                        "Effect": "Gain three elan essences on this card"
+                    }
+                ],
+                "VictoryPoints": {
+                    "Base": 0,
+                    "Bonus": 0
+                },
+                "ComponentTurned": false,
+                "SpecialAbility": []
+              }
+        ],
+        "FirstPlayerVP": false,
+        "Essences": {
+            "Gold": 5,
+            "Elan": 0,
+            "Life": 0,
+            "Calm": 0,
+            "Death": 0
+        }
+    }
+}

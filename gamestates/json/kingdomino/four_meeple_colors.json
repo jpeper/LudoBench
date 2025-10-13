@@ -1,0 +1,67 @@
+{
+    "Player": {
+      "color": "",
+      "castle_position": { "x": 0, "y": 0 }
+    },
+  
+    "Drafted Tiles": {
+      "SelectedTiles": [
+        {
+          "label": "",
+          "terrain": ["grassland", "grassland"],
+          "crowns": [0, 0],
+          "meeple": "green"
+        },
+        {
+          "label": "",
+          "terrain": ["grassland", "grassland"],
+          "crowns": [0, 0],
+          "meeple": "orange"
+        },
+        {
+          "label": "",
+          "terrain": ["lake", "wheat"],
+          "crowns": [1, 0],
+          "meeple": "white"
+        },
+        {
+          "label": "",
+          "terrain": ["wheat", "swamp"],
+          "crowns": [0, 1],
+          "meeple": "pink"
+        }
+      ],
+      "UpcomingTiles": [
+        {
+          "label": "",
+          "terrain": ["forest", "wheat"],
+          "crowns": [1, 0],
+          "meeple": ""
+        },
+        {
+          "label": "",
+          "terrain": ["lake", "wheat"],
+          "crowns": [1, 0],
+          "meeple": ""
+        },
+        {
+          "label": "",
+          "terrain": ["lake", "forest"],
+          "crowns": [1, 0],
+          "meeple": ""
+        },
+        {
+          "label": "",
+          "terrain": ["lake", "grassland"],
+          "crowns": [0, 1],
+          "meeple": ""
+        }
+      ]
+    },
+  
+    "PlayersKingdom": {
+      "castle": { "x": 0, "y": 0 },
+      "dominoes": []
+    }
+  }
+  

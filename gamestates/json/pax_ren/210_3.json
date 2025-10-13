@@ -1,0 +1,34 @@
+{
+    "PlayerHand": [
+        {
+            "Name": "Jacob Fugger",
+            "Color": "Blue",
+            "Florins": 3,
+            "TableauCards": {
+                "West": [
+                    {
+                        "CardType": "PurchasedCard", 
+                        "Name": "The Company of Merchant Adventurers",
+                        "Ops": [],
+                        "Location": "England",
+                        "Prestige": ["Discovery"],
+                        "OneShot": "Trade shift to Spice Islands (Requires Discovery prestige)",
+                        "Agent": [{"Agent": "Concession", "Religion": null, "Color": null}],
+                        "SpecialConditions": [],
+                        "BishopOnCard": false
+                    }
+                ],
+                "East": []
+            }
+        },
+        {
+            "Name": "Bartolomeo Marchionni",
+            "Color": "Green",
+            "Florins": 4,
+            "TableauCards": {
+                "West": [],
+                "East": []
+            }
+        }
+    ]
+}

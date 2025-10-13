@@ -1,0 +1,16 @@
+{
+  "ID": "726",
+  "Game": "pax_ren",
+  "Test Description": "Testing Crusade one-shot",
+  "Difficulty Notes": "",
+  "Question": "If the blue player purchases the Inquisition Pope card from market, play it, and launches Crusade one-shot against Portugal, how many attackers are there?",
+  "Answer": "3",
+  "Rationale": "",
+  "game_state_url": [
+    "https://raw.githubusercontent.com/jpeper/rb2/main/game_states/pax_ren/211_1.png",
+    "https://raw.githubusercontent.com/jpeper/rb2/main/game_states/pax_ren/211_2.png"
+  ],
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 4,
+  "Strategy Difficulty": 0
+}

@@ -1,0 +1,139 @@
+{
+   "Market": {
+       "MarketCards": {
+           "West": [
+               {
+                   "TradeFairCoins": 0,
+                   "CardsOrderedLeftToRight": [
+                       {
+                           "CardNumber": 1,
+                           "Name": "Humanism",
+                           "Ops": [],
+                           "Location": "France",
+                           "Prestige": ["Patron"],
+                           "OneShot": "",
+                           "Agent": [{"Agent": "Bishop", "Religion": "Catholic", "Color": "Gold"}],
+                           "SpecialConditions": ["Declaring Holy Victory costs 2 Actions (all Players)", "Collegium Trinigue: Your cards are immune to silencing by Bishops"],
+                           "FlorinsOnCard": 0
+                       },
+                       {
+                           "CardNumber": 2,
+                           "Name": "Romantic Realism",
+                           "Ops": [],
+                           "Location": "Papal States",
+                           "Prestige": [],
+                           "OneShot": "",
+                           "Agent": [],
+                           "SpecialConditions": ["Republican Ideals: Your Patron prestige counts as Law prestige for Renaissance Victory"],
+                           "FlorinsOnCard": 0
+                       },
+                       {
+                           "CardNumber": 3,
+                           "Name": "The Bold",
+                           "Ops": [
+                                {"Name": "Inquisitor", "Location": null, "Religion": "Catholic", "Agent": []},
+                                {"Name": "Siege", "Location": null, "Religion": null, "Agent": []},
+                                {"Name": "Tax", "Location": null, "Religion": null, "Agent": []}
+                           ],
+                           "Location": "France",
+                           "Prestige": [],
+                           "OneShot": "Conspiracy",
+                           "Agent": [{"Agent": "Knight", "Religion": "Catholic", "Color": "Gold"}, {"Agent": "Knight", "Religion": "Catholic", "Color": "Gold"}],
+                           "SpecialConditions": [],
+                           "FlorinsOnCard": 0
+                       },
+                       {
+                           "CardNumber": 4,
+                           "Name": "La Serenissima",
+                           "Ops": [
+                                {"Name": "Inquisitor", "Location": null, "Religion": "Catholic", "Agent": []},
+                                {"Name": "Vote", "Location": "West", "Religion": null, "Agent": []},
+                                {"Name": "Corsair", "Location": null, "Religion": "Catholic", "Agent": []}
+                           ],
+                           "Location": "Papal States",
+                           "Prestige": ["Law"],
+                           "OneShot": "Conspiracy",
+                           "Agent": [{"Agent": "Rook", "Religion": "Catholic", "Color": "Gold"}],
+                           "SpecialConditions": [],
+                           "FlorinsOnCard": 0
+                       },
+                       {
+                           "CardNumber": 5,
+                           "Name": "Machiavellianism",
+                           "Ops": [],
+                           "Location": "West",
+                           "Prestige": [],
+                           "OneShot":"",
+                           "Agent":[],
+                           "SpecialConditions": ["Pragmatic Trachery: If you sell a card additionally may perform a civil war, crusade or apostacy One-shot including its agents"],
+                           "FlorinsOnCard": 0
+                       }
+                   ]
+               }
+           ],
+           "East": [
+               {
+                   "TradeFairCoins": 0,
+                   "CardsOrderedLeftToRight": [
+                        {
+                           "CardNumber": 1,
+                           "Name": "Brotherhood of the St. Mark",
+                           "Ops": [{"Name": "Behead", "Location": null, "Religion": null, "Agent": []}],
+                           "Location": "Holy Roman Empire",
+                           "Prestige": [],
+                           "OneShot": "",
+                           "Agent": [{"Agent": "Knight", "Religion": "Catholic", "Color": "Gold"}],
+                           "SpecialConditions": [],
+                           "FlorinsOnCard": 0
+                       },
+                       {
+                           "CardNumber": 2,
+                           "Name": "Theft of the Holy Crown",
+                           "Ops": [],
+                           "Location": null,
+                           "Prestige": ["Catholic"],
+                           "OneShot": "Coronation",
+                           "Agent": [],
+                           "SpecialConditions": ["Ransom: Sell this card for 4 instead of 2 Florins"],
+                           "Suitors": ["Hungary"],
+                           "FlorinsOnCard": 0
+                       },
+                       {
+                           "CardNumber": 3,
+                           "Name": "Nothing New",
+                           "Ops": [{"Name": "Vote", "Location": "East", "Religion": null, "Agent": []}, {"Name": "Siege", "Location": null, "Religion": null, "Agent": []}, {"Name": "Repress", "Location": null, "Religion": null, "Agent": ["Concession", "Knight"]}],
+                           "Location": "Hungary",
+                           "Prestige": ["Law"],
+                           "OneShot": "Conspiracy",
+                           "Agent": [{"Agent": "Rook", "Religion": "Catholic", "Color": "Gold"}],
+                           "SpecialConditions": [],
+                           "FlorinsOnCard": 0
+                       },
+                       {
+                           "CardNumber": 4,
+                           "Name": "transylvanian Saxons",
+                           "Ops": [{"Name": "Tax", "Location": null, "Religion": null, "Agent": []}, {"Name": "Vote", "Location": "East", "Religion": null, "Agent": []}],
+                           "Location": "Hungary",
+                           "Prestige": [],
+                           "OneShot": "Conspiracy",
+                           "Agent": [{"Agent": "Rook", "Religion": "Reformist", "Color": "Red"}],
+                           "SpecialConditions": [],
+                           "FlorinsOnCard": 0
+                       },
+                       {
+                           "CardNumber": 5,
+                           "Name": "Soninke Wangara",
+                           "Ops": [{"Name": "Commerce", "Location": "East", "Religion": null, "Agent": []}],
+                           "Location": "Aragon",
+                           "Prestige": [],
+                           "OneShot": "Trade Shift: Timbuktu",
+                           "Agent":[{"Agent": "Rook", "Religion": "Islamic", "Color": "Green"}],
+                           "SpecialConditions": [],
+                           "FlorinsOnCard": 0
+                       }
+                   ]
+               }
+           ]
+       }
+   }
+}

@@ -1,0 +1,35 @@
+{
+    "name": "kingdomino_game_state",
+    "schema": {
+      "draftedTiles": {
+        "selectedTiles": [],
+        "upcomingTiles": []
+      },
+      "kingdom": {
+        "castle": { "x": 0, "y": 0 },
+        "dominos": [
+          [
+            { "x": 0, "y": 1, "terrain": "grassland", "crowns": 0 },
+            { "x": 1, "y": 1, "terrain": "grassland", "crowns": 0 }
+          ],
+          [
+            { "x": 0, "y": 2, "terrain": "lake", "crowns": 0 },
+            { "x": 1, "y": 2, "terrain": "lake", "crowns": 0 }
+          ],
+          [
+            { "x": 1, "y": 0, "terrain": "lake", "crowns": 1 },
+            { "x": 2, "y": 0, "terrain": "wheat", "crowns": 0 }
+          ],
+          [
+            { "x": 0, "y": -1, "terrain": "mine", "crowns": 2 },
+            { "x": 1, "y": -1, "terrain": "swamp", "crowns": 0 }
+          ],
+          [
+            { "x": 2, "y": 1, "terrain": "wheat", "crowns": 0 },
+            { "x": 3, "y": 2, "terrain": "grassland", "crowns": 1 }
+          ]
+        ]
+      }
+    }
+  }
+  

@@ -1,0 +1,23 @@
+{
+    "name": "kingdomino_game_state",
+    "schema": {
+      "draftedTiles": {
+        "selectedTiles": [],
+        "upcomingTiles": []
+      },
+      "kingdom": {
+        "castle": { "x": 0, "y": 0 },
+        "dominos": [
+          [
+            { "x": -1, "y": 0, "terrain": "grassland", "crowns": 0 },
+            { "x": -2, "y": 0, "terrain": "grassland", "crowns": 0 }
+          ],
+          [
+            { "x": 1, "y": 0, "terrain": "grassland", "crowns": 1 },
+            { "x": 2, "y": 0, "terrain": "wheat", "crowns": 0 }
+          ]
+        ]
+      }
+    }
+  }
+  

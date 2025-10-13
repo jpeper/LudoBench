@@ -1,0 +1,81 @@
+{
+    "PlayerHand": [
+        {
+            "Name": "Jacob Fugger",
+            "Color": "Blue",
+            "Florins": 2,
+            "TableauCards": {
+                "West": [
+                    {
+                        "CardType": "PurchasedCard", 
+                        "Name": "Mons Meg",
+                        "Ops": [{ "Name": "Siege", "Location": null, "Religion": null, "Agent": []}],
+                        "Location": "England",
+                        "Prestige": [],
+                        "OneShot": "Conspiracy",
+                        "Agent": [{"Agent": "Knight", "Religion": "Reformist", "Color": "Red"}],
+                        "SpecialConditions": [],
+                        "BishopOnCard": false
+                    },
+                    {
+                        "CardType": "PurchasedCard",
+                        "Name": "The Mary Rose",
+                        "Ops": [{ "Name": "Repress", "Location": null, "Religion": null, "Agent": ["Rook", "Knight"] },
+                                { "Name": "Corsair", "Location": null, "Religion": "Reformist", "Agent": [] },
+                                { "Name": "Tax", "Location": null, "Religion": null, "Agent": [] }],
+                        "Location": "England",
+                        "Prestige": ["Discovery"],
+                        "OneShot": "",
+                        "Agent": [{"Agent": "Pirate Ship", "Religion": "Reformist", "Color": "Red"}],
+                        "SpecialConditions": [],
+                        "BishopOnCard": false
+                    },
+                    {
+                        "CardType": "KingdomCard",
+                        "Name": "King Edward IV House of York",
+                        "Ops": [{ "Name": "Campaign", "Location": null, "Religion": null, "Agent": [] }],
+                        "Location": "England",
+                        "Prestige": [],
+                        "OneShot": "",
+                        "Agent": [],
+                        "SpecialConditions": [],
+                        "BishopOnCard": false
+                    }
+                ],
+                "East": [
+                    {
+                        "CardType": "PurchasedCard",
+                        "Name": "Duke of Athens",
+                        "Ops": [{ "Name": "Siege", "Location": null, "Religion": null, "Agent": [] }],
+                        "Location": "Ottoman",
+                        "Prestige": [],
+                        "OneShot": "Conspiracy",
+                        "Agent": [{"Agent": "Rook", "Religion": "Reformist", "Color": "Red"}],
+                        "SpecialConditions": [],
+                        "BishopOnCard": false
+                    },
+                    {
+                        "CardType": "KingdomCard",
+                        "Name": "Sultan Mehmed II the Conqueror",
+                        "Ops": [{ "Name": "Campaign", "Location": null, "Religion": null, "Agent": [] }],
+                        "Location": "Ottoman",
+                        "Prestige": ["Islamic"],
+                        "OneShot": "",
+                        "Agent": [],
+                        "SpecialConditions": [],
+                        "BishopOnCard": false
+                    }
+                ]
+            }
+        },
+        {
+            "Name": "Jacques Coeur",
+            "Color": "Pink",
+            "Florins": 4,
+            "TableauCards": {
+                "West": [],
+                "East": []
+            }
+        }
+    ]
+}

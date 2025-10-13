@@ -1,0 +1,125 @@
+{
+    "name": "kingdomino_game_state",
+    "schema": {
+      "draftedTiles": {
+        "selectedTiles": [
+          {
+            "label": null,
+            "squares": [
+              {
+                "terrain": "grassland",
+                "crowns": 0
+              },
+              {
+                "terrain": "grassland",
+                "crowns": 0
+              }
+            ],
+            "meeple": "pink"
+          },
+          {
+            "label": null,
+            "squares": [
+              {
+                "terrain": "grassland",
+                "crowns": 0
+              },
+              {
+                "terrain": "grassland",
+                "crowns": 0
+              }
+            ],
+            "meeple": "green"
+          },
+          {
+            "label": null,
+            "squares": [
+              {
+                "terrain": "lake",
+                "crowns": 1
+              },
+              {
+                "terrain": "wheat",
+                "crowns": 0
+              }
+            ],
+            "meeple": "pink"
+          },
+          {
+            "label": null,
+            "squares": [
+              {
+                "terrain": "wheat",
+                "crowns": 0
+              },
+              {
+                "terrain": "mine",
+                "crowns": 3
+              }
+            ],
+            "meeple": "green"
+          }
+        ],
+        "upcomingTiles": [
+            {
+                "label": null,
+                "squares": [
+                  {
+                    "terrain": "forest",
+                    "crowns": 1
+                  },
+                  {
+                    "terrain": "wheat",
+                    "crowns": 0
+                  }
+                ]
+            },
+            {
+                "label": null,
+                "squares": [
+                  {
+                    "terrain": "lake",
+                    "crowns": 1
+                  },
+                  {
+                    "terrain": "wheat",
+                    "crowns": 0
+                  }
+                ]
+            },
+            {
+                "label": null,
+                "squares": [
+                  {
+                    "terrain": "lake",
+                    "crowns": 1
+                  },
+                  {
+                    "terrain": "forest",
+                    "crowns": 0
+                  }
+                ]
+            },
+            {
+                "label": null,
+                "squares": [
+                  {
+                    "terrain": "lake",
+                    "crowns": 0
+                  },
+                  {
+                    "terrain": "grassland",
+                    "crowns": 1
+                  }
+                ]
+            }
+        ]
+      },
+      "kingdom": {
+        "castle": null,
+        "dominos": []
+    }
+    },
+    "strict": true
+}
+

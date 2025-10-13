@@ -1,0 +1,34 @@
+{
+    "PlayerHand": [
+        {
+            "Name": "Jacob Fugger",
+            "Color": "Blue",
+            "Florins": 3,
+            "TableauCards": {
+                "West": [],
+                "East": []
+            }
+        },
+        {
+            "Name": "Bartolomeo Marchionni",
+            "Color": "Green",
+            "Florins": 4,
+            "TableauCards": {
+                "West": [
+                    {
+                        "CardType": "PurchasedCard",
+                        "Name": "Epicurean Swerve",
+                        "Ops": [],
+                        "Location": "West",
+                        "Prestige": ["Patron"],
+                        "OneShot": "",
+                        "Agent": [],
+                        "SpecialConditions": ["Declaring Holy Victory costs 2 actions for all players", "On the Nature of Things: This counts as a Republic for your Renaissance Victory", "Religion as Delusion: You are immune to Apostasy"],
+                        "BishopOnCard": false
+                    }
+                ],
+                "East": []
+            }
+        }
+    ]
+}

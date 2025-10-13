@@ -1,0 +1,15 @@
+{
+  "ID": "628",
+  "Game": "pax_ren",
+  "Test Description": "Testing counting",
+  "Difficulty Notes": "very basic counting",
+  "Question": "How many cards display the kingdom name \"Ottoman\"?",
+  "Answer": "2",
+  "Rationale": "",
+  "game_state_url": [
+    "https://raw.githubusercontent.com/jpeper/rb2/main/game_states/pax_ren/201_2.jpg"
+  ],
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0
+}

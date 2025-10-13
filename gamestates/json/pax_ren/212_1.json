@@ -1,0 +1,152 @@
+{
+    "GameBoard": {
+        "WinConditions": {
+            "RenaissanceVictory": {
+                "Condition": "have more republics and 2+ more law prestige than each opponent",
+                "Status": "active"
+            },
+            "GlobalizationVictory": {
+                "Condition": "have 2+ more concessions, and more discover prestige than each opponent",
+                "Status": "active"
+            },
+            "ImperialVictory": {
+                "Condition": "have 2+ more king cards (not republics) than each opponent",
+                "Status": "active"
+            },
+            "HolyVictory": {
+                "Condition": "have more prestige in the supreme religion than each opponent. Supreme religion: more bishops of its color, AND more Tokens of its color on Theocracies, than both other religions combined",
+                "Status": "active"
+            }
+        },
+        "Empires": [
+            {
+                "Name": "England",
+                "Region": "West",
+                "KingUnclaimed": true,
+                "Prestige": [],
+                "RepressedTokens": [],
+                "PiecesInEmpire": [{"Agent": "Rook", "Religion": "Catholic", "Color": "Gold", "Location": "London"}],
+                "PiecesBorderingEmpire": [{"Agent": "Concession", "Religion": null, "Color": "Green", "Location": "South"}],
+                "City": [{"Name": "London", "Icon": [{"IconAgent": "Rook", "IconReligion": "Catholic", "IconColor": "Gold"}], "IsCapital": true}, {"Name": "Bordeaux", "Icon": [{"IconAgent": "Knight", "IconReligion": "Catholic", "IconColor": "Gold"}], "IsCapital": false}],
+                "NeighboringEmpires": [{"Kingdom": "France", "Direction": "East"}, {"Kingdom": "Portugal", "Direction": "South"}, {"Kingdom": "Aragon", "Direction": "SouthEast"}],
+                "MapCard": {"Type": "Medieval", "Religion": null}
+            },
+            {
+                "Name": "France",
+                "Region": "West",
+                "KingUnclaimed": true,
+                "Prestige": [],
+                "RepressedTokens": [],
+                "PiecesInEmpire": [{"Agent": "Knight", "Religion": "Catholic", "Color": "Gold", "Location": "Paris"}],
+                "PiecesBorderingEmpire": [{"Agent": "Concession", "Religion": null, "Color": "Blue", "Location": "East"}],
+                "City": [{"Name": "Paris", "Icon": [{"IconAgent": "Knight", "IconReligion": "Catholic", "IconColor": "Gold"}], "IsCapital": true}, {"Name": "Bruges", "Icon": [{"IconAgent": "Rook", "IconReligion": "Catholic", "IconColor": "Gold"}], "IsCapital": false}, {"Name": "Lyon", "Icon": [{"IconAgent": "Knight", "IconReligion": "Catholic", "IconColor": "Gold"}], "IsCapital": false}],
+                "NeighboringEmpires": [{"Kingdom": "England", "Direction": "West"}, {"Kingdom": "Holy Roman Empire", "Direction": "East"}, {"Kingdom": "Aragon", "Direction": "South"}, {"Kingdom": "Portugal", "Direction": "SouthWest"}, {"Kingdom": "Papal States", "Direction": "SouthEast"}],
+                "MapCard": {"Type": "Medieval", "Religion": null}
+            },
+            {
+                "Name": "Holy Roman Empire",
+                "Region": "West",
+                "KingUnclaimed": true,
+                "Prestige": [],
+                "RepressedTokens": [],
+                "PiecesInEmpire": [],
+                "PiecesBorderingEmpire": [{"Agent": "Concession", "Religion": null, "Color": "Blue", "Location": "West"}],
+                "City": [{"Name": "Vienna", "Icon": [{"IconAgent": "Rook", "IconReligion": "Catholic", "IconColor": "Gold"}], "IsCapital": true}, {"Name": "Nurnburg", "Icon": [{"IconAgent": "Knight", "IconReligion": "Reformist", "IconColor": "Red"}], "IsCapital": false}, {"Name": "Lubeck", "Icon": [{"IconAgent": "Rook", "IconReligion": "Catholic", "IconColor": "Gold"}], "IsCapital": false}, {"Name": "Novgorod", "Icon": [{"IconAgent": "Knight", "IconReligion": "Reformist", "IconColor": "Red"}], "IsCapital": false}],
+                "NeighboringEmpires": [{"Kingdom": "France", "Direction": "West"}, {"Kingdom": "Hungary", "Direction": "East"}, {"Kingdom": "Papal States", "Direction": "South"}, {"Kingdom": "Aragon", "Direction": "SouthWest"}, {"Kingdom": "Ottoman", "Direction": "SouthEast"}],
+                "MapCard": {"Type": "Medieval", "Religion": null}
+            },
+            {
+                "Name": "Hungary",
+                "Region": "East",
+                "KingUnclaimed": true,
+                "Prestige": ["Patron"],
+                "RepressedTokens": [],
+                "PiecesInEmpire": [{"Agent": "Knight", "Religion": "Catholic", "Color": "Gold", "Location": "Buda"}, {"Agent": "Knight", "Religion": "Reformist", "Color": "Red", "Location": "Varna"}],
+                "PiecesBorderingEmpire": [],
+                "City": [{"Name": "Buda", "Icon": [{"IconAgent": "Knight", "IconReligion": "Catholic", "IconColor": "Gold"}], "IsCapital": true}, {"Name": "Varna", "Icon": [{"IconAgent": "Knight", "IconReligion": "Reformist", "IconColor": "Red"}], "IsCapital": false}],
+                "NeighboringEmpires": [{"Kingdom": "Holy Roman Empire", "Direction": "West"}, {"Kingdom": "Byzantium", "Direction": "East"}, {"Kingdom": "Ottoman", "Direction": "South"}, {"Kingdom": "Papal States", "Direction": "SouthWest"}, {"Kingdom": "Mamluk", "Direction": "SouthEast"}],
+                "MapCard": {"Type": "Medieval", "Religion": null}
+            },
+            {
+                "Name": "Byzantium",
+                "Region": "East",
+                "KingUnclaimed": true,
+                "Prestige": [],
+                "RepressedTokens": [],
+                "PiecesInEmpire": [{"Agent": "Knight", "Religion": "Islamic", "Color": "Green", "Location": "Tana"}, {"Agent": "Rook", "Religion": "Catholic", "Color": "Gold", "Location": "Caffa"}],
+                "PiecesBorderingEmpire": [],
+                "City": [{"Name": "Tana", "Icon": [{"IconAgent": "Knight", "IconReligion": "Islamic", "IconColor": "Green"}], "IsCapital": true}, {"Name": "Trebizond", "Icon": [{"IconAgent": "Rook", "IconReligion": "Reformist", "IconColor": "Red"}], "IsCapital": false}, {"Name": "Caffa", "Icon": [{"IconAgent": "Knight", "IconReligion": "Catholic", "IconColor": "Gold"}], "IsCapital": false}],
+                "NeighboringEmpires": [{"Kingdom": "Hungary", "Direction": "West"}, {"Kingdom": "Mamluk", "Direction": "South"}, {"Kingdom": "Ottoman", "Direction": "SouthWest"}],
+                "MapCard": {"Type": "Medieval", "Religion": null}
+            },
+            {
+                "Name": "Portugal",
+                "Region": "West",
+                "KingUnclaimed": true,
+                "Prestige": ["Discover"],
+                "RepressedTokens": [],
+                "PiecesInEmpire": [{"Agent": "Knight", "Religion": "Catholic", "Color": "Gold", "Location": "Toledo"}, {"Agent": "Rook", "Religion": "Islamic", "Color": "Green", "Location": "Granada"}],
+                "PiecesBorderingEmpire": [{"Agent": "Concession", "Religion": null, "Color": "Green", "Location": "North"}],
+                "City": [{"Name": "Toledo", "Icon": [{"IconAgent": "Knight", "IconReligion": "Catholic", "IconColor": "Gold"}], "IsCapital": true}, {"Name": "Granada", "Icon": [{"IconAgent": "Rook", "IconReligion": "Islamic", "IconColor": "Green"}], "IsCapital": false}, {"Name": "Spice Islands", "Icon": [{"IconAgent": "Rook", "IconReligion": "Catholic", "IconColor": "Gold"}], "IsCapital": false}],
+                "NeighboringEmpires": [{"Kingdom": "England", "Direction": "North"}, {"Kingdom": "France", "Direction": "NorthEast"}, {"Kingdom": "Aragon", "Direction": "East"}],
+                "MapCard": {"Type": "Medieval", "Religion": null}
+            },
+            {
+                "Name": "Aragon",
+                "Region": "West",
+                "KingUnclaimed": true,
+                "Prestige": [],
+                "RepressedTokens": [],
+                "PiecesInEmpire": [{"Agent": "Knight", "Religion": "Catholic", "Color": "Gold", "Location": "Valencia"}],
+                "PiecesBorderingEmpire": [{"Agent": "Concession", "Religion": null, "Color": "Blue", "Location": "East"}],
+                "City": [{"Name": "Valencia", "Icon": [{"IconAgent": "Knight", "IconReligion": "Catholic", "IconColor": "Gold"}], "IsCapital": true}, {"Name": "Algiers", "Icon": [{"IconAgent": "Rook", "IconReligion": "Islamic", "IconColor": "Green"}], "IsCapital": false}, {"Name": "Timbuktu", "Icon": [{"IconAgent": "Knight", "IconReligion": "Islamic", "IconColor": "Green"}], "IsCapital": false}],
+                "NeighboringEmpires": [{"Kingdom": "France", "Direction": "North"}, {"Kingdom": "Holy Roman Empire", "Direction": "NorthEast"}, {"Kingdom": "Papal States", "Direction": "East"}, {"Kingdom": "Portugal", "Direction": "West"}, {"Kingdom": "England", "Direction": "NorthWest"}],
+                "MapCard": {"Type": "Medieval", "Religion": null}
+            },
+            {
+                "Name": "Papal States",
+                "Region": "West",
+                "KingUnclaimed": true,
+                "Prestige": ["Patron", "Catholic"],
+                "RepressedTokens": [],
+                "PiecesInEmpire": [{"Agent": "Knight", "Religion": "Catholic", "Color": "Gold", "Location": "Venice"}],
+                "PiecesBorderingEmpire": [{"Agent": "Concession", "Religion": null, "Color": "Blue", "Location": "West"}],
+                "City": [{"Name": "Venice", "Icon": [{"IconAgent": "Knight", "IconReligion": "Catholic", "IconColor": "Gold"}], "IsCapital": true}],
+                "NeighboringEmpires": [{"Kingdom": "Holy Roman Empire", "Direction": "North"}, {"Kingdom": "Hungary", "Direction": "NorthEast"}, {"Kingdom": "Ottoman", "Direction": "East"}, {"Kingdom": "Aragon", "Direction": "West"}, {"Kingdom": "France", "Direction": "NorthWest"}],
+                "MapCard": {"Type": "Theocracy", "Religion": "Catholic"}
+            },
+            {
+                "Name": "Ottoman",
+                "Region": "East",
+                "KingUnclaimed": false,
+                "Prestige": [],
+                "RepressedTokens": [],
+                "PiecesInEmpire": [{"Agent": "Knight", "Religion": "Islamic", "Color": "Green", "Location": "Constantinople"}, {"Agent": "Knight", "Religion": "Islamic", "Color": "Green", "Location": "Constantinople"}, {"Agent": "Rook", "Religion": "Islamic", "Color": "Green", "Location": "Constantinople"}],
+                "PiecesBorderingEmpire": [],
+                "City": [{"Name": "Constantinople", "Icon": [{"IconAgent": "Knight", "IconReligion": "Islamic", "IconColor": "Green"}, {"IconAgent": "Knight", "IconReligion": "Islamic", "IconColor": "Green"}, {"IconAgent": "Rook", "IconReligion": "Islamic", "IconColor": "Green"}], "IsCapital": true}, {"Name": "Modon", "Icon": [{"IconAgent": "Rook", "IconReligion": "Reformist", "IconColor": "Red"}], "IsCapital": false}, {"Name": "Rhodes", "Icon": [{"IconAgent": "Knight", "IconReligion": "Catholic", "IconColor": "Gold"}], "IsCapital": false}],
+                "NeighboringEmpires": [{"Kingdom": "Hungary", "Direction": "North"}, {"Kingdom": "Byzantium", "Direction": "NorthEast"}, {"Kingdom": "Mamluk", "Direction": "East"}, {"Kingdom": "Papal States", "Direction": "West"}, {"Kingdom": "Holy Roman Empire", "Direction": "NorthWest"}],
+                "MapCard": {"Type": "Medieval", "Religion": null}
+            },
+            {
+                "Name": "Mamluk",
+                "Region": "East",
+                "KingUnclaimed": true,
+                "Prestige": ["Patron"],
+                "RepressedTokens": [],
+                "PiecesInEmpire": [{"Agent": "Rook", "Religion": "Islamic", "Color": "Green", "Location": "Cairo"}, {"Agent": "Rook", "Religion": "Catholic", "Color": "Gold", "Location": "Cyprus"}],
+                "PiecesBorderingEmpire": [],
+                "City": [{"Name": "Cairo", "Icon": [{"IconAgent": "Rook", "IconReligion": "Islamic", "IconColor": "Green"}], "IsCapital": true}, {"Name": "Red Sea", "Icon": [{"IconAgent": "Knight", "IconReligion": "Islamic", "IconColor": "Green"}], "IsCapital": false}, {"Name": "Cyprus", "Icon": [{"IconAgent": "Rook", "IconReligion": "Catholic", "IconColor": "Gold"}], "IsCapital": false}],
+                "NeighboringEmpires": [{"Kingdom": "Ottoman", "Direction": "West"}, {"Kingdom": "Byzantium", "Direction": "North"}, {"Kingdom": "Hungary", "Direction": "NorthWest"}],
+                "MapCard": {"Type": "Theocracy", "Religion": "Islamic"}
+            }
+        ],
+        "TradeFair": {
+            "East": [{"StartKingdom": "Byzantium", "StartLocation": "Tana", "Route": [{"Kingdom": "Byzantium", "Entry": null, "Exit": "West"}, {"Kingdom": "Hungary", "Entry": "East", "Exit": "South"}, {"Kingdom": "Ottoman", "Entry": "North", "Exit": "East"}, {"Kingdom": "Mamluk", "Entry": "West", "Exit": null}], "Status": "active"}, 
+                    {"StartKingdom": "Aragon", "StartLocation": "Timbuktu", "Route": [{"Kingdom": "Aragon", "Entry": null, "Exit": "East"}, {"Kingdom": "Papal States", "Entry": "West", "Exit": "East"}, {"Kingdom": "Ottoman", "Entry": "West", "Exit": "East"}, {"Kingdom": "Mamluk", "Entry": "West", "Exit": null}], "Status": "inactive"},
+                    {"StartKingdom": "Holy Roman Empire", "StartLocation": "Navgorod", "Route": [{"Kingdom": "Holy Roman Empire", "Entry": null, "Exit": "West"}, {"Kingdom": "France", "Entry": "East", "Exit": "West"}, {"Kingdom": "England", "Entry": "East", "Exit":"South"}, {"Kingdom": "Portugal", "Entry": "North", "Exit": "East"}, {"Kingdom": "Aragon", "Entry": "West", "Exit": "East"}, {"Kingdom": "Papal States", "Entry": "West", "Exit": "East"}, {"Kingdom": "Ottoman", "Entry": "West", "Exit": "East"}, {"Kingdom": "Mamluk", "Entry": "West", "Exit": null}], "Status": "inactive"}],
+            "West": [{"StartKingdom": "Byzantium", "StartLocation": "Trebizond", "Route": [{"Kingdom": "Byzantium", "Entry": null, "Exit": "West"}, {"Kingdom": "Hungary", "Entry": "East", "Exit": "South"}, {"Kingdom": "Ottoman", "Entry": "North", "Exit": "West"}, {"Kingdom": "Papal States", "Entry": "East", "Exit": "West"}, {"Kingdom": "Aragon", "Entry": "East", "Exit": "West"}, {"Kingdom": "Portugal", "Entry": "East", "Exit": "North"}, {"Kingdom": "England", "Entry": "South", "Exit": "East"}, {"Kingdom": "France", "Entry": "West", "Exit": "East"}, {"Kingdom": "Holy Roman Empire", "Entry": "West", "Exit": null}], "Status": "active"},
+                    {"StartKingdom": "Mamluk", "StartLocation": "Red Sea", "Route": [{"Kingdom": "Mamluk", "Entry": null, "Exit": "West"}, {"Kingdom": "Ottoman", "Entry": "East", "Exit": "West"}, {"Kingdom": "Papal States", "Entry": "East", "Exit": "West"}, {"Kingdom": "Aragon", "Entry": "East", "Exit": "West"}, {"Kingdom": "Portugal", "Entry": "East", "Exit": "North"}, {"Kingdom": "England", "Entry": "South", "Exit": "East"}, {"Kingdom": "France", "Entry": "West", "Exit": "East"}, {"Kingdom": "Holy Roman Empire", "Entry": "West", "Exit": null}], "Status": "inactive"},
+                    {"StartKingdom": "Portugal", "StartLocation": "Spice Islands", "Route": [{"Kingdom": "Portugal", "Entry": null, "Exit": "North"}, {"Kingdom": "England", "Entry": "South", "Exit": "East"}, {"Kingdom": "France", "Entry": "West", "Exit": "East"}, {"Kingdom": "Holy Roman Empire", "Entry": "West", "Exit": null}], "Status": "inactive"}]
+        }
+    }
+}

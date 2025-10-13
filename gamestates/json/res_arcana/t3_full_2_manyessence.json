@@ -1,0 +1,191 @@
+{
+    "Serialized Game State": {
+        "Shared Area": {
+            "FaceUpMonuments": [
+              {
+                "Name": "Colossus",
+                "CostToBuy": [{"essence": "gold", "amount": 4}],
+                "CollectAbility": null,
+                "Action": [
+                    {
+                        "Cost": ["Rotate this component", "Pay any 1 essence"],
+                        "Effect": "Gain 1 gold essence on this component"
+                    }
+                ],
+                "VictoryPoints": {
+                    "Base": 2,
+                    "Bonus": 0
+                },
+                "SpecialAbility":[]
+              },
+              {
+                "Name": "Oracle",
+                "CostToBuy": [{"essence": "gold", "amount": 4}],
+                "CollectAbility": null,
+                "Action": [
+                    {
+                        "Cost": ["Rotate this component"],
+                        "Effect": "Draw 3 cards, reorder, put back (may also use on monument deck)"
+                    }
+                ],
+                "VictoryPoints": {
+                    "Base": 2,
+                    "Bonus": 0
+                },
+                "SpecialAbility": []
+              }
+            ],
+            "PlacesOfPower": [
+                {
+                    "Name": "Dwarven Mines",
+                    "CostToBuy": [{"essence": "life", "amount": 2}, {"essence": "elan", "amount": 4}, {"essence": "gold", "amount": 1}],
+                    "CollectAbility": "Collect 1 gold essence",
+                    "Action": [
+                        {
+                            "Cost": ["Turn this component", "Pay 5 elan essences"],
+                            "Effect": "Gain 3 gold essences"
+                        },
+                        {
+                            "Cost": ["Turn this component", "Pay 3 death essences", "Pay 3 elan essences"],
+                            "Effect": "Gain 2 gold essences on this component"
+                        }
+                    ],
+                    "VictoryPoints": {
+                        "Base": 0,
+                        "Bonus": "Gain +1 VP for each gold essence stored on this component"
+                    },
+                    "SpecialAbility": []
+                },
+                {
+                    "Name": "Coral Castle",
+                    "CostToBuy": [{"essence": "life", "amount": 5}, {"essence": "calm", "amount": 5}, {"essence": "elan", "amount": 5}],
+                    "CollectAbility": null,
+                    "Action": [
+                        {
+                            "Cost": ["Rotate this component"],
+                            "Effect": "Check Victory now"
+                        },
+                        {
+                            "Cost": ["React to life essence loss (any amount)", "Rotate this component"],
+                            "Effect": "Ignore that life essence loss (any amount)"
+                        }
+                    ],
+                    "VictoryPoints": {
+                        "Base": 3,
+                        "Bonus": 0
+                    },
+                    "SpecialAbility": []
+                }
+            ]
+        },
+        "Player1PlayArea": {
+            "FirstPlayerVP":  "False",
+            "Essences": {
+                "Gold": 4,
+                "Elan": 4,
+                "Life": 1,
+                "Calm": 5,
+                "Death": 0
+            },
+            "MonumentsOwned": [],
+            "PlacesOfPowerOwned": [
+                {
+                    "Name": "Sacred Grove",
+                    "OnComponentEssences": [{"essence": "life", "amount": 2}],
+                    "CostToBuy": [{"essence": "life", "amount": 8}, {"essence": "calm", "amount": 4}],
+                    "CollectAbility": null,
+                    "Action": [
+                        {
+                            "Cost": ["Rotate this component", "Pay 1 calm essence"],
+                            "Effect": "Gain 5 life essences"
+                        },
+                        {
+                            "Cost": ["Rotate this component", "Rotate any creature"],
+                            "Effect": "Gain 1 life essence on this component"
+                        }
+                    ],
+                    "VictoryPoints": {
+                        "Base": 2,
+                        "Bonus": "Gain +1 VP for each life essence stored on this component"
+                    },
+	                "ComponentTurned": false,
+                    "SpecialAbility": []
+                }
+            ],
+            "ArtifactsInPlay": [
+                {
+                    "Name": "Fire Dragon",
+                    "OnComponentEssences": [],
+                    "CardCost": [{"essence": "elan", "amount": 6}],
+                    "Type": "Dragon",
+                    "VictoryPoints": 1,
+                    "CollectAbility": null,
+                    "Action": [
+                        {
+                            "Cost": ["Rotate this component"],
+                            "Effect": "All rivals lose 2 life essences; rivals may choose to pay 1 calm essence to ignore this effect"
+                        }
+                    ],
+                    "ComponentTurned": false,
+                    "SpecialAbility": []
+                },
+                {
+                    "Name": "Druid",
+                    "OnComponentEssences": [],
+                    "CardCost": [],
+                    "Type": "Mage",
+                    "VictoryPoints": 0,
+                    "CollectAbility": "Collect 1 life essence",
+                    "Action": [
+                        {
+                            "Cost": ["Rotate this component"],
+                            "Effect": "Straighten any 1 creature component"
+                        }
+                    ],
+                    "ComponentTurned": false,
+                    "SpecialAbility": []
+                }
+            ],
+            "MagicItemsInPlay": {
+                "Name": "Reanimate",
+                "Action": [
+                    {
+                        "Cost": ["Rotate this component", "Lose any 1 essence"],
+                        "Effect": "Straighten any 1 component"
+                    }
+                ],
+               "ComponentTurned": false,
+               "SpecialAbility": []
+            }
+        },
+        "Player1Hand": [
+            {
+                "Name": "Magical Shard",
+                "Type": "Artifact",
+                "CostToBuy": [],
+                "CollectAbility": null,
+                "Action": [
+                    {
+                        "Cost": ["Rotate this component"],
+                        "Effect": "Gain any 1 essence other than gold"
+                    }
+                ],
+                "SpecialAbility": []
+            },
+            {
+                "Name": "Elemental Spring",
+                "Type": "Artifact",
+                "CostToBuy": [{"essence": "elan", "amount": 2}, {"essence": "life", "amount": 1}, {"essence": "calm", "amount": 1}],
+                "CollectAbility": "Collect 1 calm + 1 life + 1 elan",
+                "Action": [
+                    {
+                        "Cost": ["React to life essence loss (any amount)", "Pay 1 calm essence"],
+                        "Effect": "Ignore that life essence loss (any amount)"
+                    }
+                ],
+                "SpecialAbility": []
+            }
+        ],
+       "Player1DiscardPile": []
+    }
+}

@@ -1,0 +1,141 @@
+{
+   "Market": {
+       "MarketCards": {
+           "West": [
+               {
+                   "TradeFairCoins": 3,
+                   "CardsOrderedLeftToRight": [
+                       {
+                           "CardNumber": 1,
+                           "Name": "European Union",
+                           "Ops": [{"Name": "Repress", "Location": null, "Religion": null, "Agent": ["Rook"]}],
+                           "Location": "Holy Roman Empire",
+                           "Prestige": [],
+                           "OneShot": "Trade Shift: Novgorod",
+                           "Agent": [{"Agent": "Rook", "Religion": "Reformist", "Color": "Red"}],
+                           "SpecialConditions": ["Condottiere: Venice May hold 2 red rooks instead of one"],
+                           "FlorinsOnCard": 0
+                       },
+                       {
+                           "CardNumber": 2,
+                           "Name": "Duchy of Ferrara",
+                           "Ops": [
+                               {"Name": "Siege", "Location": null, "Religion": null, "Agent": []},
+                               {"Name": "Commerce", "Location": "West", "Religion": null, "Agent": []}
+                           ],
+                           "Location": "Papal States",
+                           "Prestige": ["Patron"],
+                           "OneShot": "Conspiracy",
+                           "Agent": [{"Agent": "Rook", "Religion": "Catholic", "Color": "Gold"}],
+                           "SpecialConditions": ["Condottiere: Venice can hold 2 gold knights instead of one"],
+                           "FlorinsOnCard": 0
+                       },
+                       {
+                           "CardNumber": 3,
+                           "Name": "Star Chamber",
+                           "Ops": [
+                                {"Name": "Inquisitor", "Location": null, "Religion": "Reformist", "Agent": []},
+                                {"Name": "Behead", "Location": null, "Religion": null, "Agent": []}
+                           ],
+                           "Location": "England",
+                           "Prestige": ["Reformist"],
+                           "OneShot": "Reformation",
+                           "Agent": [{"Agent": "Bishop", "Religion": "Reformist", "Color": "Red"}],
+                           "SpecialConditions": ["Henry VIII: Your coronation can claim kings who are married or In an opponent's Tableau"],
+                           "FlorinsOnCard": 0
+                       },
+                       {
+                           "CardNumber": 4,
+                           "Name": "Gonfalonier",
+                           "Ops": [
+                                {"Name": "Inquisitor", "Location": null, "Religion": "Catholic", "Agent": []},
+                                {"Name": "Vote", "Location": "West", "Religion": null, "Agent": []},
+                                {"Name": "Siege", "Location": null, "Religion": null, "Agent": []}
+                           ],
+                           "Location": "Papal States",
+                           "Prestige": ["Law", "Patron"],
+                           "OneShot": "",
+                           "Agent": [{"Agent": "Knight", "Religion": "Catholic", "Color": "Gold"}, {"Agent": "Knight", "Religion": "Catholic", "Color": "Gold"}],
+                           "SpecialConditions": ["Condottiere: Venice can hold 2 gold knights instead of one"],
+                           "FlorinsOnCard": 0
+                       },
+                       {
+                           "CardNumber": 5,
+                           "Name": "Welser Klein-Venedig",
+                           "Ops": [{"Name": "Commerce", "Location": "West", "Religion": null, "Agent": []}],
+                           "Location": "Portugal",
+                           "Prestige": ["Discovery"],
+                           "OneShot":"Trade Shift: Spice Islands (required Discovery prestige)",
+                           "Agent":[{"Agent": "Concession", "Religion": null, "Color": null}],
+                           "SpecialConditions": [],
+                           "FlorinsOnCard": 0
+                       }
+                   ]
+               }
+           ],
+           "East": [
+               {
+                   "TradeFairCoins": 1,
+                   "CardsOrderedLeftToRight": [
+                        {
+                           "CardNumber": 1,
+                           "Name": "Council of Celji",
+                           "Ops": [{"Name": "Repress", "Location": null, "Religion": null, "Agent": ["Concession", "Knight"]}],
+                           "Location": "Holy Roman Empire",
+                           "Prestige": [],
+                           "OneShot": "Peasant Revolt",
+                           "Agent": [{"Agent": "Rook", "Religion": "Catholic", "Color": "Gold"}],
+                           "SpecialConditions": [],
+                           "FlorinsOnCard": 0
+                       },
+                       {
+                           "CardNumber": 2,
+                           "Name": "transylvanian Saxons",
+                           "Ops": [{"Name": "Tax", "Location": null, "Religion": null, "Agent": []}, {"Name": "Vote", "Location": "East", "Religion": null, "Agent": []}],
+                           "Location": "Hungary",
+                           "Prestige": [],
+                           "OneShot": "Conspiracy",
+                           "Agent": [{"Agent": "Rook", "Religion": "Reformist", "Color": "Red"}],
+                           "SpecialConditions": [],
+                           "FlorinsOnCard": 0
+                       },
+                       {
+                           "CardNumber": 3,
+                           "Name": "Astrology of Nostradamus",
+                           "Ops": [],
+                           "Location": null,
+                           "Prestige": [],
+                           "OneShot": "",
+                           "Agent": [],
+                           "SpecialConditions": ["When Purchased: Discard this card and Flip an inactive victory card"],
+                           "FlorinsOnCard": 0
+                       },
+                       {
+                           "CardNumber": 4,
+                           "Name": "Nothing New",
+                           "Ops": [{"Name": "Vote", "Location": "East", "Religion": null, "Agent": []}, {"Name": "Siege", "Location": null, "Religion": null, "Agent": []}, {"Name": "Repress", "Location": null, "Religion": null, "Agent": ["Concession", "Knight"]}],
+                           "Location": "Hungary",
+                           "Prestige": ["Law"],
+                           "OneShot": "Conspiracy",
+                           "Agent": [{"Agent": "Rook", "Religion": "Catholic", "Color": "Gold"}],
+                           "SpecialConditions": [],
+                           "FlorinsOnCard": 0
+                       },
+                       
+                       {
+                           "CardNumber": 5,
+                           "Name": "The Grim",
+                           "Ops": [{"Name": "Behead", "Location": null, "Religion": null, "Agent": []}, {"Name": "Siege", "Location": null, "Religion": null, "Agent": []}, {"Name": "Inquisitor", "Location": null, "Religion": "Islamic", "Agent": []}],
+                           "Location": "Ottoman",
+                           "Prestige": ["Islamic"],
+                           "OneShot": "Jihad",
+                           "Agent":[{"Agent": "Bishop", "Religion": "Islamic", "Color": "Green"}],
+                           "SpecialConditions": [],
+                           "FlorinsOnCard": 0
+                       }
+                   ]
+               }
+           ]
+       }
+   }
+}

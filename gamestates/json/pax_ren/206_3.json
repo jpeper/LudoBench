@@ -1,0 +1,22 @@
+{
+    "PlayerHand": [
+        {
+            "Name": "Jacob Fugger",
+            "Color": "Blue",
+            "Florins": 3,
+            "TableauCards": {
+                "West": [],
+                "East": []
+            }
+        },
+        {
+            "Name": "Jacques Coeur",
+            "Color": "Pink",
+            "Florins": 4,
+            "TableauCards": {
+                "West": [],
+                "East": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+    "PlayerHand": [
+        {
+            "Name": "Jacob Fugger",
+            "Color": "Blue",
+            "Florins": 3,
+            "TableauCards": {
+                "West": [
+                    {
+                        "CardType": "PurchasedCard", 
+                        "Name": "Almeida Armada",
+                        "Ops": [{ "Name": "Repress", "Location": null, "Religion": null, "Agent": ["Concession"] },
+                                { "Name": "Corsair", "Location": null, "Religion": "Catholic", "Agent": [] }],
+                        "Location": "Portugal",
+                        "Prestige": ["Discovery"],
+                        "OneShot": "Trade shift to Spice Islands (Requires Discovery prestige)",
+                        "Agent": [{"Agent": "Concession", "Religion": null, "Color": null}],
+                        "SpecialConditions": ["Cape of Good Hope: Your concessions count 2x in Spice Island trade fairs"],
+                        "BishopOnCard": false
+                    },
+                    {
+                        "CardType": "PurchasedCard",
+                        "Name": "Tolfa Alum",
+                        "Ops": [{"Name": "Vote", "Location": "West", "Religion": null, "Agent": []},
+                                {"Name": "Commerce", "Location": "West", "Religion": null, "Agent": []}],
+                        "Location": "Papal States",
+                        "Prestige": [],
+                        "OneShot": "",
+                        "Agent": [{"Agent": "Concession", "Religion": null, "Color": null}, {"Agent": "Concession", "Religion": null, "Color": null}],
+                        "SpecialConditions": [],
+                        "BishopOnCard": false
+                    },
+                    {
+                        "CardType": "PurchasedCard",
+                        "Name": "Consent of the Governed",
+                        "Ops": [],
+                        "Location": "West",
+                        "Prestige": ["Law"],
+                        "OneShot": "Peasant Revolt",
+                        "Agent": [],
+                        "SpecialConditions": ["German Humanism: Your Patron prestige counts as Law prestige for Renaissance Victory"],
+                        "BishopOnCard": false
+                    },
+                    {
+                        "CardType": "RepublicCard",
+                        "Name": "Florentine Signoria",
+                        "Ops": [{"Name": "Vote", "Location": "West", "Religion": null, "Agent": []}, {"Name": "Commerce", "Location": "West", "Religion": null, "Agent": []}],
+                        "Location": "Republic of the Papal States",
+                        "Prestige": ["Law"],
+                        "OneShot": "",
+                        "Agent": [],
+                        "SpecialConditions": [],
+                        "BishopOnCard": false
+                    }
+                ],
+                "East": []
+            }
+        },
+        {
+            "Name": "Jacques Coeur",
+            "Color": "Pink",
+            "Florins": 4,
+            "TableauCards": {
+                "West": [
+                    {
+                        "CardType": "PurchasedCard", 
+                        "Name": "Spanish Tercio",
+                        "Ops": [{ "Name": "Siege", "Location": null, "Religion": null, "Agent": []}],
+                        "Location": "West",
+                        "Prestige": [],
+                        "OneShot": "",
+                        "Agent": [{"Agent": "Knight", "Religion": "Catholic", "Color": "Gold"}],
+                        "SpecialConditions": [],
+                        "BishopOnCard": false
+                    },
+                    {
+                        "CardType": "KingdomCard",
+                        "Name": "Frederick III House of Habsburg",
+                        "Ops": [{"Name": "Campaign", "Location": null, "Religion": null, "Agent": []}],
+                        "Location": "Holy Roman Empire",
+                        "Prestige": [],
+                        "OneShot": "",
+                        "Agent": [],
+                        "SpecialConditions": [],
+                        "BishopOnCard": false
+                    }
+                ],
+                "East": [
+                    {
+                        "CardType": "PurchasedCard", 
+                        "Name": "Isfendiyarid Dynasty",
+                        "Ops": [{ "Name": "Repress", "Location": null, "Religion": null, "Agent": ["Concession"]},
+                                { "Name": "Corsair", "Location": null, "Religion": "Islamic", "Agent": [] }],
+                        "Location": "Byzantium",
+                        "Prestige": [],
+                        "OneShot": "",
+                        "Agent": [{"Agent": "Pirate Ship", "Religion": "Islamic", "Color": "Green"}],
+                        "SpecialConditions": [],
+                        "BishopOnCard": false
+                    },
+                    {
+                        "CardType": "KingdomCard",
+                        "Name": "David Comnenus Basileus of Trebizond",
+                        "Ops": [{"Name": "Campaign", "Location": null, "Religion": null, "Agent": []}],
+                        "Location": "Byzantium",
+                        "Prestige": [],
+                        "OneShot": "",
+                        "Agent": [],
+                        "SpecialConditions": [],
+                        "BishopOnCard": false
+                    }
+                ]
+            }
+        }
+    ]
+}

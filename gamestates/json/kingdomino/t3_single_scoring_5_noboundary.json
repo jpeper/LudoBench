@@ -1,0 +1,107 @@
+"{
+  ""name"": ""kingdomino_game_state"",
+  ""schema"": {
+    ""draftedTiles"": {
+      ""selectedTiles"": [
+        {
+          ""label"": ""A"",
+          ""squares"": [
+            {
+              ""terrain"": ""lake"",
+              ""crowns"": 0
+            },
+            {
+              ""terrain"": ""lake"",
+              ""crowns"": 0
+            }
+          ],
+          ""meeple"": null
+        },
+        {
+          ""label"": ""B"",
+          ""squares"": [
+            {
+              ""terrain"": ""grassland"",
+              ""crowns"": 0
+            },
+            {
+              ""terrain"": ""grassland"",
+              ""crowns"": 0
+            }
+          ],
+          ""meeple"": null
+        },
+        {
+          ""label"": ""C"",
+          ""squares"": [
+            {
+              ""terrain"": ""wheat"",
+              ""crowns"": 1
+            },
+            {
+              ""terrain"": ""lake"",
+              ""crowns"": 0
+            }
+          ],
+          ""meeple"": null
+        },
+        {
+          ""label"": ""D"",
+          ""squares"": [
+            {
+              ""terrain"": ""grassland"",
+              ""crowns"": 0
+            },
+            {
+              ""terrain"": ""swamp"",
+              ""crowns"": 1
+            }
+          ],
+          ""meeple"": null
+        }
+      ],
+      ""upcomingTiles"": []
+    },
+    ""kingdom"": {
+      ""castle"": {
+        ""x"": 0,
+        ""y"": 0
+      },
+      ""dominos"": [
+        [
+          { ""x"": -3, ""y"": 1, ""terrain"": ""wheat"", ""crowns"": 0 },
+          { ""x"": -3, ""y"": 0, ""terrain"": ""forest"", ""crowns"": 1 }
+        ],
+        [
+          { ""x"": -2, ""y"": 1, ""terrain"": ""wheat"", ""crowns"": 1 },
+          { ""x"": -2, ""y"": 0, ""terrain"": ""forest"", ""crowns"": 0 }
+        ],
+        [
+          { ""x"": -1, ""y"": 1, ""terrain"": ""wheat"", ""crowns"": 0 },
+          { ""x"": 0, ""y"": 1, ""terrain"": ""swamp"", ""crowns"": 2 }
+        ],
+        [
+          { ""x"": -2, ""y"": -1, ""terrain"": ""grassland"", ""crowns"": 0 },
+          { ""x"": -2, ""y"": -2, ""terrain"": ""grassland"", ""crowns"": 0 }
+        ],
+        [
+          { ""x"": -1, ""y"": 0, ""terrain"": ""lake"", ""crowns"": 0 },
+          { ""x"": -1, ""y"": -1, ""terrain"": ""lake"", ""crowns"": 0 }
+        ],
+        [
+          { ""x"": 0, ""y"": -2, ""terrain"": ""wheat"", ""crowns"": 0 },
+          { ""x"": -1, ""y"": -2, ""terrain"": ""lake"", ""crowns"": 0 }
+        ],
+        [
+          { ""x"": 1, ""y"": 1, ""terrain"": ""forest"", ""crowns"": 0 },
+          { ""x"": 1, ""y"": 0, ""terrain"": ""forest"", ""crowns"": 0 }
+        ],
+        [
+          { ""x"": 1, ""y"": -1, ""terrain"": ""forest"", ""crowns"": 0 },
+          { ""x"": 0, ""y"": -1, ""terrain"": ""forest"", ""crowns"": 0 }
+        ]
+      ]
+    }
+  },
+  ""strict"": true
+}"

@@ -1,0 +1,71 @@
+{
+    "PlayerHand": [
+        {
+            "Name": "Jacob Fugger",
+            "Color": "Blue",
+            "Florins": 1,
+            "TableauCards": {
+                "West": [
+                    {
+                        "CardType": "PurchasedCard", 
+                        "Name": "The Company of Merchant Adventurers",
+                        "Ops": [],
+                        "Location": "England",
+                        "Prestige": ["Discovery"],
+                        "OneShot": "Trade shift to Spice Islands (Requires Discovery prestige)",
+                        "Agent": [{"Agent": "Concession", "Religion": null, "Color": null}],
+                        "SpecialConditions": [],
+                        "BishopOnCard": false
+                    }
+                ],
+                "East": [
+                    {
+                        "CardType": "PurchasedCard",
+                        "Name": "Celebi Tax Revolts",
+                        "Ops": [{ "Name": "Siege", "Location": null, "Religion": null, "Agent": [] },
+                                { "Name": "Repress", "Location": null, "Religion": null, "Agent": ["Concession"] },
+                                { "Name": "Inquisitor", "Location": null, "Religion": "Islamic", "Agent": [] }],
+                        "Location": "Ottoman",
+                        "Prestige": [],
+                        "OneShot": "Peasant Revolt",
+                        "Agent": [{"Agent": "Knight", "Religion": "Islamic", "Color": "Green"}],
+                        "SpecialConditions": [],
+                        "BishopOnCard": false
+                    },
+                    {
+                        "CardType": "KingdomCard",
+                        "Name": "Sultan Mehmed II the Conqueror",
+                        "Ops": [{ "Name": "Campaign", "Location": null, "Religion": null, "Agent": [] }],
+                        "Location": "Ottoman",
+                        "Prestige": ["Islamic"],
+                        "OneShot": "",
+                        "Agent": [],
+                        "SpecialConditions": [],
+                        "BishopOnCard": false
+                    }
+                ]
+            }
+        },
+        {
+            "Name": "Bartolomeo Marchionni",
+            "Color": "Green",
+            "Florins": 4,
+            "TableauCards": {
+                "West": [
+                    {
+                        "CardType": "PurchasedCard",
+                        "Name": "Epicurean Swerve",
+                        "Ops": [],
+                        "Location": "West",
+                        "Prestige": ["Patron"],
+                        "OneShot": "",
+                        "Agent": [],
+                        "SpecialConditions": ["Declaring Holy Victory costs 2 actions for all players", "On the Nature of Things: This counts as a Republic for your Renaissance Victory", "Religion as Delusion: You are immune to Apostasy"],
+                        "BishopOnCard": false
+                    }
+                ],
+                "East": []
+            }
+        }
+    ]
+}

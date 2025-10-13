@@ -1,0 +1,35 @@
+{
+    "PlayerHand": [
+        {
+            "Name": "Jacob Fugger",
+            "Color": "Blue",
+            "Florins": 3,
+            "TableauCards": {
+                "West": [
+                    {
+                        "CardType": "PurchasedCard", 
+                        "Name": "Almeida Armada",
+                        "Ops": [{ "Name": "Repress", "Location": null, "Religion": null, "Agent": ["Concession"] },
+                                { "Name": "Corsair", "Location": null, "Religion": "Catholic", "Agent": [] }],
+                        "Location": "Portugal",
+                        "Prestige": ["Discovery"],
+                        "OneShot": "Trade shift to Spice Islands (Requires Discovery prestige)",
+                        "Agent": [{"Agent": "Concession", "Religion": null, "Color": null}],
+                        "SpecialConditions": ["Cape of Good Hope: Your concessions count 2x in Spice Island trade fairs"],
+                        "BishopOnCard": false
+                    }
+                ],
+                "East": []
+            }
+        },
+        {
+            "Name": "Jacques Coeur",
+            "Color": "Pink",
+            "Florins": 4,
+            "TableauCards": {
+                "West": [],
+                "East": []
+            }
+        }
+    ]
+}

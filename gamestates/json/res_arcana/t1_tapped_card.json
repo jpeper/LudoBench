@@ -1,0 +1,88 @@
+{
+    "Serialized Game State": {
+        "Cards": [
+            {
+                    "Name": "Fire Dragon",
+                    "OnComponentEssences": [],
+                    "CostToBuy": [{"essence": "elan", "amount": 6}],
+                    "Type": "Dragon",
+                    "VictoryPoints": {
+                        "Base": 1,
+                        "Bonus": 0
+                    },
+                    "CollectAbility": null,
+                    "Action": [
+                        {
+                            "Cost": ["Rotate this component"],
+                            "Effect": "All rivals lose 2 life essences; rivals may choose to pay 1 calm essence to ignore this effect"
+                        }
+                    ],
+                    "ComponentTurned": false,
+                    "SpecialAbility": []
+                },
+                {
+                    "Name": "Sacred Grove",
+                    "Type": "Place of Power",
+                    "OnComponentEssences": [],
+                    "CostToBuy": [{"essence": "life", "amount": 8}, {"essence": "calm", "amount": 4}],
+                    "CollectAbility": null,
+                    "Action": [
+                        {
+                            "Cost": ["Rotate this component", "Pay 1 calm essence"],
+                            "Effect": "Gain 5 life essences"
+                        },
+                        {
+                            "Cost": ["Rotate this component", "Rotate any creature"],
+                            "Effect": "Gain 1 life essence on this component"
+                        }
+                    ],
+                    "VictoryPoints": {
+                        "Base": 2,
+                        "Bonus": "Gain +1 VP for each life essence stored on this component"
+                    },
+	                "ComponentTurned": false,
+                    "SpecialAbility": []
+                },
+                {
+                    "Name": "Vault",
+                    "Type": "Artifact",
+                    "OnComponentEssences": [{"essence": "gold", "amount": 1}],
+                    "CostToBuy": [{"essence": "gold", "amount": 1}, {"essence": "any", "amount": 1}],
+                    "VictoryPoints": {
+                        "Base": 0,
+                        "Bonus": 0
+                    },
+                    "CollectAbility": "If x number of gold essences are stored on this component, gain any 2 essences other than gold",
+                    "Action": [
+                        {
+                            "Cost": ["Rotate this component"],
+                            "Effect": "Gain 1 gold essence on this component"
+                        }
+                    ],
+                    "ComponentTurned": true,
+                    "SpecialAbility": []
+                },
+                {
+                    "Name": "Reanimate",
+                    "Type": "Magic Item",
+                    "OnComponentEssences": [],
+                    "CostToBuy": [],
+                    "CollectAbility": "",
+                    "Action": [
+                        {
+                            "Cost": ["Rotate this component", "Loose any one essence"],
+                            "Effect": "Straighten any component"
+                        }
+                    ],
+                    "VictoryPoints": {
+                        "Base": 0,
+                        "Bonus": 0
+                    },
+                    "ComponentTurned": false,
+                    "SpecialAbility": []
+              }
+        ],
+        "FirstPlayerVP": false,
+        "EssencesInCenter": null
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "ID": "733",
+  "Game": "pax_ren",
+  "Test Description": "Testing winning condition",
+  "Difficulty Notes": "",
+  "Question": "Given the provided game state, what victory can the blue player declare after performing the following action? 1. West Tableau Ops --- launch Vote Ops against Papal States, Papal State regime change into Republic. Your answer should be one of the following: \"Imperial Victory\", \"Globalization Victory\", \"Renaissance Victory\", or \"Holy Victory\".",
+  "Answer": "Renaissance Victory",
+  "Rationale": "",
+  "game_state_url": [
+    "https://raw.githubusercontent.com/jpeper/rb2/main/game_states/pax_ren/217_1.png",
+    "https://raw.githubusercontent.com/jpeper/rb2/main/game_states/pax_ren/217_2.png",
+    "https://raw.githubusercontent.com/jpeper/rb2/main/game_states/pax_ren/217_3.png",
+    "https://raw.githubusercontent.com/jpeper/rb2/main/game_states/pax_ren/217_4.png"
+  ],
+  "Game State Difficulty": 4,
+  "Rules Difficulty": 4,
+  "Strategy Difficulty": 0
+}
