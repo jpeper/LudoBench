@@ -7,12 +7,12 @@
   "Answer": "2",
   "Rationale": "",
   "game_state_url": [
-    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/203_1.jpg",
-    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/203_2.jpg"
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/203_1.jpg",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/203_2.jpg"
   ],
   "Game State Difficulty": 3,
   "Rules Difficulty": 4,
   "Strategy Difficulty": 0,
   "tier": 2,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/pax_ren/203_combined.json"
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/203_combined.json"
 }

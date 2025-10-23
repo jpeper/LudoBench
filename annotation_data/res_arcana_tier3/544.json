@@ -7,11 +7,11 @@
   "Question": "Assume all other players have already passed. Given this game state, what is the maximum guaranteed net number of VP the player can gain in three actions? Output the answer as: Previous amount: <num>, New amount: <num>",
   "Answer": "Previous amount: 3, New amount: 5",
   "Rationale": "Action 1: discard a card to gain a death essence. Action two: Activate power two on sacrificial pit, destroying Earth Dragon to gain 7 gold. Action 3: Obtain temple monument gaining 2 VPs",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/res_arcana/t3_mermaid.png",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t3_mermaid.png",
   "game_state_description": "",
   "Game State Difficulty": 2,
   "Rules Difficulty": 2,
   "Strategy Difficulty": 2,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/res_arcana/t3_mermaid.json"
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t3_mermaid.json"
 }

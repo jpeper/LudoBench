@@ -18,14 +18,14 @@
   "Answer_str": "1. Purchase --- Spend 2 florins to buy The Mary Rose card; 2. Play --- play The Mary Rose card; 3. Declare Globalization Victory.",
   "Rationale": "",
   "game_state_url": [
-    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/207_1.png",
-    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/207_2.png",
-    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/206_3.png",
-    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/206_4.png"
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/207_1.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/207_2.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/206_3.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/206_4.png"
   ],
   "Game State Difficulty": 3,
   "Rules Difficulty": 3,
   "Strategy Difficulty": 2,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/pax_ren/206_combined.json"
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/206_combined.json"
 }

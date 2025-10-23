@@ -21,12 +21,12 @@
   "Answer_str": "West Trade Fair + East Tableau Ops (order can be flipped). Max florins earned: 4.",
   "Rationale": "All possible actions: West trade fair, blue +3, yellow +1; East​ trade fair, blue+1, yellow +1; Commerce, blue +1",
   "game_state_url": [
-    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/201_1.jpg",
-    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/201_2.jpg"
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/201_1.jpg",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/201_2.jpg"
   ],
   "Game State Difficulty": 2,
   "Rules Difficulty": 2,
   "Strategy Difficulty": 2,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/pax_ren/201_combined.json"
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/201_combined.json"
 }

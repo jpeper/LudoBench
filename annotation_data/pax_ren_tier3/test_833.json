@@ -36,14 +36,14 @@
   "Answer_str": "1. Purchase --- Spend 1 florin to buy Inquisition Pope card from market; 2. Play --- play Inquisition Pope card, launch Crusade one-shot, move the Portugal kingdom card to blue player's Tableau, a consession brought by regime change is placed on Portugal's border; 3. Declare Globalization Victory.",
   "Rationale": "Blue players have 3 florins now so can afford buying Inquisition Pope card with 1 florin from the market. By playing the card and launching Crusade one-shot, the blue player will win Portugal because the attackers are one yellow (believer) knights in the target Portugal area and two yellow (believer) knights in adjcent area, and the defender is only one blue (hectic) rooks in Portugal. This results in a regime change and the blue player can play on concession on the border of Portugal and move the kingdom card of Portugal to its Tableau. Now, the blue player has 3 concessions on the map, which are 2 more than the 1 concession that green player has. Additionally, the blue player has one more Discovery prestige than the opponent purple player, thanks to the Portugal card just earned. Therefore, the Globalization Victory winning condition is satisfied.",
   "game_state_url": [
-    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/211_1.png",
-    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/211_2.png",
-    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/211_3.png",
-    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/211_4.png"
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/211_1.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/211_2.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/211_3.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/211_4.png"
   ],
   "Game State Difficulty": 3,
   "Rules Difficulty": 3,
   "Strategy Difficulty": 4,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/pax_ren/211_combined.json"
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/211_combined.json"
 }

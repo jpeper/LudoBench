@@ -6,10 +6,10 @@
   "Question": "Which domino should the player add to their kingdom to maximize its score? Output the following: Domino letter, Previous kingdom score, new kingdom score.",
   "Answer": "Domino: D, Previous kingdom score: 4, New kingdom score: 8",
   "Rationale": "Domino D can be placed on top, increasing the swamp score from 1x2 to 3x2 for an increase of 4 points. No other domino placement achieves this.",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/kingdomino/t3_single_scoring_6.png",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/kingdomino/t3_single_scoring_6.png",
   "Game State Difficulty": 1,
   "Rules Difficulty": 2,
   "Strategy Difficulty": 2,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/kingdomino/t3_single_scoring_6.json"
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/kingdomino/t3_single_scoring_6.json"
 }

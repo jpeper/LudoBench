@@ -7,11 +7,11 @@
   "Question": "What is the maximum guaranteed number of victory points the player could have after taking 2 more actions. Assume all other players have passed. Output the answer as: Previous amount: <num>, New amount: <num>",
   "Answer": "Previous amount: 6, New VP amount: 9",
   "Rationale": "Player can purchase the oracle and activate sacred grove, turning nightingale.",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/res_arcana/t3_full_3_creature.png",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t3_full_3_creature.png",
   "game_state_description": "",
   "Game State Difficulty": 3,
   "Rules Difficulty": 2,
   "Strategy Difficulty": 3,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/res_arcana/t3_full_3_creature.json"
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t3_full_3_creature.json"
 }

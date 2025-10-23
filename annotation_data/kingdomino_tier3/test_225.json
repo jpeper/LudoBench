@@ -6,10 +6,10 @@
   "Question": "What next domino should the player select to maximize the score of their kingdom? Assume the game ends after placement of the pictured dominos. Output the following: Domino letter, 'Previous kingdom score', eventual 'New kingdom score' after placement of all of the shown/selected draftable dominos.",
   "Answer": "Domino: H, Previous kingdom score: 2, New kingdom score: 9",
   "Rationale": "Green player selected a double grasslands domino in the prior round. We can pair this with the existing grasslands on the left side of their kingdom. By selecting domino H, we can add a crown to this section, improving its scoring from 0x4 to 1x7",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/kingdomino/t3_2_step_1.png",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/kingdomino/t3_2_step_1.png",
   "Game State Difficulty": 1,
   "Rules Difficulty": 2,
   "Strategy Difficulty": 2,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/kingdomino/t3_2_step_1.json"
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/kingdomino/t3_2_step_1.json"
 }

@@ -6,10 +6,10 @@
   "Question": "Which player will place first in the next round?",
   "Answer": "Pink",
   "Rationale": "Pink will place first, since their meeple is on the topmost tile.",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/kingdomino/turn_order_staggered.png",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/kingdomino/turn_order_staggered.png",
   "Game State Difficulty": 1,
   "Rules Difficulty": 1,
   "Strategy Difficulty": 0,
   "tier": 2,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/kingdomino/turn_order_staggered.json"
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/kingdomino/turn_order_staggered.json"
 }

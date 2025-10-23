@@ -27,14 +27,14 @@
   "Answer_str": "1. Purchase --- Spend 2 florins to buy Reformed Theology card; 2. Play --- play Reformed Theology card, launch Reformation one-shot, move the Portugal kingdom card to blue player's Tableau, a consession brought by regime change is placed on Portugal's border; 3. Declare Globalization Victory.",
   "Rationale": "Blue players have 3 florins now so can afford buying Reformed Theology card with 2 florins from the market. By playing the card and launching Reformation one-shot, the blue player will win Portugal because the attackers are one red bishop on the card plus a red pirate on the border, and the defender is only one knight in Portugal. This results in a regime change and the blue player can play on concession on the border of Portugal and move the kingdom card of Portugal to its tableau which contains a Discovery prestige on it. Now, the blue player has 3 concessions on the map, which are 2 more than the 1 concession that purple player has. Additionally, the blue player has one more Discovery prestige than the opponent purple player. Therefore, the Globalization Victory winning condition is satisfied.",
   "game_state_url": [
-    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/208_1.png",
-    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/208_2.png",
-    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/208_3.png",
-    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/208_4.png"
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/208_1.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/208_2.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/208_3.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/208_4.png"
   ],
   "Game State Difficulty": 3,
   "Rules Difficulty": 3,
   "Strategy Difficulty": 3,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/pax_ren/208_combined.json"
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/208_combined.json"
 }

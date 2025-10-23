@@ -18,14 +18,14 @@
   "Answer_str": "1. Declare Imperial Victory as its conditions are already satisfied.",
   "Rationale": "Possibility 1: The player can declare Imperial Victory in first action and win since they have 2 kingdoms while opponent has no kingdoms. No other possibility to win any other victory condition in three actions.",
   "game_state_url": [
-    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/213_1.png",
-    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/213_2.png",
-    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/213_3.png",
-    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/213_4.png"
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/213_1.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/213_2.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/213_3.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/213_4.png"
   ],
   "Game State Difficulty": 3,
   "Rules Difficulty": 3,
   "Strategy Difficulty": 4,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/pax_ren/213_combined.json"
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/213_combined.json"
 }

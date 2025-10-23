@@ -6,10 +6,10 @@
   "Question": "How many meeples are pictured?",
   "Answer": "4",
   "Rationale": "Two green and two pink meeples are present on the dominoes",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/kingdomino/meeples_on_dominoes.png",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/kingdomino/meeples_on_dominoes.png",
   "Game State Difficulty": 2,
   "Rules Difficulty": 0,
   "Strategy Difficulty": 0,
   "tier": 1,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/kingdomino/meeples_on_dominoes.json"
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/kingdomino/meeples_on_dominoes.json"
 }

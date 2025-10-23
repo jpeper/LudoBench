@@ -6,10 +6,10 @@
   "Question": "What next domino should the pink player select to maximize the score of their kingdom? Assume the game ends after placement of the pictured dominos. Output the following: Domino letter, 'Previous kingdom score', eventual 'New kingdom score' after placement of all of the shown/selected draftable dominos. If necessary, you may take/simulate other players' actions for them. You should assume that the other players will act cooperatively and will take actions to best-support maximizing your score.",
   "Answer": "Domino: H, Previous kingdom score: 11, New kingdom score: 24",
   "Rationale": "Previous domino (C) contains both crowned forest and lakes synergies. This will go on the right side. We can further add tile H to act as another multiplier. This works out to 1x1 + 1x1 + 3x4 + 2x5",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/kingdomino/t3_2_step_connectivity1.png",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/kingdomino/t3_2_step_connectivity1.png",
   "Game State Difficulty": 1,
   "Rules Difficulty": 2,
   "Strategy Difficulty": 2,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/kingdomino/t3_2_step_connectivity1.json"
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/kingdomino/t3_2_step_connectivity1.json"
 }

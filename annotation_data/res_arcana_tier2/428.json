@@ -7,11 +7,11 @@
   "Question": "Using the essences and components shown in their play area, can the player afford to claim the Dwarven Mines on their next action?",
   "Answer": "No",
   "Rationale": "No, the player is short in Elan",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/res_arcana/t2_full_2.png",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t2_full_2.png",
   "game_state_description": "",
   "Game State Difficulty": 3,
   "Rules Difficulty": 2,
   "Strategy Difficulty": 0,
   "tier": 2,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/res_arcana/t2_full_2.json"
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t2_full_2.json"
 }

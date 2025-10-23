@@ -7,11 +7,11 @@
   "Answer": "Rook",
   "Rationale": "",
   "game_state_url": [
-    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/219_2.png"
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/219_2.png"
   ],
   "Game State Difficulty": 3,
   "Rules Difficulty": 3,
   "Strategy Difficulty": 0,
   "tier": 2,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/pax_ren/219_2.json"
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/219_2.json"
 }

@@ -6,10 +6,10 @@
   "Question": "How many dragons are present in this scenario?",
   "Answer": "1",
   "Rationale": "There appears to be a dragon shadow on the top-most domino in the round 1 tiles",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/kingdomino/basic_full_env.png",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/kingdomino/basic_full_env.png",
   "Game State Difficulty": 2,
   "Rules Difficulty": 0,
   "Strategy Difficulty": 0,
   "tier": 1,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/kingdomino/basic_full_env.json"
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/kingdomino/basic_full_env.json"
 }

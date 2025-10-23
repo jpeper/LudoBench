@@ -6,10 +6,10 @@
   "Question": "Which is the second-best domino the player could add to their kingdom to maximize its score? Output the following: Domino letter, Previous kingdom score, new kingdom score.",
   "Answer": "Domino: C, Previous kingdom score: 4, New kingdom score: 6",
   "Rationale": "Domino C could be placed in multiple positions that could, at best, obtain 2 additional points. Going from 0x1 to 1x2 for a wheat field region.",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/kingdomino/t3_single_scoring_6.png",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/kingdomino/t3_single_scoring_6.png",
   "Game State Difficulty": 1,
   "Rules Difficulty": 2,
   "Strategy Difficulty": 2,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/kingdomino/t3_single_scoring_6.json"
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/kingdomino/t3_single_scoring_6.json"
 }
