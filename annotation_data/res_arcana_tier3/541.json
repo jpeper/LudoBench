@@ -7,9 +7,11 @@
   "Question": "Assume all other players have already passed. Given this game state, what is the maximum guaranteed net number of VP the player can gain by the end of the round? Output the answer as: Previous amount: <num>, New amount: <num>",
   "Answer": "Previous Amount: 3, New Amount: 5",
   "Rationale": "Considering that the goal is to maximize the number of VP by the end of the round, The ways to do them are to buy the monuments, or buy placing Places of power, or place essences on sacrificial pil. In the given image, there are a total of 3 victory points. In the given situation, it is possible that we can gain the two monuments present (considering that the next monument also is going to have same points as those present) by using the second action of sacrificial pil (need a death essence) for getting the placement cost of dragon to gold. We could also gain more VP by placing death essences on the pil (for which we need 3 life essences). To perform these we require a total of 3 life and one death essences. The following actions can be taken to get to that: 1: Discard magical shard from hand, obtain 1 death and 1 life essences. 2: Discard Elemental Spring from hand, gain 2 life essences. 3: Perform second action on sacrificial pil by turning the card, giving a death essence and destroying Dragon, gaining 7 gold essences (because of destroying the dragon the card gets placed into discard pile and not counted so PV: 3-1 = 2). 4: With the present 8 gold essences (1 initially present and 7 from previous step) purchase library for 4 gold (adds 1 pv). 5: from the remaining gold essences, purchase the Solomons mine (adds 1 pv). 6: use the action on the Reanimate magic card, turn the card, give away calm essence to straighten the Sacrificial pil component. 7: perform action 1 on the sacrificial pil component by giving away 3 life essences gathered and gain a death essence on the card (this adds 1 pv). So the final number of pv: 3-1+1+1+1 =  5.",
-  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t3_tapping_1.png",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/res_arcana/t3_tapping_1.png",
   "game_state_description": "",
   "Game State Difficulty": 2,
   "Rules Difficulty": 2,
-  "Strategy Difficulty": 3
+  "Strategy Difficulty": 3,
+  "tier": 3,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/res_arcana/t3_tapping_1.json"
 }

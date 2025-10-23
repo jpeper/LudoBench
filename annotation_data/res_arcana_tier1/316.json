@@ -7,9 +7,11 @@
   "Question": "How many cards mention rivals?",
   "Answer": "1",
   "Rationale": "Fire dragon mentions rivals as part of the card ability text",
-  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t1_tapped_card.png",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/res_arcana/t1_tapped_card.png",
   "game_state_description": "",
   "Game State Difficulty": 1,
   "Rules Difficulty": 0,
-  "Strategy Difficulty": 0
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/res_arcana/t1_tapped_card.json"
 }

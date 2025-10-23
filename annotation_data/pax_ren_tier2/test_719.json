@@ -1,0 +1,17 @@
+{
+  "ID": "719",
+  "Game": "pax_ren",
+  "Test Description": "Testing prestige name",
+  "Difficulty Notes": "",
+  "Question": "What is the name of the Prestige on the Consent of the Governed card?",
+  "Answer": "Law",
+  "Rationale": "",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/211_2.png"
+  ],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/pax_ren/211_2.json"
+}

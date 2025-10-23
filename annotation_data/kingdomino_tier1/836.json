@@ -1,0 +1,15 @@
+{
+  "ID": 836,
+  "Game": "Kingdomino",
+  "Test Description": "Testing basic game understanding. Counting the number of dominoes in the player's kingdom.",
+  "Difficulty Notes": "Very easy counting",
+  "Rationale": "Although there are some gaps, the minimum rectangle that can enclose all tiles is 5x3.",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/kingdomino/t4_4.png",
+  "Question": "How many crowns are pictured?",
+  "Answer": "6",
+  "tier": 1,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/kingdomino/t4_4.json"
+}

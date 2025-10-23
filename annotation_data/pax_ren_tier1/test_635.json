@@ -1,0 +1,17 @@
+{
+  "ID": "635",
+  "Game": "pax_ren",
+  "Test Description": "Testing spatial relationship",
+  "Difficulty Notes": "Identify the adjacent country",
+  "Question": "Which country borders Ottoman to the northeast according to the map?",
+  "Answer": "Byzantium",
+  "Rationale": "",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/215_1.png"
+  ],
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/pax_ren/215_1.json"
+}

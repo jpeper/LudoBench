@@ -1,0 +1,17 @@
+{
+  "ID": "621",
+  "Game": "pax_ren",
+  "Test Description": "Testing counting of objects",
+  "Difficulty Notes": "very basic object counting + localization",
+  "Question": "How many tokens are there in the Kingdom of Ottoman?",
+  "Answer": "3",
+  "Rationale": "",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/211_1.png"
+  ],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/pax_ren/211_1.json"
+}

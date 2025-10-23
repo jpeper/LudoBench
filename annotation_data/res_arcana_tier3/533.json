@@ -7,9 +7,11 @@
   "Question": "Assume all other players have already passed. Given this game state, what is the maximum net number of gold essences that can be gained by the end of the round by this player? Output the answer as: Previous amount: <num>, New amount: <num>",
   "Answer": "Previous amount: 1, New amount: 8",
   "Rationale": "1st action would be to discard Prism for 2 black essences then use that to use Sacrifical Pits essence in the 2nd action and covert fire dragons cost which is 7 into 7 golds then assuming evryone else passes again Player could use reanimate to activate Sacrificial Pit again once more then gain 7 more golds by using the other black essence from discarding Prism",
-  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t3_tapping_1.png",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/res_arcana/t3_tapping_1.png",
   "game_state_description": "",
   "Game State Difficulty": 2,
   "Rules Difficulty": 2,
-  "Strategy Difficulty": 2
+  "Strategy Difficulty": 2,
+  "tier": 3,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/res_arcana/t3_tapping_1.json"
 }
