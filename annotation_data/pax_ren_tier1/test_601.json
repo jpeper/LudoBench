@@ -1,0 +1,17 @@
+{
+  "ID": "601",
+  "Game": "pax_ren",
+  "Test Description": "Testing basic counting",
+  "Difficulty Notes": "Identify the color and shape of trading routes",
+  "Question": "How many colors are there for the trading routes in the map?",
+  "Answer": "2",
+  "Rationale": "The curves on the map are trading routes. There are two colors for trading routes, one white and one black",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/201_1.jpg"
+  ],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/pax_ren/201_1.json"
+}

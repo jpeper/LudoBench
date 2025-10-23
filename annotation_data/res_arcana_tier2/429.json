@@ -7,9 +7,11 @@
   "Question": "Using the essences and components shown in their play area, can the player afford to claim the Dwarven Mines on their next action?",
   "Answer": "Yes",
   "Rationale": "Yes, the player has sufficient elan, life, and gold",
-  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t2_full_3.png",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/res_arcana/t2_full_3.png",
   "game_state_description": "",
   "Game State Difficulty": 3,
   "Rules Difficulty": 2,
-  "Strategy Difficulty": 0
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/res_arcana/t2_full_3.json"
 }

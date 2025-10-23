@@ -1,0 +1,17 @@
+{
+  "ID": "711",
+  "Game": "pax_ren",
+  "Test Description": "Testing florins counting",
+  "Difficulty Notes": "",
+  "Question": "How many florins does the blue player have?",
+  "Answer": "3",
+  "Rationale": "",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/images/pax_ren/207_4.png"
+  ],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/gamestate_upload/gamestates/json/pax_ren/207_3.json"
+}
