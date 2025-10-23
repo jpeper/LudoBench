@@ -7,9 +7,11 @@
   "Question": "Assume all other players have already passed. Given this game state, what is the maximum guaranteed net number of VP the player can gain with one more action? Output the answer as: Previous amount: <num>, New amount: <num>",
   "Answer": "Previous amount: 3, New amount: 3",
   "Rationale": "The player cannot gain any VP in just one action. The only ways to gain are by adding death essence to sacrificial pit, or by purchasing a monument. Player doesn't have enough essences to do this.",
-  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t3_tapping_1.png",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t3_tapping_1.png",
   "game_state_description": "",
   "Game State Difficulty": 2,
   "Rules Difficulty": 2,
-  "Strategy Difficulty": 2
+  "Strategy Difficulty": 2,
+  "tier": 3,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t3_tapping_1.json"
 }

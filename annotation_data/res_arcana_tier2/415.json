@@ -7,9 +7,11 @@
   "Question": "How many activatible powers are currently available to the player?",
   "Answer": "Two",
   "Rationale": "The player can activate either the fire dragon, or, the top-most sacred grove by spending one calm essence from their personal supply.",
-  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t2_passive2.png",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t2_passive2.png",
   "game_state_description": "",
   "Game State Difficulty": 1,
   "Rules Difficulty": 1,
-  "Strategy Difficulty": 0
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t2_passive2.json"
 }

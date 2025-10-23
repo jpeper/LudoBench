@@ -7,9 +7,11 @@
   "Question": "How many red resources are indicated on physical printed cards,  and how many red resources are physically present within the supplied game state? Format the answer as 'indicated red resources: <num>, 'physical red resources': <num>''",
   "Answer": "indicated red resources: 6, physical red resources: 1",
   "Rationale": "The fire dragon indicated 6 red resources. Pictured off of the cards is one red resource.",
-  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t1_resources_varied.png",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t1_resources_varied.png",
   "game_state_description": "",
   "Game State Difficulty": 2,
   "Rules Difficulty": 0,
-  "Strategy Difficulty": 0
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t1_resources_varied.json"
 }

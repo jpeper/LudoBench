@@ -1,0 +1,19 @@
+{
+  "ID": "720",
+  "Game": "pax_ren",
+  "Test Description": "Testing Cornation one-shot",
+  "Difficulty Notes": "",
+  "Question": "If the blue player purchases Sophia Palaiologina card from market, plays it and launches Cornation one-shot, the king card of which country will be moved to the blue player's Tableau?",
+  "Answer": "Hungary",
+  "Rationale": "",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/215_1.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/215_2.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/215_4.png"
+  ],
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 3,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/215_combined.json"
+}

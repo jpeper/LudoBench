@@ -7,9 +7,11 @@
   "Question": "Output all of the words mentioned on the card in alphabetical order. Output them in lowercase, space-separated, and don't remove redundant words",
   "Answer": "all all castle check choose choose coral dragon dragon dragon dragon earth fire ignore ignore ignore may may now of place power react rivals rivals rivals rivals to to to victory",
   "Rationale": "",
-  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t1_multi_card_pp.png",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t1_multi_card_pp.png",
   "game_state_description": "",
   "Game State Difficulty": 1,
   "Rules Difficulty": 0,
-  "Strategy Difficulty": 0
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t1_multi_card_pp.json"
 }

@@ -7,9 +7,11 @@
   "Question": "Assume all other players have already passed. Given this game state, what is the maximum guaranteed net number of VP the player can gain in one action? Output the answer as: Previous amount: <num>, New amount: <num>",
   "Answer": "Previous amount: 1, New amount: 1",
   "Rationale": "Some simple paths to getting VP are through using the PoP on-component essences for scoring. Mermaid could do this, but player doesn't have the appropriate resources yet.",
-  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t3_mermaid_synergy2.png",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t3_mermaid_synergy2.png",
   "game_state_description": "",
   "Game State Difficulty": 2,
   "Rules Difficulty": 2,
-  "Strategy Difficulty": 2
+  "Strategy Difficulty": 2,
+  "tier": 3,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t3_mermaid_synergy2.json"
 }

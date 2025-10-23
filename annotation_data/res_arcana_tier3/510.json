@@ -7,9 +7,11 @@
   "Question": "What is the maximum guaranteed number of victory points the player could have after 3 more actions. Assume all other players have passed. Output the answer as: Previous amount: <num>, New amount: <num>",
   "Answer": "Previous amount: 5, New amount: 10",
   "Rationale": "In the first action, any one of the face-up monument cards can be purchased with 4 gold which can increase the victory points by 2. For the next two actions, the Coral Castle card can be bought which can increase victory points by 3. This can be done by: 1. Using the top power of the Sacred Grove card to gain 5 life for the cost of 1 water, this leaves the player with 6 life+4 water+4elan. 2. Any one of the cards at hand can be discarded for 1 water and 1 elan to buy the Coral Castle card.  This makes the total victory points at the end to be 5+2+3.",
-  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t3_full_2_manyessence.png",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t3_full_2_manyessence.png",
   "game_state_description": "",
   "Game State Difficulty": 3,
   "Rules Difficulty": 2,
-  "Strategy Difficulty": 3
+  "Strategy Difficulty": 3,
+  "tier": 3,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t3_full_2_manyessence.json"
 }

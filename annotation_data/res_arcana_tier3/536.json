@@ -7,9 +7,11 @@
   "Question": "Assume all other players have already passed. Given this game state, what is the maximum net number of elan essences that can be gained to their player pool by the end of the round? Output the answer as: Previous amount: <num>, New amount: <num>",
   "Answer": "Previous amount: 5, New amount: 16",
   "Rationale": "Action 1: Discard a card to obtain one elan (+1) and one death. Action 2: Activate reanimate to unturn the prism card (using a non-elan essence to pay). Action 3: Use the second power on Sacrificial Pit to destroy Earth Dragon, netting 7 gold. Action 4: Activate the second prism power to turn the 8 gold (1 existing + 7 from earth dragon) into 8 elan (+8). Action 5: Discard second card to gain another 2 (+2). Therefore, we net 11 extra essences. ",
-  "game_state_url": "https://raw.githubusercontent.com/jpeper/RulesBench/main/game_states/res_arcana/t3_tapping_1.png",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t3_tapping_1.png",
   "game_state_description": "",
   "Game State Difficulty": 2,
   "Rules Difficulty": 2,
-  "Strategy Difficulty": 2
+  "Strategy Difficulty": 2,
+  "tier": 3,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t3_tapping_1.json"
 }
