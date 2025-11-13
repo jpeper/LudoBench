@@ -1,0 +1,20 @@
+{
+  "ID": "734",
+  "Game": "pax_ren",
+  "Test Description": "Testing winning condition",
+  "Difficulty Notes": "",
+  "Question": "Given the provided game state, what victory can the blue player declare after performing the following 2 actions? 1. Purchase --- Spend 2 florins to buy Cornish Tin card from the market; 2. Play Cornish Tin card. Your answer should be one of the following: \"Imperial Victory\", \"Globalization Victory\", \"Renaissance Victory\", or \"Holy Victory\".",
+  "Answer": "Renaissance Victory",
+  "Rationale": "",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/218_1.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/218_2.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/218_3.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/218_4.png"
+  ],
+  "Game State Difficulty": 4,
+  "Rules Difficulty": 4,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/218_combined.json"
+}

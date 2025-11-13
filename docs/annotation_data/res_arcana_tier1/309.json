@@ -1,0 +1,17 @@
+{
+  "ID": 309,
+  "Game": "Res Arcana",
+  "Tier": 1,
+  "Test Description": "Tests card readability, with orientation.",
+  "Difficulty Notes": "Very basic card reading.",
+  "Question": "How many cards are oriented sideways?",
+  "Answer": "Zero",
+  "Rationale": "All are oriented vertically",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t1_multi_card_pp.png",
+  "game_state_description": "",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t1_multi_card_pp.json"
+}

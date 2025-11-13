@@ -1,29 +1,37 @@
-import json
-from pathlib import Path
+#!/usr/bin/env python3
+import os, json
 
-ROOT = Path("annotation_data_blanked")
-ROOT.mkdir(parents=True, exist_ok=True)
+ROOT = "annotation_data"
+OUT = "manifest.json"
 
-items = []
+entries = []
 
-for j in sorted(ROOT.glob("*.json")):
-    if j.name == "manifest.json":
+for folder in sorted(os.listdir(ROOT)):
+    full_folder = os.path.join(ROOT, folder)
+    if not os.path.isdir(full_folder):
         continue
 
-    data = json.loads(j.read_text())
-    game = data.get("Game", "Unknown")
-    tier = data.get("tier")
-    folder = f"{game.lower()}_tier{tier}" if tier is not None else game.lower()
+    # infer game name from folder
+    #   res_arcana_tier1 → Res Arcana
+    #   pax_ren_tier2 → Pax Ren
+    game = folder.split("_tier")[0].replace("_", " ").title()
 
-    items.append({
-        "name": j.name,
-        "json_path": f"annotation_data_blanked/{j.name}",
-        "game": game,
-        "tier": tier,
-        "folder": folder,
-    })
+    for fname in sorted(os.listdir(full_folder)):
+        if not fname.endswith(".json"):
+            continue
 
-manifest = {"files": items}
-out = ROOT / "manifest.json"
-out.write_text(json.dumps(manifest, indent=2))
-print(f"✅ wrote {out} with {len(items)} entries")
+        json_path = f"annotation_data/{folder}/{fname}"
+
+        entries.append({
+            "name": fname,
+            "folder": folder,
+            "game": game,
+            "json_path": json_path
+        })
+
+manifest = {"files": entries}
+
+with open(OUT, "w") as f:
+    json.dump(manifest, f, indent=2)
+
+print(f"Created {OUT} with {len(entries)} JSON entries.")

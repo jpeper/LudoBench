@@ -1,137 +1,84 @@
-// docs/viewer.js
-
-// --- Helper: convert GitHub "blob" URLs to raw image URLs ---
-// --- Helper: convert GitHub "blob" URLs to raw image URLs ---
-function fixImageUrl(url) {
-  if (!url) return null;
-
-  // Already a raw link
-  if (url.includes("raw.githubusercontent.com")) {
-    return url;
-  }
-
-  // Match: https://github.com/<user>/<repo>/blob/<branch>/<path>
-  const m = url.match(
-    /^https:\/\/github\.com\/([^/]+)\/([^/]+)\/blob\/([^/]+)\/(.+)$/
-  );
-  if (m) {
-    const [, user, repo, branch, path] = m;
-    return `https://raw.githubusercontent.com/${user}/${repo}/${branch}/${path}`;
-  }
-
-  // Any other github.com URL → just add ?raw=1 as a fallback
-  if (url.startsWith("https://github.com/") && !url.includes("?raw=1")) {
-    return url + "?raw=1";
-  }
-
-  // Local or other URLs
-  return url;
-}
-
-
-// --- Load manifest ---
+// -----------------------
+// Manifest loader
+// -----------------------
 async function loadManifest() {
-  const url = "annotation_data_blanked/manifest.json";
-  console.log("Fetching manifest from:", url);
-
+  const url = "manifest.json";
+  console.log("Loading manifest:", url);
+  
   const res = await fetch(url);
-  console.log("Manifest response status:", res.status, res.statusText);
-  if (!res.ok) {
-    throw new Error("HTTP " + res.status + " when fetching " + url);
-  }
+  if (!res.ok) throw new Error("Failed to load manifest: " + res.status);
 
-  let manifest;
-  try {
-    manifest = await res.json();
-  } catch (e) {
-    console.error("Failed to parse manifest JSON:", e);
-    throw e;
-  }
-
-  console.log("Raw manifest JSON:", manifest);
-
-  if (manifest && Array.isArray(manifest.files)) {
-    return manifest.files;
-  }
-  if (Array.isArray(manifest)) {
-    return manifest;
-  }
-
-  throw new Error("Manifest has wrong shape (expected {files:[...]} or [...])");
+  const manifest = await res.json();
+  return manifest.files;
 }
 
+// -----------------------
+// Folder handling
+// -----------------------
 function buildFolderIndex(files) {
-  const folders = new Set(["all"]);
-  for (const f of files) {
-    // We TRUST the folder field already in manifest.json
-    if (f.folder) folders.add(f.folder);
-  }
-  return Array.from(folders);
+  const set = new Set();
+  for (const f of files) set.add(f.folder);
+  return Array.from(set).sort();
 }
 
 function populateFolderSelect(folders) {
   const sel = document.getElementById("folderSelect");
   sel.innerHTML = "";
-  folders.forEach((f) => {
+  for (const f of folders) {
     const opt = document.createElement("option");
-    opt.value = f;
     opt.textContent = f;
+    opt.value = f;
     sel.appendChild(opt);
-  });
+  }
 }
 
-function filterFilesByFolder(files, folder) {
-  if (folder === "all") return files;
-  return files.filter((f) => f.folder === folder);
+function filterFiles(files, folder) {
+  return files.filter(f => f.folder === folder);
 }
 
 function populateFileSelect(files) {
   const sel = document.getElementById("fileSelect");
   sel.innerHTML = "";
-  files.forEach((f) => {
+  for (const f of files) {
     const opt = document.createElement("option");
     opt.value = f.json_path;
     opt.textContent = f.name;
     sel.appendChild(opt);
-  });
+  }
 }
 
+// -----------------------
+// Load one JSON annotation
+// -----------------------
 async function loadJson(path) {
-  console.log("Fetching JSON:", path);
+  console.log("Loading JSON:", path);
   const res = await fetch(path);
-  if (!res.ok) {
-    throw new Error("HTTP " + res.status + " when fetching " + path);
-  }
+  if (!res.ok) throw new Error("Error loading " + path);
   return await res.json();
 }
 
-// --- Answer helpers ---
-function normalizedAnswers(rawAnswer) {
-  const tokens = String(rawAnswer || "")
-    .split(/,|\/|\bor\b/i)
-    .map((s) => s.trim())
-    .filter(Boolean);
-  const out = new Set();
-  for (const t of tokens) out.add(t.toLowerCase());
-  return out;
+// -----------------------
+// Rendering question + answer
+// -----------------------
+function normalizedAnswers(raw) {
+  return new Set(
+    String(raw || "")
+      .split(/,|\/|\bor\b/i)
+      .map(s => s.trim().toLowerCase())
+      .filter(Boolean)
+  );
 }
 
 function isNumber(s) {
-  if (s === "" || s == null) return false;
-  return !Number.isNaN(Number(s));
+  return s !== "" && !Number.isNaN(Number(s));
 }
 
-// --- Rendering ---
 function renderQuestion(data) {
-  const game = data.Game ?? "?";
-  const qid = data.ID ?? "?";
-  const question = data.Question ?? "No question provided.";
-
   const card = document.getElementById("questionCard");
   card.innerHTML = `
-    <h2>${game} <span class="id-tag">(ID ${qid})</span></h2>
+    <h2>${data.Game} <span class="id-tag">(ID ${data.ID})</span></h2>
     <p class="question-label">❓ Question:</p>
-    <p class="question-text">${question}</p>
+    <p class="question-text">${data.Question}</p>
   `;
 
   const info = document.getElementById("answerInfo");
@@ -140,146 +87,121 @@ function renderQuestion(data) {
 }
 
 function attachAnswerLogic(data) {
-  const rawAnswer = String(data.Answer ?? "").trim();
-  const accepted = normalizedAnswers(rawAnswer);
+  const raw = String(data.Answer || "").trim();
+  const accepted = normalizedAnswers(raw);
 
   const input = document.getElementById("answerInput");
   const button = document.getElementById("checkButton");
   const info = document.getElementById("answerInfo");
-  const sol = document.getElementById("solutionText");
 
+  const sol = document.getElementById("solutionText");
   sol.innerHTML = `
-    <strong>Expected:</strong> ${rawAnswer || "—"}<br>
-    <strong>Rationale:</strong> ${data.Rationale ?? "—"}
-  `;
+      <strong>Expected:</strong> ${raw || "—"}<br>
+      <strong>Rationale:</strong> ${data.Rationale || "—"}
+    `;
 
   button.onclick = () => {
-    const user = input.value.trim();
-    const norm = user.toLowerCase();
+    const user = input.value.trim().toLowerCase();
+    let ok = false;
 
-    let correct = false;
-    if (accepted.has(norm)) {
-      correct = true;
-    } else if (isNumber(norm)) {
-      for (const a of accepted) {
-        if (isNumber(a) && Math.abs(Number(a) - Number(norm)) < 1e-9) {
-          correct = true;
-          break;
-        }
-      }
+    if (accepted.has(user)) ok = true;
+    else if (isNumber(user)) {
+      for (const a of accepted)
+        if (isNumber(a) && Math.abs(Number(a) - Number(user)) < 1e-9)
+          ok = true;
     }
 
-    if (correct) {
-      info.textContent = "✅ Correct!";
-      info.className = "answer-info correct";
-    } else {
-      info.textContent = "❌ Not quite. Try again.";
-      info.className = "answer-info wrong";
-    }
+    info.textContent = ok ? "✅ Correct!" : "❌ Not quite. Try again.";
+    info.className = "answer-info " + (ok ? "correct" : "wrong");
   };
 }
 
-
+// -----------------------
+// Render image (LOCAL)
+// -----------------------
 function renderImage(data) {
   const imgContainer = document.getElementById("imageContainer");
-  const imgEl = document.getElementById("gameImage");
-  const captionEl = document.getElementById("imageCaption");
-  const linkEl = document.getElementById("imageLink");
+  const img = document.getElementById("gameImage");
+  const caption = document.getElementById("imageCaption");
+  const link = document.getElementById("imageLink");
 
   let url = data.game_state_url;
   if (!url) {
     imgContainer.classList.add("hidden");
     return;
   }
+  if (Array.isArray(url)) url = url[0];
 
-  // If JSON has a list of URLs, take the first one
-  if (Array.isArray(url)) {
-    url = url[0];
-  }
-
-  // Extract JUST the file name (e.g., "t4_1.png")
   const fileName = url.split("/").pop();
 
-  /**
-   * Determine folder based on Game field.
-   * e.g. "Res Arcana" -> "res_arcana"
-   * e.g. "pax_ren" stays "pax_ren"
-   */
-  let folder = data.Game.toLowerCase().replace(/\s+/g, "_");
+  const folder = data.Game.toLowerCase().replace(/\s+/g, "_");
 
-  // Build local path under docs/images/
   const localPath = `images/${folder}/${fileName}`;
 
-  console.log("Loading LOCAL image:", localPath);
+  console.log("Image:", localPath);
 
   imgContainer.classList.remove("hidden");
-  imgEl.src = localPath;
-  captionEl.textContent = fileName;
-  linkEl.href = localPath;
+  img.src = localPath;
+  caption.textContent = fileName;
+  link.href = localPath;
 
-  imgEl.onerror = () => {
-    captionEl.textContent = "Image failed to load: " + localPath;
-    console.error("IMAGE LOAD FAILED:", localPath);
+  img.onerror = () => {
+    caption.textContent = "Image failed to load: " + localPath;
   };
 }
 
-function renderImage(data) {
-  const imgContainer = document.getElementById("imageContainer");
-  const imgEl = document.getElementById("gameImage");
-  const captionEl = document.getElementById("imageCaption");
-  const linkEl = document.getElementById("imageLink");
+// prev and next scroller 
+// ---------------------------------------------------------
+// FIXED: Previous / Next navigation (fully working)
+// ---------------------------------------------------------
+let GLOBAL_FILES = [];
+let GLOBAL_CURRENT_FOLDER = "";
+let loadAndRenderRef = null;
 
-  let url = data.game_state_url;
-  if (!url) {
-    imgContainer.classList.add("hidden");
-    return;
-  }
+function goRelative(offset) {
+  const fileSelect = document.getElementById("fileSelect");
 
-  // If JSON has a list of URLs, take the first one
-  if (Array.isArray(url)) {
-    url = url[0];
-  }
+  const options = Array.from(fileSelect.options);
+  if (options.length === 0) return;
 
-  // Extract JUST the file name (e.g., "t4_1.png")
-  const fileName = url.split("/").pop();
+  const values = options.map(o => o.value);
+  const current = fileSelect.value;
+  let idx = values.indexOf(current);
 
-  /**
-   * Determine folder based on Game field.
-   * e.g. "Res Arcana" -> "res_arcana"
-   * e.g. "pax_ren" stays "pax_ren"
-   */
-  let folder = data.Game.toLowerCase().replace(/\s+/g, "_");
+  if (idx === -1) return;
 
-  // Build local path under docs/images/
-  const localPath = `images/${folder}/${fileName}`;
+  let next = idx + offset;
+  if (next < 0) next = values.length - 1;
+  if (next >= values.length) next = 0;
 
-  console.log("Loading LOCAL image:", localPath);
+  const nextPath = values[next];
+  fileSelect.value = nextPath;
 
-  imgContainer.classList.remove("hidden");
-  imgEl.src = localPath;
-  captionEl.textContent = fileName;
-  linkEl.href = localPath;
-
-  imgEl.onerror = () => {
-    captionEl.textContent = "Image failed to load: " + localPath;
-    console.error("IMAGE LOAD FAILED:", localPath);
-  };
+  if (loadAndRenderRef) loadAndRenderRef(nextPath);
 }
 
+document.getElementById("prevBtn").onclick = () => goRelative(-1);
+document.getElementById("nextBtn").onclick = () => goRelative(1);
 
 
-// --- Main init ---
+// -----------------------
+// Initialize viewer
+// -----------------------
+// -----------------------
+// Initialize viewer
+// -----------------------
 (async function init() {
   const questionCard = document.getElementById("questionCard");
 
   try {
-    const files = await loadManifest();  // <--- if this throws we show message below
+    const files = await loadManifest();
+    GLOBAL_FILES = files;                     // <-- make files visible to arrows
 
     const folders = buildFolderIndex(files);
     populateFolderSelect(folders);
 
-    const folderSelect = document.getElementById("folderSelect");
-    const fileSelect = document.getElementById("fileSelect");
+    const folderSel = document.getElementById("folderSelect");
+    const fileSel = document.getElementById("fileSelect");
 
     async function loadAndRender(path) {
       const data = await loadJson(path);
@@ -288,23 +210,27 @@ function renderImage(data) {
       renderImage(data);
     }
 
-    function refreshFileList() {
-      const folder = folderSelect.value;
-      const visible = filterFilesByFolder(files, folder);
-      populateFileSelect(visible);
-      if (visible.length > 0) {
-        loadAndRender(visible[0].json_path);
-      }
+    // Expose loadAndRender to arrows
+    loadAndRenderRef = loadAndRender;         // <-- required for prev/next
+
+    function refresh() {
+      GLOBAL_CURRENT_FOLDER = folderSel.value; // <-- track folder for arrows
+      const filtered = filterFiles(files, GLOBAL_CURRENT_FOLDER);
+      populateFileSelect(filtered);
+
+      if (filtered.length > 0)
+        loadAndRender(filtered[0].json_path);
     }
 
-    folderSelect.onchange = refreshFileList;
-    fileSelect.onchange = () => loadAndRender(fileSelect.value);
+    folderSel.onchange = refresh;
+    fileSel.onchange = () => loadAndRender(fileSel.value);
 
-    // Initial population
-    refreshFileList();
+    // initial load
+    folderSel.value = folders[0];
+    refresh();
+
   } catch (err) {
-    console.error("Init error:", err);
-    questionCard.innerHTML =
-      `<p style="color:#f55;">Failed to load manifest or examples: ${err}</p>`;
+    console.error(err);
+    questionCard.innerHTML = `<p style="color:#f55;">Init error: ${err}</p>`;
   }
 })();

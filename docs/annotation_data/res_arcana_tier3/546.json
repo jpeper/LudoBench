@@ -1,0 +1,17 @@
+{
+  "ID": 546,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Testing optimization questions",
+  "Difficulty Notes": "Testing the edge-cases of the mermaid card. In this setting note that the mermaid cannot place onto the sacrificial pit in a meaningful way.",
+  "Question": "Assume all other players have already passed. Given this game state, what is the maximum guaranteed net number of VP the player can gain in two actions? Output the answer as: Previous amount: <num>, New amount: <num>",
+  "Answer": "Previous amount: 1, New amount: 2",
+  "Rationale": "Action 1: discard a card to gain a calm (and one other) essence. Action 2: activate mermaid, placing a calm essence on sunken reef.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t3_mermaid_synergy2.png",
+  "game_state_description": "",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2,
+  "tier": 3,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t3_mermaid_synergy2.json"
+}

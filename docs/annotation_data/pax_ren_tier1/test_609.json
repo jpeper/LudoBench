@@ -1,0 +1,17 @@
+{
+  "ID": "609",
+  "Game": "pax_ren",
+  "Test Description": "Testing the ability to locate keywords in the picture (OCR)",
+  "Difficulty Notes": "asscociate the color with its meaning",
+  "Question": "Does the white color represent West or East in the game?",
+  "Answer": "West",
+  "Rationale": "On the card at the bottom of the picture, \"west\" is written on a white background and \"east\" is written on a black background.",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/203_2.jpg"
+  ],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/203_2.json"
+}

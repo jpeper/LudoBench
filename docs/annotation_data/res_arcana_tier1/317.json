@@ -1,0 +1,17 @@
+{
+  "ID": 317,
+  "Game": "Res Arcana",
+  "Tier": 1,
+  "Test Description": "Tests basic physical object perception",
+  "Difficulty Notes": "Tests if physical object can be identified on top of the cards",
+  "Question": "How many cards have physical tokens/pieces placed on them?",
+  "Answer": "1",
+  "Rationale": "One, the vault card has a gold piece on it.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t1_tapped_card.png",
+  "game_state_description": "",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t1_tapped_card.json"
+}

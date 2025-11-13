@@ -1,0 +1,17 @@
+{
+  "ID": 424,
+  "Game": "Res Arcana",
+  "Tier": 2,
+  "Test Description": "Testing shared board abilities",
+  "Difficulty Notes": "Requires a larger game state comprehension and rules integration.",
+  "Question": "Which of the monuments can the player currently afford given their shown components and resources.",
+  "Answer": "Zero",
+  "Rationale": "They don't have enough money",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t2_full_1.png",
+  "game_state_description": "",
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t2_full_1.json"
+}
