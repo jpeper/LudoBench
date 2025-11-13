@@ -1,0 +1,15 @@
+{
+  "ID": 1,
+  "Game": "Kingdomino",
+  "Test Description": "Testing basic game understanding. Counting the number of dominos in the player's kingdom.",
+  "Difficulty Notes": "Very easy counting",
+  "Question": "How many dominos are pictured in the displayed player's kidgdom?",
+  "Answer": "3",
+  "Rationale": "Three total are shown. Note, there is a square tile that is not a domino.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/kingdomino/basic_kingdom.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/kingdomino/basic_kingdom.json"
+}

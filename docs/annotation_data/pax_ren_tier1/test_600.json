@@ -1,0 +1,17 @@
+{
+  "ID": "600",
+  "Game": "pax_ren",
+  "Test Description": "Testing basic counting",
+  "Difficulty Notes": "very easy counting problems",
+  "Question": "How many kingdoms are there in the map?",
+  "Answer": "10",
+  "Rationale": "2 rows of kindoms, with 5 kingdoms on each row. Each yellow card is a kingdom.",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/201_1.jpg"
+  ],
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/201_1.json"
+}

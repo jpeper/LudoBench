@@ -1,0 +1,15 @@
+{
+  "ID": 125,
+  "Game": "Kingdomino",
+  "Test Description": "Testing scoring variants",
+  "Difficulty Notes": "Testing the ability to integrate different scoring variants.",
+  "Question": "How many points does this kingdom score? Note: we are playing with the middle kingdom variant.",
+  "Answer": "41",
+  "Rationale": "1 + 6 + 8 + 2 + 14 + 10 points for having a centered kingdom = 41 points.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/kingdomino/hard_kingdom_variants.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/kingdomino/hard_kingdom_variants.json"
+}

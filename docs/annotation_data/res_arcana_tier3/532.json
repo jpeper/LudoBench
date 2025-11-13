@@ -1,0 +1,17 @@
+{
+  "ID": 532,
+  "Game": "Res Arcana",
+  "Tier": 3,
+  "Test Description": "Testing optimization questions",
+  "Difficulty Notes": "Focusing this new game state on card-tapping combinations.",
+  "Question": "Assume all other players have already passed. Given this game state, what is the maximum net number of gold essences that can be gained to their pool in two actions? Output the answer as: Previous amount: <num>, New amount: <num>",
+  "Answer": "Previous amount: 1, New amount: 8",
+  "Rationale": "Player can spend action one to discard a card for one death essence (and another that is unimportant), then they can activate sacrificial pit second power to gain seven gold",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t3_tapping_1.png",
+  "game_state_description": "",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2,
+  "tier": 3,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t3_tapping_1.json"
+}

@@ -1,0 +1,38 @@
+{
+  "ID": "812",
+  "Game": "pax_ren",
+  "Test Description": "Testing trade fair. Test concession. Remove concession.",
+  "Difficulty Notes": "Optimization problem while testing concession rules",
+  "Question": "Given the provided game state, how can the blue player to earn most florins without selling your cards on their turn? If there are multiple ways to earn the maximum amount of florins, give the solution that minimizes the florins earned by the opponents. Sort the output actions in alphabetical order.\n**Please format your response as an ordered JSON list of actions. Each action should follow the format shown below:**\n\n```json\n[\n  {\n    \"action\": \"West Tableau Ops\",\n    \"cards\": {\n      \"Tolfa Alum\": {\n        \"trigger\": \"Vote\",\n        \"florin_change\": 0\n      }\n    }\n  },\n  {\n    \"action\": \"West Trade Fair\",\n    \"cards\": {\n      \"West\": {\n        \"trigger\": null,\n        \"florin_change\": -1\n      }\n    }\n  },\n  {\n    \"action\": \"Victory\",\n    \"cards\": {\n      \"Renaissance Victory\": {\n        \"trigger\": null,\n        \"florin_change\": 0\n      }\n    }\n  }\n]\n```\n\n### Format Specifications:\n\nEach list item represents one **action** as a dictionary with the following keys:\n\n1. **\"action\"** (string):\n   Must be one of the following valid actions:\n   `[\"Purchase\", \"Play\", \"Sell\", \"West Tableau Ops\", \"East Tableau Ops\", \"West Trade Fair\", \"East Trade Fair\", \"Victory\"]`\n\n2. **\"cards\"** (dictionary):\n   A mapping from **card names** to dictionaries of arguments. If the action is \"Trade Fair\", indicate \"West\" or \"East\" as card name. If the action is \"Victory\", indicate the type of victory to be declared, including \"Imperial Victory\", \"Globalization Victory\", \"Renaissance Victory\", and \"Holy Victory\".  Each card dictionary must include:\n\n   * **\"trigger\"** (string or null):\n\n     * For **\"Play\"** actions:\n       Use `null` if no one-shot is triggered, or one of the following one-shot names:\n       `[\"Conspiracy\", \"Peasant Revolt\", \"Reformation\", \"Crusade\", \"Jihad\", \"Apostasy\", \"Coronation\"]`\n     * For **\"Tableau Ops\"** actions:\n       Use one of the following operation names:\n       `[\"Inquisitor\", \"Commerce\", \"Behead\", \"Tax\", \"Repress\", \"Vote\", \"Corsair\", \"Siege\", \"Campaign\"]`\n     * For all other actions, set `\"trigger\"` to `null`.\n\n   * **\"florin\\_change\"** (integer):\n     The net change in florins for the player being asked about. This can be a positive, negative, or zero value.",
+  "Answer": [
+    {
+      "action": "East Tableau Ops",
+      "cards": {
+        "Phocoean Alum": {
+          "trigger": "Commerce",
+          "florin_change": 1
+        }
+      }
+    },
+    {
+      "action": "West Trade Fair",
+      "cards": {
+        "West": {
+          "trigger": null,
+          "florin_change": 2
+        }
+      }
+    }
+  ],
+  "Answer_str": "West Trade Fair + East Tableau Ops. Max florins earned: 3.",
+  "Rationale": "All possible actions: West trade fair, blue +2, yellow +2; East​ trade fair, blue+1, yellow +1; Commerce, blue +1",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/204_1.jpg",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/204_2.jpg"
+  ],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 3,
+  "Strategy Difficulty": 3,
+  "tier": 3,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/204_combined.json"
+}

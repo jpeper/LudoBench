@@ -1,0 +1,28 @@
+{
+  "ID": "855",
+  "Game": "pax_ren",
+  "Test Description": "Testing winning conditions (Renaissance Victory). Test Vote Op",
+  "Difficulty Notes": "Strategy problem while testing winning conditions. Requires understanding game actions like vote op and the icons on kingdom card. It is somehow tricky because you need to remember that there is a law prestige on the back (republic) side of England kingdom card.",
+  "Question": "Given the provided game state, how can the blue player win the game in 2 actions?\n**Please format your response as an ordered JSON list of actions. Each action should follow the format shown below:**\n\n```json\n[\n  {\n    \"action\": \"West Tableau Ops\"\n  },\n  {\n    \"action\": \"West Trade Fair\"\n  },\n  {\n    \"action\": \"Victory\"\n  }\n]\n```\n\n### Format Specifications:\n\nEach list item represents one **action** as a dictionary with the following keys:\n\n1. **\"action\"** (string):\n   Must be one of the following valid actions:\n   `[\"Purchase\", \"Play\", \"Sell\", \"West Tableau Ops\", \"East Tableau Ops\", \"West Trade Fair\", \"East Trade Fair\", \"Victory\"]`",
+  "Answer": [
+    {
+      "action": "West Tableau Ops"
+    },
+    {
+      "action": "Victory"
+    }
+  ],
+  "Answer_str": "1. Western tableau ops --- launch vote ops against England, England regime change to republic; 2. Declare Renaissance Victory.",
+  "Rationale": "The blue player launches Vote Ops. Since there are only one blue pawn on the border of the target region, England, the blue player has the majority of concessions and thus win the vote. This results in a regime change and the England king card is flipped into a republic card. After this ops, blue player has two law prestige (Cornish Tin and English Parliament). Also, the blue player has more republic cards. Therefore, the Renaissance Victory winning condition is satisfied.",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/219_1.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/219_2.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/219_3.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/219_4.png"
+  ],
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 4,
+  "Strategy Difficulty": 3,
+  "tier": 3,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/219_combined.json"
+}

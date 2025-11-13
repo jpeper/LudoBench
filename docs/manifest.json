@@ -1,0 +1,2386 @@
+{
+  "files": [
+    {
+      "name": "822.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/822.json"
+    },
+    {
+      "name": "823.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/823.json"
+    },
+    {
+      "name": "824.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/824.json"
+    },
+    {
+      "name": "825.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/825.json"
+    },
+    {
+      "name": "826.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/826.json"
+    },
+    {
+      "name": "827.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/827.json"
+    },
+    {
+      "name": "828.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/828.json"
+    },
+    {
+      "name": "829.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/829.json"
+    },
+    {
+      "name": "830.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/830.json"
+    },
+    {
+      "name": "831.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/831.json"
+    },
+    {
+      "name": "832.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/832.json"
+    },
+    {
+      "name": "833.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/833.json"
+    },
+    {
+      "name": "834.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/834.json"
+    },
+    {
+      "name": "835.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/835.json"
+    },
+    {
+      "name": "836.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/836.json"
+    },
+    {
+      "name": "837.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/837.json"
+    },
+    {
+      "name": "838.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/838.json"
+    },
+    {
+      "name": "839.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/839.json"
+    },
+    {
+      "name": "840.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/840.json"
+    },
+    {
+      "name": "test_001.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/test_001.json"
+    },
+    {
+      "name": "test_002.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/test_002.json"
+    },
+    {
+      "name": "test_003.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/test_003.json"
+    },
+    {
+      "name": "test_004.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/test_004.json"
+    },
+    {
+      "name": "test_005.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/test_005.json"
+    },
+    {
+      "name": "test_006.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/test_006.json"
+    },
+    {
+      "name": "test_007.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/test_007.json"
+    },
+    {
+      "name": "test_008.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/test_008.json"
+    },
+    {
+      "name": "test_009.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/test_009.json"
+    },
+    {
+      "name": "test_010.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/test_010.json"
+    },
+    {
+      "name": "test_011.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/test_011.json"
+    },
+    {
+      "name": "test_012.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/test_012.json"
+    },
+    {
+      "name": "test_013.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/test_013.json"
+    },
+    {
+      "name": "test_014.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/test_014.json"
+    },
+    {
+      "name": "test_015.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/test_015.json"
+    },
+    {
+      "name": "test_016.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/test_016.json"
+    },
+    {
+      "name": "test_017.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/test_017.json"
+    },
+    {
+      "name": "test_018.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/test_018.json"
+    },
+    {
+      "name": "test_019.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/test_019.json"
+    },
+    {
+      "name": "test_020.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/test_020.json"
+    },
+    {
+      "name": "test_021.json",
+      "folder": "kingdomino_tier1",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier1/test_021.json"
+    },
+    {
+      "name": "831.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/831.json"
+    },
+    {
+      "name": "832.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/832.json"
+    },
+    {
+      "name": "833.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/833.json"
+    },
+    {
+      "name": "834.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/834.json"
+    },
+    {
+      "name": "835.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/835.json"
+    },
+    {
+      "name": "836.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/836.json"
+    },
+    {
+      "name": "837.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/837.json"
+    },
+    {
+      "name": "838.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/838.json"
+    },
+    {
+      "name": "839.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/839.json"
+    },
+    {
+      "name": "840.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/840.json"
+    },
+    {
+      "name": "test_101.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_101.json"
+    },
+    {
+      "name": "test_102.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_102.json"
+    },
+    {
+      "name": "test_103.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_103.json"
+    },
+    {
+      "name": "test_104.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_104.json"
+    },
+    {
+      "name": "test_105.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_105.json"
+    },
+    {
+      "name": "test_106.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_106.json"
+    },
+    {
+      "name": "test_107.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_107.json"
+    },
+    {
+      "name": "test_108.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_108.json"
+    },
+    {
+      "name": "test_109.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_109.json"
+    },
+    {
+      "name": "test_110.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_110.json"
+    },
+    {
+      "name": "test_111.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_111.json"
+    },
+    {
+      "name": "test_112.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_112.json"
+    },
+    {
+      "name": "test_113.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_113.json"
+    },
+    {
+      "name": "test_114.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_114.json"
+    },
+    {
+      "name": "test_115.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_115.json"
+    },
+    {
+      "name": "test_116.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_116.json"
+    },
+    {
+      "name": "test_117.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_117.json"
+    },
+    {
+      "name": "test_118.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_118.json"
+    },
+    {
+      "name": "test_119.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_119.json"
+    },
+    {
+      "name": "test_120.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_120.json"
+    },
+    {
+      "name": "test_121.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_121.json"
+    },
+    {
+      "name": "test_122.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_122.json"
+    },
+    {
+      "name": "test_123.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_123.json"
+    },
+    {
+      "name": "test_124.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_124.json"
+    },
+    {
+      "name": "test_125.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_125.json"
+    },
+    {
+      "name": "test_126.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_126.json"
+    },
+    {
+      "name": "test_127.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_127.json"
+    },
+    {
+      "name": "test_128.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_128.json"
+    },
+    {
+      "name": "test_129.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_129.json"
+    },
+    {
+      "name": "test_130.json",
+      "folder": "kingdomino_tier2",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier2/test_130.json"
+    },
+    {
+      "name": "test_201.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_201.json"
+    },
+    {
+      "name": "test_202.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_202.json"
+    },
+    {
+      "name": "test_203.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_203.json"
+    },
+    {
+      "name": "test_204.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_204.json"
+    },
+    {
+      "name": "test_205.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_205.json"
+    },
+    {
+      "name": "test_206.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_206.json"
+    },
+    {
+      "name": "test_207.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_207.json"
+    },
+    {
+      "name": "test_208.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_208.json"
+    },
+    {
+      "name": "test_209.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_209.json"
+    },
+    {
+      "name": "test_210.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_210.json"
+    },
+    {
+      "name": "test_211.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_211.json"
+    },
+    {
+      "name": "test_212.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_212.json"
+    },
+    {
+      "name": "test_213.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_213.json"
+    },
+    {
+      "name": "test_214.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_214.json"
+    },
+    {
+      "name": "test_215.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_215.json"
+    },
+    {
+      "name": "test_216.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_216.json"
+    },
+    {
+      "name": "test_217.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_217.json"
+    },
+    {
+      "name": "test_218.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_218.json"
+    },
+    {
+      "name": "test_219.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_219.json"
+    },
+    {
+      "name": "test_220.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_220.json"
+    },
+    {
+      "name": "test_221.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_221.json"
+    },
+    {
+      "name": "test_222.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_222.json"
+    },
+    {
+      "name": "test_223.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_223.json"
+    },
+    {
+      "name": "test_224.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_224.json"
+    },
+    {
+      "name": "test_225.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_225.json"
+    },
+    {
+      "name": "test_226.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_226.json"
+    },
+    {
+      "name": "test_227.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_227.json"
+    },
+    {
+      "name": "test_228.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_228.json"
+    },
+    {
+      "name": "test_229.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_229.json"
+    },
+    {
+      "name": "test_230.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_230.json"
+    },
+    {
+      "name": "test_231.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_231.json"
+    },
+    {
+      "name": "test_232.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_232.json"
+    },
+    {
+      "name": "test_233.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_233.json"
+    },
+    {
+      "name": "test_234.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_234.json"
+    },
+    {
+      "name": "test_235.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_235.json"
+    },
+    {
+      "name": "test_236.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_236.json"
+    },
+    {
+      "name": "test_237.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_237.json"
+    },
+    {
+      "name": "test_238.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_238.json"
+    },
+    {
+      "name": "test_239.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_239.json"
+    },
+    {
+      "name": "test_240.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_240.json"
+    },
+    {
+      "name": "test_241.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_241.json"
+    },
+    {
+      "name": "test_242.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_242.json"
+    },
+    {
+      "name": "test_243.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_243.json"
+    },
+    {
+      "name": "test_244.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_244.json"
+    },
+    {
+      "name": "test_245.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_245.json"
+    },
+    {
+      "name": "test_246.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_246.json"
+    },
+    {
+      "name": "test_247.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_247.json"
+    },
+    {
+      "name": "test_248.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_248.json"
+    },
+    {
+      "name": "test_249.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_249.json"
+    },
+    {
+      "name": "test_250.json",
+      "folder": "kingdomino_tier3",
+      "game": "Kingdomino",
+      "json_path": "annotation_data/kingdomino_tier3/test_250.json"
+    },
+    {
+      "name": "test_600.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_600.json"
+    },
+    {
+      "name": "test_601.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_601.json"
+    },
+    {
+      "name": "test_602.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_602.json"
+    },
+    {
+      "name": "test_603.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_603.json"
+    },
+    {
+      "name": "test_604.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_604.json"
+    },
+    {
+      "name": "test_605.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_605.json"
+    },
+    {
+      "name": "test_606.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_606.json"
+    },
+    {
+      "name": "test_607.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_607.json"
+    },
+    {
+      "name": "test_608.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_608.json"
+    },
+    {
+      "name": "test_609.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_609.json"
+    },
+    {
+      "name": "test_610.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_610.json"
+    },
+    {
+      "name": "test_611.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_611.json"
+    },
+    {
+      "name": "test_612.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_612.json"
+    },
+    {
+      "name": "test_613.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_613.json"
+    },
+    {
+      "name": "test_614.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_614.json"
+    },
+    {
+      "name": "test_615.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_615.json"
+    },
+    {
+      "name": "test_616.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_616.json"
+    },
+    {
+      "name": "test_617.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_617.json"
+    },
+    {
+      "name": "test_618.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_618.json"
+    },
+    {
+      "name": "test_619.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_619.json"
+    },
+    {
+      "name": "test_620.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_620.json"
+    },
+    {
+      "name": "test_621.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_621.json"
+    },
+    {
+      "name": "test_622.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_622.json"
+    },
+    {
+      "name": "test_623.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_623.json"
+    },
+    {
+      "name": "test_624.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_624.json"
+    },
+    {
+      "name": "test_625.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_625.json"
+    },
+    {
+      "name": "test_626.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_626.json"
+    },
+    {
+      "name": "test_627.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_627.json"
+    },
+    {
+      "name": "test_628.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_628.json"
+    },
+    {
+      "name": "test_629.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_629.json"
+    },
+    {
+      "name": "test_630.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_630.json"
+    },
+    {
+      "name": "test_631.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_631.json"
+    },
+    {
+      "name": "test_632.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_632.json"
+    },
+    {
+      "name": "test_633.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_633.json"
+    },
+    {
+      "name": "test_634.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_634.json"
+    },
+    {
+      "name": "test_635.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_635.json"
+    },
+    {
+      "name": "test_636.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_636.json"
+    },
+    {
+      "name": "test_637.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_637.json"
+    },
+    {
+      "name": "test_638.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_638.json"
+    },
+    {
+      "name": "test_639.json",
+      "folder": "pax_ren_tier1",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier1/test_639.json"
+    },
+    {
+      "name": "test_701.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_701.json"
+    },
+    {
+      "name": "test_702.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_702.json"
+    },
+    {
+      "name": "test_703.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_703.json"
+    },
+    {
+      "name": "test_704.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_704.json"
+    },
+    {
+      "name": "test_705.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_705.json"
+    },
+    {
+      "name": "test_706.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_706.json"
+    },
+    {
+      "name": "test_707.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_707.json"
+    },
+    {
+      "name": "test_708.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_708.json"
+    },
+    {
+      "name": "test_709.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_709.json"
+    },
+    {
+      "name": "test_710.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_710.json"
+    },
+    {
+      "name": "test_711.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_711.json"
+    },
+    {
+      "name": "test_712.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_712.json"
+    },
+    {
+      "name": "test_713.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_713.json"
+    },
+    {
+      "name": "test_714.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_714.json"
+    },
+    {
+      "name": "test_715.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_715.json"
+    },
+    {
+      "name": "test_716.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_716.json"
+    },
+    {
+      "name": "test_717.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_717.json"
+    },
+    {
+      "name": "test_718.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_718.json"
+    },
+    {
+      "name": "test_719.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_719.json"
+    },
+    {
+      "name": "test_720.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_720.json"
+    },
+    {
+      "name": "test_721.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_721.json"
+    },
+    {
+      "name": "test_722.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_722.json"
+    },
+    {
+      "name": "test_723.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_723.json"
+    },
+    {
+      "name": "test_724.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_724.json"
+    },
+    {
+      "name": "test_725.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_725.json"
+    },
+    {
+      "name": "test_726.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_726.json"
+    },
+    {
+      "name": "test_727.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_727.json"
+    },
+    {
+      "name": "test_728.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_728.json"
+    },
+    {
+      "name": "test_729.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_729.json"
+    },
+    {
+      "name": "test_730.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_730.json"
+    },
+    {
+      "name": "test_731.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_731.json"
+    },
+    {
+      "name": "test_732.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_732.json"
+    },
+    {
+      "name": "test_733.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_733.json"
+    },
+    {
+      "name": "test_734.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_734.json"
+    },
+    {
+      "name": "test_735.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_735.json"
+    },
+    {
+      "name": "test_736.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_736.json"
+    },
+    {
+      "name": "test_737.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_737.json"
+    },
+    {
+      "name": "test_738.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_738.json"
+    },
+    {
+      "name": "test_739.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_739.json"
+    },
+    {
+      "name": "test_740.json",
+      "folder": "pax_ren_tier2",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier2/test_740.json"
+    },
+    {
+      "name": "test_801.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_801.json"
+    },
+    {
+      "name": "test_802.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_802.json"
+    },
+    {
+      "name": "test_803.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_803.json"
+    },
+    {
+      "name": "test_804.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_804.json"
+    },
+    {
+      "name": "test_805.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_805.json"
+    },
+    {
+      "name": "test_806.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_806.json"
+    },
+    {
+      "name": "test_807.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_807.json"
+    },
+    {
+      "name": "test_808.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_808.json"
+    },
+    {
+      "name": "test_809.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_809.json"
+    },
+    {
+      "name": "test_810.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_810.json"
+    },
+    {
+      "name": "test_811.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_811.json"
+    },
+    {
+      "name": "test_812.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_812.json"
+    },
+    {
+      "name": "test_813.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_813.json"
+    },
+    {
+      "name": "test_814.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_814.json"
+    },
+    {
+      "name": "test_815.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_815.json"
+    },
+    {
+      "name": "test_816.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_816.json"
+    },
+    {
+      "name": "test_817.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_817.json"
+    },
+    {
+      "name": "test_818.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_818.json"
+    },
+    {
+      "name": "test_819.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_819.json"
+    },
+    {
+      "name": "test_820.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_820.json"
+    },
+    {
+      "name": "test_821.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_821.json"
+    },
+    {
+      "name": "test_822.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_822.json"
+    },
+    {
+      "name": "test_823.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_823.json"
+    },
+    {
+      "name": "test_824.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_824.json"
+    },
+    {
+      "name": "test_825.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_825.json"
+    },
+    {
+      "name": "test_826.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_826.json"
+    },
+    {
+      "name": "test_827.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_827.json"
+    },
+    {
+      "name": "test_828.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_828.json"
+    },
+    {
+      "name": "test_829.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_829.json"
+    },
+    {
+      "name": "test_830.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_830.json"
+    },
+    {
+      "name": "test_831.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_831.json"
+    },
+    {
+      "name": "test_832.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_832.json"
+    },
+    {
+      "name": "test_833.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_833.json"
+    },
+    {
+      "name": "test_834.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_834.json"
+    },
+    {
+      "name": "test_835.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_835.json"
+    },
+    {
+      "name": "test_836.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_836.json"
+    },
+    {
+      "name": "test_837.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_837.json"
+    },
+    {
+      "name": "test_838.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_838.json"
+    },
+    {
+      "name": "test_839.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_839.json"
+    },
+    {
+      "name": "test_840.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_840.json"
+    },
+    {
+      "name": "test_841.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_841.json"
+    },
+    {
+      "name": "test_842.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_842.json"
+    },
+    {
+      "name": "test_843.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_843.json"
+    },
+    {
+      "name": "test_844.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_844.json"
+    },
+    {
+      "name": "test_845.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_845.json"
+    },
+    {
+      "name": "test_846.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_846.json"
+    },
+    {
+      "name": "test_847.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_847.json"
+    },
+    {
+      "name": "test_848.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_848.json"
+    },
+    {
+      "name": "test_849.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_849.json"
+    },
+    {
+      "name": "test_850.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_850.json"
+    },
+    {
+      "name": "test_851.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_851.json"
+    },
+    {
+      "name": "test_852.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_852.json"
+    },
+    {
+      "name": "test_853.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_853.json"
+    },
+    {
+      "name": "test_854.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_854.json"
+    },
+    {
+      "name": "test_855.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_855.json"
+    },
+    {
+      "name": "test_856.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_856.json"
+    },
+    {
+      "name": "test_857.json",
+      "folder": "pax_ren_tier3",
+      "game": "Pax Ren",
+      "json_path": "annotation_data/pax_ren_tier3/test_857.json"
+    },
+    {
+      "name": "1021.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/1021.json"
+    },
+    {
+      "name": "1022.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/1022.json"
+    },
+    {
+      "name": "1023.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/1023.json"
+    },
+    {
+      "name": "1024.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/1024.json"
+    },
+    {
+      "name": "1025.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/1025.json"
+    },
+    {
+      "name": "1026.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/1026.json"
+    },
+    {
+      "name": "1027.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/1027.json"
+    },
+    {
+      "name": "1028.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/1028.json"
+    },
+    {
+      "name": "1029.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/1029.json"
+    },
+    {
+      "name": "1030.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/1030.json"
+    },
+    {
+      "name": "1031.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/1031.json"
+    },
+    {
+      "name": "1032.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/1032.json"
+    },
+    {
+      "name": "1033.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/1033.json"
+    },
+    {
+      "name": "1034.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/1034.json"
+    },
+    {
+      "name": "1035.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/1035.json"
+    },
+    {
+      "name": "1036.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/1036.json"
+    },
+    {
+      "name": "1037.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/1037.json"
+    },
+    {
+      "name": "1038.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/1038.json"
+    },
+    {
+      "name": "1039.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/1039.json"
+    },
+    {
+      "name": "1040.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/1040.json"
+    },
+    {
+      "name": "301.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/301.json"
+    },
+    {
+      "name": "302.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/302.json"
+    },
+    {
+      "name": "303.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/303.json"
+    },
+    {
+      "name": "304.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/304.json"
+    },
+    {
+      "name": "305.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/305.json"
+    },
+    {
+      "name": "306.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/306.json"
+    },
+    {
+      "name": "307.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/307.json"
+    },
+    {
+      "name": "308.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/308.json"
+    },
+    {
+      "name": "309.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/309.json"
+    },
+    {
+      "name": "310.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/310.json"
+    },
+    {
+      "name": "311.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/311.json"
+    },
+    {
+      "name": "312.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/312.json"
+    },
+    {
+      "name": "313.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/313.json"
+    },
+    {
+      "name": "314.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/314.json"
+    },
+    {
+      "name": "315.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/315.json"
+    },
+    {
+      "name": "316.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/316.json"
+    },
+    {
+      "name": "317.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/317.json"
+    },
+    {
+      "name": "318.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/318.json"
+    },
+    {
+      "name": "319.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/319.json"
+    },
+    {
+      "name": "320.json",
+      "folder": "res_arcana_tier1",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier1/320.json"
+    },
+    {
+      "name": "1131.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/1131.json"
+    },
+    {
+      "name": "1132.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/1132.json"
+    },
+    {
+      "name": "1133.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/1133.json"
+    },
+    {
+      "name": "1134.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/1134.json"
+    },
+    {
+      "name": "1135.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/1135.json"
+    },
+    {
+      "name": "1136.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/1136.json"
+    },
+    {
+      "name": "1137.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/1137.json"
+    },
+    {
+      "name": "1138.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/1138.json"
+    },
+    {
+      "name": "1139.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/1139.json"
+    },
+    {
+      "name": "1140.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/1140.json"
+    },
+    {
+      "name": "401.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/401.json"
+    },
+    {
+      "name": "402.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/402.json"
+    },
+    {
+      "name": "403.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/403.json"
+    },
+    {
+      "name": "404.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/404.json"
+    },
+    {
+      "name": "405.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/405.json"
+    },
+    {
+      "name": "406.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/406.json"
+    },
+    {
+      "name": "407.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/407.json"
+    },
+    {
+      "name": "408.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/408.json"
+    },
+    {
+      "name": "409.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/409.json"
+    },
+    {
+      "name": "410.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/410.json"
+    },
+    {
+      "name": "411.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/411.json"
+    },
+    {
+      "name": "412.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/412.json"
+    },
+    {
+      "name": "413.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/413.json"
+    },
+    {
+      "name": "414.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/414.json"
+    },
+    {
+      "name": "415.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/415.json"
+    },
+    {
+      "name": "416.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/416.json"
+    },
+    {
+      "name": "417.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/417.json"
+    },
+    {
+      "name": "418.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/418.json"
+    },
+    {
+      "name": "419.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/419.json"
+    },
+    {
+      "name": "420.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/420.json"
+    },
+    {
+      "name": "421.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/421.json"
+    },
+    {
+      "name": "422.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/422.json"
+    },
+    {
+      "name": "423.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/423.json"
+    },
+    {
+      "name": "424.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/424.json"
+    },
+    {
+      "name": "425.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/425.json"
+    },
+    {
+      "name": "426.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/426.json"
+    },
+    {
+      "name": "427.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/427.json"
+    },
+    {
+      "name": "428.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/428.json"
+    },
+    {
+      "name": "429.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/429.json"
+    },
+    {
+      "name": "430.json",
+      "folder": "res_arcana_tier2",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier2/430.json"
+    },
+    {
+      "name": "501.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/501.json"
+    },
+    {
+      "name": "502.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/502.json"
+    },
+    {
+      "name": "503.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/503.json"
+    },
+    {
+      "name": "504.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/504.json"
+    },
+    {
+      "name": "505.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/505.json"
+    },
+    {
+      "name": "506.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/506.json"
+    },
+    {
+      "name": "507.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/507.json"
+    },
+    {
+      "name": "508.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/508.json"
+    },
+    {
+      "name": "509.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/509.json"
+    },
+    {
+      "name": "510.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/510.json"
+    },
+    {
+      "name": "511.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/511.json"
+    },
+    {
+      "name": "512.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/512.json"
+    },
+    {
+      "name": "513.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/513.json"
+    },
+    {
+      "name": "514.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/514.json"
+    },
+    {
+      "name": "515.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/515.json"
+    },
+    {
+      "name": "516.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/516.json"
+    },
+    {
+      "name": "517.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/517.json"
+    },
+    {
+      "name": "518.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/518.json"
+    },
+    {
+      "name": "519.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/519.json"
+    },
+    {
+      "name": "520.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/520.json"
+    },
+    {
+      "name": "521.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/521.json"
+    },
+    {
+      "name": "522.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/522.json"
+    },
+    {
+      "name": "523.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/523.json"
+    },
+    {
+      "name": "524.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/524.json"
+    },
+    {
+      "name": "525.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/525.json"
+    },
+    {
+      "name": "526.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/526.json"
+    },
+    {
+      "name": "527.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/527.json"
+    },
+    {
+      "name": "528.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/528.json"
+    },
+    {
+      "name": "529.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/529.json"
+    },
+    {
+      "name": "530.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/530.json"
+    },
+    {
+      "name": "531.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/531.json"
+    },
+    {
+      "name": "532.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/532.json"
+    },
+    {
+      "name": "533.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/533.json"
+    },
+    {
+      "name": "534.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/534.json"
+    },
+    {
+      "name": "535.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/535.json"
+    },
+    {
+      "name": "536.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/536.json"
+    },
+    {
+      "name": "537.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/537.json"
+    },
+    {
+      "name": "538.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/538.json"
+    },
+    {
+      "name": "539.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/539.json"
+    },
+    {
+      "name": "540.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/540.json"
+    },
+    {
+      "name": "541.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/541.json"
+    },
+    {
+      "name": "542.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/542.json"
+    },
+    {
+      "name": "543.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/543.json"
+    },
+    {
+      "name": "544.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/544.json"
+    },
+    {
+      "name": "545.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/545.json"
+    },
+    {
+      "name": "546.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/546.json"
+    },
+    {
+      "name": "547.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/547.json"
+    },
+    {
+      "name": "548.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/548.json"
+    },
+    {
+      "name": "549.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/549.json"
+    },
+    {
+      "name": "550.json",
+      "folder": "res_arcana_tier3",
+      "game": "Res Arcana",
+      "json_path": "annotation_data/res_arcana_tier3/550.json"
+    }
+  ]
+}

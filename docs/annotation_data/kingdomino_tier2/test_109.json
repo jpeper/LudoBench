@@ -1,0 +1,15 @@
+{
+  "ID": 109,
+  "Game": "Kingdomino",
+  "Test Description": "Testing basic scoring (note, this is on an invalid kingdom)",
+  "Difficulty Notes": "Requires model to understand adjacent placement validity",
+  "Question": "How many points does this kingdom score?",
+  "Answer": "29",
+  "Rationale": "1x1 + 2x1 + 4x2 + 2x8 + 2x1",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/kingdomino/valid_kingdom_1.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/kingdomino/valid_kingdom_1.json"
+}

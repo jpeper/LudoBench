@@ -1,0 +1,17 @@
+{
+  "ID": "713",
+  "Game": "pax_ren",
+  "Test Description": "Testing knights counting",
+  "Difficulty Notes": "",
+  "Question": "How many yellow knights are there on the map in total?",
+  "Answer": "6",
+  "Rationale": "",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/217_1.png"
+  ],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/217_1.json"
+}

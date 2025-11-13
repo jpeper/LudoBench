@@ -1,0 +1,17 @@
+{
+  "ID": 403,
+  "Game": "Res Arcana",
+  "Tier": 2,
+  "Test Description": "Basic rules QA",
+  "Difficulty Notes": "Passive income rules",
+  "Question": "How many components are pictured?",
+  "Answer": "Three",
+  "Rationale": "There is one artificat, one place of power, and one magic item",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t2_passive1.png",
+  "game_state_description": "",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t2_passive1.json"
+}
