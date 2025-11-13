@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #0f1116;
+  color: #eee;
+}
+
+#app {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar */
+
+#sidebar {
+  width: 260px;
+  background: #181923;
+  padding: 20px;
+  border-right: 1px solid #2a2c3a;
+}
+
+#sidebar h2 {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 20px;
+}
+
+.control-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+select, input {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #2c2f3f;
+  background: #1f2230;
+  color: #eee;
+}
+
+/* Main layout */
+
+#main {
+  flex: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 2fr);
+  gap: 24px;
+  padding: 28px 32px;
+}
+
+#titleHeading {
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* Question card */
+
+#questionCard {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#questionBox {
+  background: #181923;
+  border-radius: 12px;
+  padding: 18px 20px;
+  border: 1px solid #2d3041;
+}
+
+#questionHeader {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+#gameName {
+  font-weight: 600;
+}
+
+#qid {
+  margin-left: 6px;
+  color: #b0b3c5;
+}
+
+#questionText {
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Answer area */
+
+.answer-block {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#checkBtn {
+  align-self: flex-start;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  background: #3a82ff;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 4px;
+}
+
+#checkBtn:hover {
+  background: #2f6ad0;
+}
+
+#feedback {
+  margin-top: 6px;
+  min-height: 20px;
+}
+
+.feedback-ok {
+  color: #6edb8f;
+}
+
+.feedback-bad {
+  color: #ff6666;
+}
+
+/* Solution details */
+
+#solutionDetails {
+  margin-top: 10px;
+  background: #181923;
+  border-radius: 10px;
+  padding: 10px 14px;
+  border: 1px solid #2d3041;
+}
+
+#solutionDetails summary {
+  cursor: pointer;
+}
+
+/* Image pane */
+
+#imagePane {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#imageWrapper {
+  width: 100%;
+  background: #181923;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #2d3041;
+}
+
+#stateImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+#imageCaption {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #b0b3c5;
+}
+
+#openFullImage {
+  margin-top: 6px;
+  font-size: 13px;
+  color: #4da8ff;
+  text-decoration: none;
+}
+
+#openFullImage:hover {
+  text-decoration: underline;
+}
