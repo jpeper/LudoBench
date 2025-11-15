@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Consider that the red player chooses to place tile C on the landscape at the position marked with a Z. After placing the tile, the red player chooses to place a meeple on the road as a highwayman. After these two steps in this turn, how many points will the red player gain at the end of this turn's scoring?",
+  "Answer": "5",
+  "Rationale": "According to the game rules, when a road is completed, the player with the highwayman on the road scores 1 point for the each of the tiles the road passes through. In this case, after placing the C tile at position Z and then placing the red highwayman on it, the road becomes completed (as it completes the road from monastry to three-road intersection) and it is now passing by 5 tiles (including the newly placed C tile). Therefore, the red player scores 1 point for each the road tile, resulting in a total of 5 points for the completed road at the end of this turn's scoring.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/possible_tiles_4.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2128
+}

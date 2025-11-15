@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Consider that it is the red players turn. The player chooses to place tile B on the landscape in the position marked with an X. After placing the tile, the red player chooses to not place a meeple on the tile. After these two steps in this turn, how many points will the red player gain at the end of this turn's scoring?",
+  "Answer": "4",
+  "Rationale": "After placing B tile at the position X, there are 2 city features that are completed. In the completed cities, only one city has a red knight (or meeple) on it. According to the game rules, the player with the most knights in a completed feature scores 2 points for each of the tiles the city is spread across, and 2 points for each of the coat of arms: therefore the red player scored the points for one city. The completed city with the red knight is made up of 2 tiles and contains 0 coat of arms. Therefore, the red player scores (2 tiles * 2 points) + (0 coat of arms * 2 points) = 4 + 0 = 4 points for the completed city at the end of this turn's scoring. The other completed city has no red meeples on it, so no points are scored for that city. Therefore, the total points scored by the red player at the end of this turn's scoring is 4 points.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/possible_tiles_2.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2132
+}

@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding. Counting the number of dominoes in the player's kingdom.",
+  "Difficulty Notes": "Very easy counting",
+  "Question": "How many tiles are present in the given gamestate image?",
+  "Answer": "31",
+  "Rationale": "Tile refers to the square pieces. In the give image, the landscape contains of 28 tiles and there are 3 tiles marked as A, B and C. Therefore the total number of tiles present in the given gamestate image is 28 + 3 = 31 tiles.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/farmers_2.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "",
+  "ID": 2036
+}

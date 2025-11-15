@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding. Counting the number of dominoes in the player's kingdom.",
+  "Difficulty Notes": "Very easy counting",
+  "Question": "How many red meeples are present in the given gamestate image? Consider that both standing and lying meeples are counted as meeples.",
+  "Answer": "0",
+  "Rationale": "In the given gamestate image, there are no red meeples present.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/possible_tiles_3.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "",
+  "ID": 2039
+}

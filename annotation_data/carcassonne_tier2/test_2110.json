@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "How many unique ways can the tile B be placed in the current landscape?",
+  "Answer": "9",
+  "Rationale": "According to the placement rules: We have to place a tile such that it continues the landscape. Option B has road on three sides and grass on one side. In the given landscape, considering the number of sides (or boundaries) having only one grass (without adjacency constraints): 6 sides, therefore tile B can be placed in 6 different ways (grass to grass matching). Now considering the road side, there is only one side in the landscape that has a road connection open to the border, therefore tile B can be placed in 3 different ways (road to road matching). Therefore, the total number of ways tile B can be placed in the current landscape is 6 + 3 = 9 ways.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/best_tile_1.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2110
+}

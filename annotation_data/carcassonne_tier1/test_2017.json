@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding. Counting the number of dominoes in the player's kingdom.",
+  "Difficulty Notes": "Very easy counting",
+  "Question": "Assuming that the goal is to get the current landscape to have a rectangular shape with no gaps, how many additional tiles are needed to be placed in order to achieve this?",
+  "Answer": "5",
+  "Rationale": "Currently, the landscape has 7 tiles spread across 4 columns and 3 rows. To create a minimum shape with no gaps, we need to have a total of 12 tiles (4 columns x 3 rows). Therefore, we need to add 5 more tiles to fill in the gaps and achieve a rectangular shape.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/features_3.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "",
+  "ID": 2017
+}

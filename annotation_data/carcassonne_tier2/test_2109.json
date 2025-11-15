@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Given the landscape, what are the total number of unique ways each of the option tiles (A, B, C) can be placed in the position marked with an `X`? Give your answer as [A = <num of ways Tile A can be placed>, B = <num of ways Tile B can be placed>, C = <num of ways Tile C can be placed>].",
+  "Answer": "[A = 1, B = 0, C = 2]",
+  "Rationale": "According to the placement rules: We have to place a tile such that it continues the landscape. In the current landscape, the position marked with an X is adjacent to a city on one side and rest three sides are open. Therefore the tile placed in this position must have a city on one side to match the adjacent city landscape. Now, let's analyze each tile option: Tile A has a city on one side and grass on the other three sides. It can be placed in the position marked with an X in only one orientation (with the city side matching the adjacent city). Tile B has a road on three sides and grass on one side. It cannot be placed in the position marked with an X because it does not have a city side to match the adjacent city. Tile C has a city on two sides and grass on the other two sides. It can be placed in the position marked with an X in two orientations: one with one city side matching the adjacent city and the other with the other city side matching the adjacent city. Therefore, the total number of ways each tile can be placed is: Tile A = 1 way, Tile B = 0 ways, Tile C = 2 ways.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/possible_tiles_1.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2109
+}

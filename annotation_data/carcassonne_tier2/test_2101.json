@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "How many completed cities are there on the given landscape?",
+  "Answer": "1",
+  "Rationale": "In the given landscape, there is one completed city. A completed city is defined as a city that is fully enclosed by walls with no gaps. By examining the layout, we can see that there is one such city present.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/features_1.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2101
+}

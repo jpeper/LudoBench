@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Consider it is the blue players turn. The player chooses to place tile B on the landscape at the position marked with a X. After placing the tile, the blue player chooses not to place any meeple on the tile. After these two steps in this turn, how many points will each player gain at the end of this turn's scoring? Report you answer as [yellow = <number of points for yellow after this turn scoring>, blue = <number of points for blue after this turn scoring>, red = <number of points for red after this turn scoring>].",
+  "Answer": "[yellow = 9, blue = 10, red = 0]",
+  "Rationale": "After placing B tile at the position X, the following features are completed in the landscape: 2 cities (one having the blue knight or meeple and other with no meeple), and the monastry (having the yellow monk or meeple). According to the game rules, when a city is completed, the player with the meeple on the city scores 2 points for each tile in the city and 2 points for each shield (or coat of arms) in the city. In this case, the completed city is made up of 4 tiles (including the newly placed B tile) and contains 1 shield. Therefore, the blue player scores (4 tiles * 2 points) + (1 shield * 2 points) = 8 + 2 = 10 points for the completed city at the end of this turn's scoring. According to the game rules, when a monastry is completed, the player with the monk scores 1 point for the monastry tile itself and 1 point for each surrounding tile. In this case, after placing the B tile at position X, the monastry becomes completed as it is now surrounded by 8 tiles (including the newly placed B tile). Therefore, the yellow player scores 1 point for the monastry tile and 8 points for the surrounding tiles, resulting in a total of 9 points for the completed monastry at the end of this turn's scoring. Since there are no completed features with red meeple on them, the red player will not score any points for this turn. Therefore, at the end of this turn's scoring, yellow player gains 9 points, blue player gains 10 points, and red player gains 0 points.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/possible_tiles_3.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2134
+}

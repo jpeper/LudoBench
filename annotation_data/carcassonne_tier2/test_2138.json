@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "How many knights are present in the given landscape?",
+  "Answer": "1",
+  "Rationale": "According to the game knights are meeples placed on the city features. In the given landscape, there is only one knight (meeple) present which is the blue knight placed on the incomplete city in the top left corner of the landscape.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/possible_tiles_3.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2138
+}

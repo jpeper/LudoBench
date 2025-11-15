@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Considering that the placement of the tile and meeple in this turn is completed, during scoring of this turn, how many points will the blue player earn?",
+  "Answer": "10",
+  "Rationale": "Since there is a completeed city feature in the landscape, we score the city and the points would be added to the blue player here. The city is spread across 4 tiles: (1,2), (2,1), (2,2), and (2,3). Each tile in completed city is worth 2 points + each shield (or coat of arms) in the city is worth 2 points. therefore, there are 4 tiles and 1 shield in the completed city, so the total points scored would be (4 * 2) + (1 * 2) = 8 + 2 = 10 points.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/meeple_landscape_1.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2104
+}

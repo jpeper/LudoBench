@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "How many unique ways can each of the option tiles (A, B) be placed in the position marked with an `X`? Give your answer as [A = <num of ways Tile A can be placed>, B = <num of ways Tile B can be placed>].",
+  "Answer": "[A = 1, B = 1]",
+  "Rationale": "According to the placement rules: We have to place a tile such that it continues the landscape. In the current landscape, the position marked with an X is adjacent to a city on two adjacent sides and rest two sides are grass. Therefore the tile placed in this position must have city on two adjacent sides and grass on the other two adjacent sides. Now from the options, A and B both have city on two adjacent sides and grass on the other two adjacent sides. Therefore, both tiles A and B can be placed in the position marked with an X in only one orientation each (with the city sides matching the adjacent city and grass sides matching the adjacent grass). Therefore, the total number of ways each tile can be placed is: Tile A = 1 way, Tile B = 1 way.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/possible_tiles_2.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2113
+}

@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "How many completed cities are present in the given landscape, before placing any option tiles (A, B, C)?",
+  "Answer": "4",
+  "Rationale": "By examining the landscape, we can identify the completed cities. There are 4 completed cities in the landscape: one at [(2,1), (2,2), (3,2)], one at [(3,2), (3,3)], one at [(2,4), (2,5), (3,5), (4,5)] and one at [(5,3), (6,1), (6,2), (6,3), (7,1), (7,2), (7,3)]. Therefore, the total number of completed cities in the given landscape is 4.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/farmers_1.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2123
+}

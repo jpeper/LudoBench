@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Suppose the game has been completed in the given landscape, what is the totals amount of points each player will get for their meeples remaining on the landscape (only report the points for the meeples on the landscape)? Provide your answer in the format [Red = <points>, Blue = <points>, Green = <points>, Yellow = <points>].",
+  "Answer": "[Red = 2, Blue = 4]",
+  "Rationale": "In the given scenario, the red player has his meeple placed on a road segement that is incompletes, spreading across 2 tiles. According to the game rules, an incomplete road is scored at 1 point per tile it spans. Therefore, the red player will earn 2 points for his meeple on the incomplete road (2 tiles * 1 point each = 2 points). The blue player has his meeple placed on the monastry, which is surrounded by 3 tiles. According to the game rules, a incomplete monastry get 1 point for the monastry tile itself and 1 point for each surrounding tile. Therefore, the blue player will earn 4 points for his meeple on the monastry (1 point for the monastry + 3 points for the surrounding tiles = 4 points).",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/meeple_landscape_1.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2111
+}

@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Considering that it is the yellow player's turn. The player chooses to place tile B on the landscape in the position marked with an X. After placing the tile, the yellow player chooses not to place any meeple on the tile. After these two steps in this turn, how many points will the yellow player gain at the end of this turn's scoring?",
+  "Answer": "0",
+  "Rationale": "After placing B tile at the position X, even though the monastry is surrounded by 8 other tiles because there is no meeple placed on it, they will not score any points for this turn.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/possible_tiles_4.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2129
+}

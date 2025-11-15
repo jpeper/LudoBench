@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Given the landscape, what are the possible tiles a player can place in the position marked with an `X`?",
+  "Answer": "A, C",
+  "Rationale": "According to the given landscape, the position marked with an X is adjacent to the city landscape from one side, and there are no other tiles around this position. For having a correct placement in this scenario, the tile must match the city landscape on one side and can have any landscape on the other sides (as the rule states that the landscape should continue at the connections). Therefore, the possible tiles that can be placed in the position marked with an X are Tile A (which has a city on one side and grass on the other sides) and Tile C (which has a city on two sides, and grass on the remaining sides). Tile B cannot be placed here as it has a road on three sides, and grass on one side, which does not match the city landscape adjacent to the position marked with an X.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/possible_tiles_1.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2108
+}

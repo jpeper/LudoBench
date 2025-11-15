@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Consider that it is the red players turn. The player chooses to place tile A on the landscape marked with position Y. After placing the tile, the red player chooses to place a red meeple on the monastery as a monk. After these two steps in this turn, how many points will the red player gain at the end of this turn's scoring?",
+  "Answer": "9",
+  "Rationale": "After placing A tile at the position Y, the monastery feature is completed. In the completed monastery, there is one monk (meeple) belonging to the red player. According to the game rules, the player with the monk on a completed feature scores 1 point for the monastery tile itself and 1 point for each surrounding tile. In this case, the completed monastery is surrounded by 8 tiles (including the newly placed A tile). Therefore, the red player scores 1 point for the monastery tile and 8 points for the surrounding tiles, resulting in a total of 9 points for the completed monastery at the end of this turn's scoring.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/possible_tiles_3.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2136
+}

@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Considering that the placement of the tile and meeple in this turn is completed, during scoring of this turn, how many points will the yellow player earn? (Assume game does not end after this turn)",
+  "Answer": "0",
+  "Rationale": "The yellow player has a meeple placed on the grass as a farmer (as it is sleeping). In the game the farmers are only scored at the end of the game based on the number of completed cities they are adjacent to. As this is not the end of the game, the yellow player will not earn any points for this turn.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/meeple_landscape_2.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2105
+}

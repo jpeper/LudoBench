@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "What is the total number of completed cities the landscape can have after placing each of the option tiles (A, B) in the position marked with an `X`? Give your answer as [A = <num of completed cities after placing Tile A>, B = <num of completed cities after placing Tile B>].",
+  "Answer": "[A = 2, B = 3]",
+  "Rationale": "Before any placement, there is one completed city. After placing Tile A in the position marked with an X (only one way): it will complete another city by connecting to the adjacent city on two sides into one completed city. Therefore, the total number of cities after placing Tile A will be 2. On the other hand, placing Tile B will complete 2 other cities (one from each side), so the total number of cities after placing Tile B will be 3.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/possible_tiles_2.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2114
+}
