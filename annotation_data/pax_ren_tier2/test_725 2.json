@@ -1,0 +1,18 @@
+{
+  "ID": "725",
+  "Game": "pax_ren",
+  "Test Description": "Testing Campaign Op",
+  "Difficulty Notes": "",
+  "Question": "If the blue player launches Campain Op on the Sultan Mehmed II the Conqueror card attack Papal States with 1 florin, how many defenders are there?",
+  "Answer": "0",
+  "Rationale": "",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/213_1.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/213_4.png"
+  ],
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 4,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/213_combined.json"
+}

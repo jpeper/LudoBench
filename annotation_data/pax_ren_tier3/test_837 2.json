@@ -1,0 +1,25 @@
+{
+  "ID": "837",
+  "Game": "pax_ren",
+  "Test Description": "Testing winning conditions (Globalization Victory). Test Campain Op.",
+  "Difficulty Notes": "Strategy problem while testing winning conditions. Requires understanding game actions like Campain Op. It is very tricky to derive the strategy as you need to decide which kingdom to attack based on the limited florins in hand.",
+  "Question": "Given the provided game state, how can the blue player win the game in 3 actions?\n**Please format your response as an ordered JSON list of actions. Each action should follow the format shown below:**\n\n```json\n[\n  {\n    \"action\": \"West Tableau Ops\"\n  },\n  {\n    \"action\": \"West Trade Fair\"\n  },\n  {\n    \"action\": \"Victory\"\n  }\n]\n```\n\n### Format Specifications:\n\nEach list item represents one **action** as a dictionary with the following keys:\n\n1. **\"action\"** (string):\n   Must be one of the following valid actions:\n   `[\"Purchase\", \"Play\", \"Sell\", \"West Tableau Ops\", \"East Tableau Ops\", \"West Trade Fair\", \"East Trade Fair\", \"Victory\"]`",
+  "Answer": [
+    {
+      "action": "Victory"
+    }
+  ],
+  "Answer_str": "1. Declare Imperial Victory as its conditions are already satisfied.",
+  "Rationale": "Possibility 1: The player can declare Imperial Victory in first action and win since they have 2 kingdoms while opponent has no kingdoms. No other possibility to win any other victory condition in three actions.",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/213_1.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/213_2.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/213_3.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/213_4.png"
+  ],
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 3,
+  "Strategy Difficulty": 4,
+  "tier": 3,
+  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/213_combined.json"
+}
