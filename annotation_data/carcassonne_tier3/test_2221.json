@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Considering that it is the blue players turn, which tile should the blue player choose from the available tile options (A, B, C) so as to get the maximum score by the end of this turn. return the answer in the following format: [Tile = <selected tile>, total_points = <the maximum points by the end of this turn>]",
+  "Answer": "[tile = A, total_points = 12]",
+  "Rationale": "The current game state has: One incomplete city with a blue meeple on it, And three farmers (red, yellow, black) present on the fields. According to the rules of the game: 1)Each of the monastery’s tiles (the 8 surrounding tiles and the one with the monastery itself) is worth 1 point 2) Each tile in the completed city is worth 2 points. Each coat of arms in the completed city is worth an extra 2 points. 3) Farmers are scored only after all the turns are completed. Each field is worth 3 points per adjacent completed city that the farmer is a part of. The only way in which the blue player can earn some points is by completing the city having a blue knight (or meeple) on it. Placing title A adjacent to the city containing the Blue meeple, the blue player would complete the city. Therefore while scoring happens at the end of the round, the blue player would have a completed City feature that spans across five tiles and also contain one Shield. by the scoring rules this would result in the blue player gaining (5tiles * 2points) + (1sheld * 2points) = 12 points. Note: the blue player also can place tile B (monastery tile) below the top most completed city; and then place a blue meeple as a monk over the monastery. But this would only result in the blue player getting nine points. The blue player could also choose to place tile C in the bottom left corner to complete the road, and place a meeple on the road. This would result in the blue player getting only 5 points. So comparing all the options the best option would be to choose tile A  and achieve 12 points. therefore the blue player would choose tile A  to achieve the maximum number of points by the end of the turn.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/farmers_1.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2221
+}

@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Considering that it is the yellow player's turn, which tile should the yellow player choose from the available tile options (A, B, C) so as to get the maximum score by the end of this turn. Assume that the yellow player does not have any meeples left to place on the landscape. return the answer in the following format: [total_points = <the maximum points by the end of this turn>]",
+  "Answer": "[total_points = 0]",
+  "Rationale": "The current game state has: One incomplete city with a blue meeple on it, And three farmers (red, yellow, black) present on the fields. According to the rules of the game, only a completed feature having the player’s meeple on it would be scored as a part of this turn. Since in the given game state the yellow player has no meeples that are a part of an incomplete city, or road or monastery, and because it has no more meeples to place, the yellow player would not be able to score any points by the end of this round no matter what tile the player tries to place in any manner.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/farmers_1.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2223
+}

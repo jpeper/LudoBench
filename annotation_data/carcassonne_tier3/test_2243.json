@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Considering that it is the blue players turn, which tile should the blue player choose from the available tile options (A, B) so as to get the maximum score by the end of this turn. return the answer in the following format: [Tile = <selected tile>, total_points = <the maximum points by the end of this turn>]",
+  "Answer": "[Tile = B, total_points = 16]",
+  "Rationale": "According to the landscape in the given image: there are two blue standing meeples on two different incomplete roads, two blue farmers in two different fields: both of them having 2 connected cities connected to them, One red standing meeple on an incomplete Road, one red farmer: in the field that is connected to three complete cities. According to the rules of the game: 1)Each of the monastery’s tiles (the 8 surrounding tiles and the one with the monastery itself) is worth 1 point 2) Each tile in the completed city is worth 2 points. Each coat of arms in the completed city is worth an extra 2 points. 3) Farmers are scored only after all the turns are completed. Each field is worth 3 points per adjacent completed city that the farmer is a part of. If the blue player selects Tile A, The best possible way of placing the monastery would be to place it on the empty Square below the tile containing the Blue Meeple on the farm;  then placing a Blue Maple on top of the monastery; this would result in a completed Monastery feature in the landscape thereby giving the blue player 9 points. if the blue player chooses to place tile B in the Square below the tile containing the red farmer; and place a blue maple on the  City part of this tile;  this would result in completing the city as well as the road feature;  even though the completed Road feature has a red maple there are two blue Maples present on the same road, thereby having the red player scored no points from the completed Road feature, And the Blue Maple scoring 1 point for every tile that the road passes through.  so therefore the blue meeple scores: (12 tiles * 1 point) = 12 points.  The blue player also gains points from the completed City which is spread across two tiles and zero Shields. This gives the blue player an additional (2 tiles * 2 points) = 4 points. Therefore the total amount of points that the blue player gains by selecting tile B would be (12 from completed road + 4 from completed city) = 16 points. Comparing the two tiles tile B proves to be giving more number of points to the blue player so therefore the correct choice for the blue player to gain the maximum number of points in tile B.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/farmers_3.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2243
+}

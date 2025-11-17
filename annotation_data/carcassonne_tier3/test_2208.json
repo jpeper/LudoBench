@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Assume that the blue player chooses tile B to complete the city that contains his knights (or meeples). Next turn (after blue player places the Tile B) would be the red players turn. What is the maximum final score that the red player can get at the end of the turn (after blue and red place thier tiles)?",
+  "Answer": "4",
+  "Rationale": "After the blue player places tile B, there would be 2 cities that would be completed. on of them is city that contains the red meeple (or knight). There fore by the rules of the game, after the blue players turn is over, the red player would have 4 points from the completed city (2 tiles * 2 pts). Now during the red players turn, the red player can choose tile A and place it at any location such that the landscape is continued. No matter where the red player places the tile A, there would be no feature that can be completed by placing this tile. Therefore the red player would not get any points during his turn. Hence the final score that the red player would have at the end of the turn (after blue and red place thier tiles) is 4 points.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/best_tile_2.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2208
+}

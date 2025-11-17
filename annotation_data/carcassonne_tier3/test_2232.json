@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Considering the situation that the black player has three turns one after the other. What is the maximum score that the black player can achieve by the end of these 3 turns. return the answer in the following format: [total_points = <the maximum points by the end of three turns>]",
+  "Answer": "[total_points = 14]",
+  "Rationale": "The current game state has: One incomplete city with a black meeple on it, And three farmers (red, yellow, black) present on the fields. According to the rules of the game: 1)Each of the monastery’s tiles (the 8 surrounding tiles and the one with the monastery itself) is worth 1 point 2) Each tile in the completed city is worth 2 points. Each coat of arms in the completed city is worth an extra 2 points. 3) Farmers are scored only after all the turns are completed. Each field is worth 3 points per adjacent completed city that the farmer is a part of. The maximum points the blue player can gain by the end of the two turns is: Turn 1: Place tile A in order to complete the city having the blue knight on it; no meeple can be placed as the all the features are already occupied by another player; this would result in one completed city component, giving the black player a no points. Turn 2: The player can place Tile B (monastery tile) in the hollow square gap below the top left completed city; place a black meeple as a monk on top of the monastery; this would complete the monastery feature and the black player would earn 9 points. Turn 3: The player can place Tile C in the lower left corner of the landscape; place a black meeple on the road feature; since the road feature is completed, the black player has a meeple on it, the player would gain (5 tiles * 1 point) = 5 points in total for the completed road. Therefore by the end of 3 turns, the black player can attain a maximum of (0 points from turn 1 + 9 points from turn 2 + 5 points from the 3 round) = 14 points.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/farmers_1.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2232
+}

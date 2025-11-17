@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Assume that the blue player has 2 continuous turns, and the game would end after these 2 turns. Given the option tiles (A, B), what would the maximum number of points the blue player can achieve at the end of the game?",
+  "Answer": "34",
+  "Rationale": "Given the game state, the blue player can choose to place A tile in order to complete the big city. By the rules of the game, the player having the maximum number of knights (blue here) would get 2 points for every tile the city is spread across and 2 points for every shield (coat of arms). Therefore the player would get: (10 tiles * 2 pts) + (2 shields * 2 pts) = 24 points. Then place a farmer (blue meeple) on the field area. The next domino (B) can be placed connecting to the incomplete city in the bottom right corner, and place a blue knight: since the city is completed, and the blue knight is present on it: the player would score (2 tiles * 2 pts) = 4 points. Before the final scoring, the total points the blue player has is 24 + 4 = 28 points. Now during the end-of-game calculations, there is one farmer (blue) on the field that is connected to 2 completed cities: scoring (2 completed cities * 3 points) = 6 more points. The total number of points the blue player would score at the end of this game would be: 28 + 6 = 34.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/best_tile_2.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2207
+}

@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Considering that it is the red player's turn, which tile should the red player choose from the available tile options (A, B, C) so as to get the maximum score by the end of this turn. return the answer in the following format: [Tile = <selected tile>, total_points = <the maximum points by the end of this turn>]",
+  "Answer": "[tile = A, total_points = 9]",
+  "Rationale": "In the given image of the game State we can observe that the landscape contains one blue meeple  on an incomplete City and one yellow meeple on an incomplete monastery. For the red player to earn some points, the way is to place a meeple and complete a feature so that by the end of the turn the player can get some score. This can be done by placing either Tile A in empty square below the tile containing the road component. After placing the tile, the red player can place the red meeple as a monk on the monastery. This monastery would be completed feature with a red meeple on top of it. According to the rules of the game: 1)Each of the monastery’s tiles (the 8 surrounding tiles and the one with the monastery itself) is worth 1 point. Therefore by the end of this turn the red player would have 9 points from the completed monastery feature.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/best_tile_3.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2215
+}

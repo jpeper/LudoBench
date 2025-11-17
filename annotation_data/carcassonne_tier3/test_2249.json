@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Considering the situation that the blue player has two turns one after the other. What is the maximum score that the blue player can score at the end of this game? Assume that the game ends after these two turns. return the answer in the following format: [total_points_turn = <the maximum points by the end of two turns>, total_points_final = <the maximum points at the end of the game>]",
+  "Answer": "[total_points_turn = 25, total_points_final = 37]",
+  "Rationale": "According to the landscape in the given image: there are two blue standing meeples on two different incomplete roads, two blue farmers in two different fields: both of them having 2 connected cities connected to them, One red standing meeple on an incomplete Road, one red farmer: in the field that is connected to three complete cities. According to the rules of the game: 1)Each of the monastery’s tiles (the 8 surrounding tiles and the one with the monastery itself) is worth 1 point 2) Each tile in the completed city is worth 2 points. Each coat of arms in the completed city is worth an extra 2 points. 3) Farmers are scored only after all the turns are completed. Each field is worth 3 points per adjacent completed city that the farmer is a part of. The blue player can gain the maximum number of points at the end of these two terms by doing the following: Turn 1: The blue player places tile A containing the monastery in the square hole present in the landscape below the tile containing the blue farmer; Then the blue player places a blue meeple on top of the monastery; by the end of this turn the monastery feature is completed as a result of which the blue player gains nine points. Turn 2: the blue player places Tile B in the Square Gap below the tile containing the red farmer;  then the blue player places a maple on top of the city  feature of the tile;  this would lead to completing one city feature and one road feature, During scoring, since the completed city has 2 tiles it gets (2 tiles * 2 points) = 4 points to the blue player, the completed road gets the blues player 12 points (12 tiles * 1 point) = 4 points + 12 points = 16 points. Therefore the total number of points that the red player gains = 9 points (turn 1) + 16 points (Turn 2) = 25 points. Given that the game ends after these two turns, we would have to account for the blue farmers.  Now both the farmers belong to the same field,  the field contains 4 fully completed cities giving a total of 12 points. Therefore the final points that the blue player will have at the end of the game would be = 25 (from 2 turns + 12 (from farmers) = 37 points.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/farmers_3.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2249
+}

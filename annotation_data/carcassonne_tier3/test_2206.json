@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Assuming that it is the red players turn, and that the game would end after this turn. Given the option tiles (A, B), which tile should the red player choose to maximize their score at the end of the game? Answer should be in the following format: [tile = <chosen tile>, meeple_placed_as = <if a meeple is placed, how is it placed? (highwayman, knights, monks, or farmers) if not put as None>, total_points_turn = <total points at the end of the turn>, total_points_game_end = <total points at the end of the game>]",
+  "Answer": "[tile = B, meeple_placed_as = farmer, total_points_turn = 4, total_points_game_end = 13]",
+  "Rationale": "In the current gamestate, the red player has one knight in an incomplete city. From the given options both of them can be used to complete the city. Option A: On adding option A to complete the city, the formed city is spread across 10 tiles and has 2 blue knights (or meeples) and one red knight (or meeple). By the rules of the game, the player who has the maximum number of meeples in the completed city gets the points. Here the blue player has the maximum number of meeples (2) in the completed city and therefore red will not get the points. According to the rules of the game, each tile forming the completed city is worth 2 points and each shield (or coat of arms) in the completed city is worth 2 points. In this case,red does not earn any points, and on placing a meeple as a farmer (in sleeping position) on the farm field on this tile. So, after this turn during the end of the game scoring there would be 2 kingdoms connected to the field where the red farmer present. By the rules each completed city would get the player 3 points for the farmer. So a total of 6 points. Therefore choosing option A, the blue player would get a total of 0 + 6 = 6 points. Option B: On adding option B to complete the city, the formed city with red knight is spread across 2 tiles. In this case, the completed city has 2 tiles and 0 shield, therefore the total points earned by the blue player is (2 * 2) + (0 * 2) = 4 points, and then place a meeple as a farmer (in sleeping position) on the farm field on this tile. In this case there would be 3 cities completed, and by scoring rules the player would get 9 more points. So choosing option B the blue player would get 4 + 9 = 13 points. Comparing both options, option B gives more points to the red player. Therefore the red player should choose tile B.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/best_tile_2.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2206
+}
