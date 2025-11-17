@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Consider that it is the blue players turn. Given the different tile options (A, B), which tile should the blue player choose in order to maximize thier score at the end of this turn? Also provide the total points the blue player would have after placing this tile. Give your answer in the format: [Tile = <chosen tile>, Total_Points = <total points after placing the tile>]",
+  "Answer": "[Tile = A, Total_Points = 24]",
+  "Rationale": "In the current gamestate, the blue player has two knights in a incomplete city. From the given options both of them can be used to complete the city. Option A: On adding option A to complete the city, the formed city is spread across 10 tiles and has 2 blue knights (or meeples) and one red knight (or meeple). By the rules of the game, the pplayer who has the maximum number of meeples in the completed city gets the points. Here the blue player has the maximum number of meeples (2) in the completed city and therefore will get the points. According to the rules of the game, each tile forming the completed city is worth 2 points and each shield (or coat of arms) in the completed city is worth 2 points. In this case, the completed city has 10 tiles and 2 shields, therefore the total points earned by the blue player is (10 * 2) + (2 * 2) = 24 points. Option B: On adding option B to complete the city, the formed city is spread across 9 tiles and has 2 blue knights (or meeples). Here the blue player has the maximum number of meeples (2) in the completed city and therefore will get the points. According to the rules of the game, each tile forming the completed city is worth 2 points and each shield (or coat of arms) in the completed city is worth 2 points. In this case, the completed city has 9 tiles and 2 shield, therefore the total points earned by the blue player is (9 * 2) + (2 * 2) = 22 points. Comparing both options, option A gives more points to the blue player. Therefore the blue player should choose tile A. Hence the answer is [Tile = A, Total_Points = 24].",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/best_tile_2.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2204
+}

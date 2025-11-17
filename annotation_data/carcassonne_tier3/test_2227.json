@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Considering that it is the red player's turn, which tile should the red player choose from the available tile options (A, B, C) so as to get the maximum score by the end of this game. Assume that 1) the game would end after this turn and 2) the red player does not have any more meeples to place on the landscape. Return the answer in the following format: [Tile = <selected tile>, total_points_turn = <the points by the end of this turn for red player>, total_points_final = <maximum points red player can achieve at the end of this game>]",
+  "Answer": "[Tile = B, total_points_turn = 0, total_points_final = 12]",
+  "Rationale": "The current game state has: One incomplete city with a blue meeple on it, And three farmers (red, yellow, black) present on the fields. According to the rules of the game: 1)Each of the monastery’s tiles (the 8 surrounding tiles and the one with the monastery itself) is worth 1 point 2) Each tile in the completed city is worth 2 points. Each coat of arms in the completed city is worth an extra 2 points. 3) Farmers are scored only after all the turns are completed. Each field is worth 3 points per adjacent completed city that the farmer is a part of. Since the red player has no meeple on incomplete feature, the only way we can score is at the end of the game when farmers are accounted for. Now the red meeple has one farmer in the right most field. Currently that field is spread across 2 completed cities and one incomplete city. We should try and place a tile in such a way that we can increase the spread of the field such that it has more number of completed cities the field has contact with. Placing the Tile B would be the only way we can extend the field in order to get more completed cities. Placing tile B below the top left completed city would result in the field being connected to 4 connected cities and one incomplete city. So therefore at the end of the game the red player can score (4 connected cities * 3 points) = 12 points.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/farmers_1.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2227
+}

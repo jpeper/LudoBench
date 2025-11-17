@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "What is the largest field (in terms of tiles) can be formed by adding one more tile to the current landscape? Provide your answer in the format: [Tile = <chosen tile>, size = <number of tiles in the largest field>]",
+  "Answer": "[Tile = C, size = 22]",
+  "Rationale": "The current large fields are having: central field (16 tiles), rightmost field (10 tiles) and left most field (5 fields). In order to increase the field length, with the given options, is to connect them in a way it would increase the filed length. Taking option A, any ways would increase only one tile. Tile B could be placed in empty square below the top left corner that would get the right most and left most fields as one giving: 10 + 5 + 1 = 16 fields. Any other orientation would only increase any other area by only 1. Taking tile C, if added in the bottom left corner would give 5 more fields to the central field. The total number of fields would be 16 (from central) + 5 (from right field) + 1 (from the tile itself) = 22 tiles.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/farmers_1.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2235
+}

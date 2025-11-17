@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Consider the current landscape without any placement of tiles shown. Assume that the last turn has been completed, and game has come to an end. What is the amount of points each player gets (red, blue, yellow, black) during the final score calculations? Return the answer as: [blue= <blue players final score>, red= <red players final score>, yellow= <yellow players final score>, black = <black players final score>]",
+  "Answer": "[blue= 4, red= 6, yellow= 9, black = 9]",
+  "Rationale": "The current game state has: One incomplete city with a blue meeple on it, And three farmers (red, yellow, black) present on the fields. According to the rules of the game: 1)Each of the monastery’s tiles (the 8 surrounding tiles and the one with the monastery itself) is worth 1 point 2) Each tile in the completed city is worth 2 points. Each coat of arms in the completed city is worth an extra 2 points. 3) Farmers are scored only after all the turns are completed. Each field is worth 3 points per adjacent completed city that the farmer is a part of. 4)At the end of the game (after all turns are completed) Each incomplete city is worth 1 point per tile and 1 point per coat of arms, which is only half the points. 5)At the end of the game, Each incomplete monastery is worth 1 point plus 1 point per adjacent tile, just like during the game. Since the game has come to an end by the rules, the blue player is a part of incomplete city spreading over 4 tiles and 1 shield = (4 tiles * 1 point) + (1 shield * 1 point) = 5 points. The yellow and black player has a farmer in the central farm, both of them would receive (3 completed cities * 3 points) = 9 points. The red player has a farmer placed in the rightmost field, scoring = (2 completed cities * 3 points) = 6 points.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/farmers_1.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2234
+}

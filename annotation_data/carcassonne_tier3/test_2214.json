@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Considering that it is the blue player's turn, which tile should the blue player choose from the available tile options (A, B, C) so as to get the maximum score by the end of this game. Assume that the game ends after this turn. Return the answer in the following format: [Tile = <selected tile>, total_points_after_turn = <the maximum points by the end of this turn>, total_points_end_of_game = <maximum points after calculating points at the end of the game>]",
+  "Answer": "[Tile = B, total_points_after_turn = 10, total_points_end_of_game = 19]",
+  "Rationale": "In the given image of the game State we can observe that the landscape contains one blue meeple on an incomplete City and one yellow meeple on an incomplete monastery. In order for the blue player to achieve some points by the end of this round,  the blue player should complete the city which has the blue meeple. The player can achieve this by either placing one of the two tiles: B or C. According to the rules of the game the city once completed would be evaluated by multiplying the number of tiles that forms the City by two and adding on to points for every field that is present on the city. So, on choosing tile B, and placing a blue meeple as a farmer in the field (in sleeping position): the city containing the blue meeple would be spanning across 4 tiles and the total score would be: (4 tiles * 2 points) + (1 shield * 2 points) =  10 pts. On choosing tile C, and placing a blue meeple as a farmer in the field (in sleeping position): the city containing the blue meeple would be spanning across 5 tiles and the total score would be: (5 tiles * 2 points) + (1 shield * 2 points) =  12 pts. After the round gets completed, its is given that the game comes to an end. Scoring the farmers as per the rules (the number of completed cities connected to the field having the farmer * 3 points): Tile B: (10 pts from last turn + 3 completed cities * 3points) = 19 points; Tile C: (12 points from last turn + 2 completed cities * 3 points) = 18 points. So the best answer is Tile B.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/best_tile_3.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2214
+}

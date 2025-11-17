@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Given that it is the red players turn. Given the different tile options (A, B, C), which tile should the red player choose in order to maximize thier score at the end of this turn? Also provide the total points the red player would have after placing this tile. Give your answer in the format: [Tile = <chosen tile>, Total_Points = <total points after placing the tile>]",
+  "Answer": "[Tile = B, Total_Points = 3]",
+  "Rationale": "Given the current gamestate, the red player has a knight in a roadsegment that has its one end in the village. The only way that the red player can get the points is through completing the road segment from the other end. Among the options present, Tile B is the only tile that has a road feature that can be placed, and also can complete the road segment. Therefore the red player should choose tile B. On placing tile B (such that any one of the 3 roads match the landscape tile containing the red meeple), the road segment is completed and the red player earns the points. According to the rules of the game, each tile forming the completed road segment is worth 1 point. In this case, the completed road segment has 3 tiles, therefore the total points earned by the red player is 3 * 1 = 3 points. Hence the answer is [Tile = B, Total_Points = 3].",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/best_tile_1.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2202
+}

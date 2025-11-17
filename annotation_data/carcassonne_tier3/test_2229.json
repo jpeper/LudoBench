@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Considering the situation that the blue player has two turns one after the other. which tiles should the blue player choose from the available tile options (A, B, C) so as to get the maximum score by the end of the 2 turns. return the answer in the following format: [Tiles = <selected tile, selected tile>; total_points = <the maximum points by the end of two turns>]",
+  "Answer": "[Tiles = A, B; total_points = 21]",
+  "Rationale": "The current game state has: One incomplete city with a blue meeple on it, And three farmers (red, yellow, black) present on the fields. According to the rules of the game: 1)Each of the monastery’s tiles (the 8 surrounding tiles and the one with the monastery itself) is worth 1 point 2) Each tile in the completed city is worth 2 points. Each coat of arms in the completed city is worth an extra 2 points. 3) Farmers are scored only after all the turns are completed. Each field is worth 3 points per adjacent completed city that the farmer is a part of. The maximum points the blue player can gain by the end of the two turns is: Turn 1: Place tile A in order to complete the city having the blue knight on it; no meeple can be placed as the all the features are already occupied by another player; this would result in one completed city component, giving the blue player a total of (5 tiles * 2 points) + (1 shield * 2points) = 12 points. Turn 2: The player can place Tile B (monastery tile) in the hollow square gap below the top left completed city; place a blue meeple as a monk on top of the monastery; this would complete the monastery feature and the blue player would earn 9 points. Therefore by the end of 2 turns, the blue player can attain a maximum of (12 points from turn 1 + 9 points from turn 2) = 21 points.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/farmers_1.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2229
+}

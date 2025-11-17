@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Considering the situation that the red player has two turns one after the other. which tiles should the red player choose from the available tile options (A, B, C) so as to get the maximum score by the end of the 2 turns. return the answer in the following format: [Tiles = <selected tile, selected tile>, total_points = <the maximum points by the end of two turns>]",
+  "Answer": "[tiles = A, B; total_points = 13]",
+  "Rationale": "In the given image of the game State we can observe that the landscape contains one blue meeple  on an incomplete City and one yellow meeple on an incomplete monastery. According to the rules of the game: 1)Each of the monastery’s tiles (the 8 surrounding tiles and the one with the monastery itself) is worth 1 point 2) Each tile in the completed city is worth 2 points. Each coat of arms in the completed city is worth an extra 2 points. The red player can achieve the maximum number of points in this way: Turn 1: place the tile B in order to complete 2 city features (one with blue knight on it and one without any) then place a red meeple on the empty city (city with no meeples) on the placed tile. After the placement the total score that the red player would earn at the end of this turn by rules: (2tiles * 2pts) = 4 pts (small city). Turn 2: Place tile A in the empty square space below the tile containing the road component, and then place a red meeple on the monastery. As the monastery is completed at the end of this turn, by rules the red player would get a total of 9 more points. The total points received by the red player at the end of 2 turns = 4 + 9 = 13 points.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/best_tile_3.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2218
+}
