@@ -1,17 +1,17 @@
 {
   "ID": 405,
-  "Game": "Res Arcana",
+  "Game": "Res\u00a0Arcana",
   "Tier": 2,
   "Test Description": "Basic rules QA",
   "Difficulty Notes": "Passive income rules",
   "Question": "What is the total essence cost of the displayed components?",
   "Answer": "6 Elan, 8 Life, 4 Calm",
-  "Rationale": "The sacred grove is indicated as First Game component, as indicated by the orange icon in the top right corner.",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t2_passive1.png",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/res\u00a0arcana/t2_passive1.png",
   "game_state_description": "",
   "Game State Difficulty": 1,
   "Rules Difficulty": 1,
   "Strategy Difficulty": 0,
   "tier": 2,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t2_passive1.json"
+  "json_game_state_url": "gamestates/json/res\u00a0arcana/t2_passive1.json"
 }

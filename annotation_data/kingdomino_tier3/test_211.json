@@ -5,11 +5,11 @@
   "Difficulty Notes": "Focusing on very easy scenarios for now, where there is just one or two hops of reasoning.",
   "Question": "Which is the second-best domino the player could add to their kingdom to maximize its score? Output the following: Domino letter, Previous kingdom score, new kingdom score.",
   "Answer": "Domino: D, Previous kingdom score: 7, New kingdom score: 11",
-  "Rationale": "Domino D would increase the swamp value from 2x1 = 2 to 3x2 = 6 for an increase of 4 points",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/kingdomino/t3_single_scoring_3.png",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/kingdomino/t3_single_scoring_3.png",
   "Game State Difficulty": 1,
   "Rules Difficulty": 2,
   "Strategy Difficulty": 2,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/kingdomino/t3_single_scoring_3.json"
+  "json_game_state_url": "gamestates/json/kingdomino/t3_single_scoring_3.json"
 }

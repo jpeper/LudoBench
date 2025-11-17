@@ -1,17 +1,17 @@
 {
   "ID": 542,
-  "Game": "Res Arcana",
+  "Game": "Res\u00a0Arcana",
   "Tier": 3,
   "Test Description": "Testing optimization questions",
   "Difficulty Notes": "Testing the edge-cases of the mermaid card. In this setting note that the mermaid cannot place onto the sacrificial pit in a meaningful way.",
   "Question": "Assume all other players have already passed. Given this game state, what is the maximum guaranteed net number of VP the player can gain in one action? Output the answer as: Previous amount: <num>, New amount: <num>",
   "Answer": "Previous amount: 3, New amount: 3",
-  "Rationale": "The routes to gaining more points are to obtain a PoP or monument, or to activate sacrificial pit. However player does not have enough resources for these options. Therefore they can't get any VP in one turn.",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t3_mermaid.png",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/res\u00a0arcana/t3_mermaid.png",
   "game_state_description": "",
   "Game State Difficulty": 2,
   "Rules Difficulty": 2,
   "Strategy Difficulty": 3,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t3_mermaid.json"
+  "json_game_state_url": "gamestates/json/res\u00a0arcana/t3_mermaid.json"
 }

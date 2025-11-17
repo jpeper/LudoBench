@@ -1,17 +1,17 @@
 {
   "ID": 302,
-  "Game": "Res Arcana",
+  "Game": "Res\u00a0Arcana",
   "Tier": 1,
   "Test Description": "Counts visible Gold essences. On card and on board",
   "Difficulty Notes": "Simple token counting.",
   "Question": "How many Gold essences are pictured?",
   "Answer": "6",
-  "Rationale": "There are five on the table, and one pictured on a card",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t1_gold_multisource.png",
+  "Rationale": "",
+  "game_state_url": "images/res\u00a0arcana/t1_gold_multisource.png",
   "game_state_description": "",
   "Game State Difficulty": 1,
   "Rules Difficulty": 0,
   "Strategy Difficulty": 0,
   "tier": 1,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t1_gold_multisource.json"
+  "json_game_state_url": ""
 }

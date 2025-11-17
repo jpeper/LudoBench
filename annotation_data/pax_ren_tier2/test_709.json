@@ -5,14 +5,14 @@
   "Difficulty Notes": "",
   "Question": "What is the maximum number of florins that the blue player can earn if the blue player launches East Tableau Ops?",
   "Answer": "2",
-  "Rationale": "The maximum number of florins the blue player can in one turn ie. 2 actions is 2. Player can launch the 2 Commerce ops or 1 Commerce op+1 Repress op. Each op will give 1 florin each in either condition.",
+  "Rationale": "",
   "game_state_url": [
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/205_1.jpg",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/205_2.jpg"
+    "gamestates/images/pax_ren/205_1.jpg",
+    "gamestates/images/pax_ren/205_2.jpg"
   ],
   "Game State Difficulty": 3,
   "Rules Difficulty": 4,
   "Strategy Difficulty": 0,
   "tier": 2,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/205_combined.json"
+  "json_game_state_url": "gamestates/json/pax_ren/205_combined.json"
 }

@@ -1,17 +1,17 @@
 {
   "ID": 313,
-  "Game": "Res Arcana",
+  "Game": "Res\u00a0Arcana",
   "Tier": 1,
   "Test Description": "Tests basic symbol identification",
   "Difficulty Notes": "Tests the comprehension of some symbols.",
   "Question": "How many paw-prints are pictured on the cards in this image?",
   "Answer": "1",
-  "Rationale": "There is one on the Sacred Grove card",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t1_multi_all_sizes.png",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/res\u00a0arcana/t1_multi_all_sizes.png",
   "game_state_description": "",
   "Game State Difficulty": 3,
   "Rules Difficulty": 0,
   "Strategy Difficulty": 0,
   "tier": 1,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t1_multi_all_sizes.json"
+  "json_game_state_url": "gamestates/json/res\u00a0arcana/t1_multi_all_sizes.json"
 }
