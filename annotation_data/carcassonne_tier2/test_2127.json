@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Considering it is the blue players turn. The player chooses to place tile A on the landscape marked with Y. After placing the tile, the blue player would not place any meeple. After these two steps in this turn, how many points will the blue player gain at the end of this turn's scoring?",
+  "Answer": "12",
+  "Rationale": "According to the game rules, when the city is completed, the player with the meeple on the city scores 2 points for each tile in the city and 2 points for each shield (or coat of arms) in the city. In this case, after placing the A tile at position Y, the city becomes completed and it is made up of 5 tiles (including the newly placed A tile) and contains 1 shield. Therefore, the blue player scores (5 tiles * 2 points) + (1 shield * 2 points) = 10 + 2 = 12 points for the completed city at the end of this turn's scoring.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/possible_tiles_4.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2127
+}

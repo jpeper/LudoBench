@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Consider that it is the red players turn. Given the different tile options (A, B), which tile should the red player choose in order to maximize thier score at the end of this turn? Also provide the total points the red player would have after placing this tile. Give your answer in the format: [Tile = <chosen tile>, Total_Points = <total points after placing the tile>]",
+  "Answer": "[Tile = B, Total_Points = 4]",
+  "Rationale": "In the current gamestate, the red player has a knight in a incomplete city. The only way in which the red player can score the points is through completing the city. From the two option, both of them can complete the city. But if A tile is used, the formed city would have 2 blue knights and 1 red knights, therefore the red player would not give any points (even though the city is big and can gain more points). On choosing option B, 2 cities would be formed - one small city with only red knight and another big city with 2 blue knights. Therefore the red player should choose tile B. On adding tile B to the city (adjacent to tile containing the red meeple), the small city is completed and the red player earns the points. According to the rules of the game, each tile forming the completed city is worth 2 points and each shield (or coat of arms) in the completed city is worth 2 points. In this case, the completed city has 2 tiles and 0 shield, therefore the total points earned by the red player is (2 * 2) + (0 * 2) = 4 points. Hence the answer is [Tile = B, Total_Points = 4].",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/best_tile_2.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2203
+}

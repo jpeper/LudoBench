@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Considering that it is the yellow players turn, which tile should the yellow player choose from the available tile options (A, B, C) so as to get the maximum score by the end of this turn. Assume that 1) the yellow player does not have any meeples left and 2) in case there are multiple ways to achieve the maximum score, prefer the one that gets the opponent blue player least amount of points). Return the answer in the following format: [Tile = <selected tile>, total_points_blue = <the points by the end of this turn for blue player>, total_points_yellow = <maximum points yellow player can achieve at the end of this turn>]",
+  "Answer": "[tile = B, total_points_blue = 10, total_points_yellow = 9]",
+  "Rationale": "In the given image of the game State we can observe that the landscape contains one blue meeple  on an incomplete City and one yellow meeple on an incomplete monastery. For the yellow player to earn some points, the way is to try and complete the monastery feature. This can be done by placing either Tile B or Tile C on top of the tile containing the monastery with the yellow monk. If Tile B is placed, there are two cities that would be formed. After the placement of this meeple, during the scoring of this turn, we would have 3 completed features (1 is for the blue players city + 1 more empty city (without meeples) + 1 for the completed monastery) that have to be accounted for. According to the rules of the game: 1)Each of the monastery’s tiles (the 8 surrounding tiles and the one with the monastery itself) is worth 1 point 2) Each tile in the completed city is worth 2 points. Each coat of arms in the completed city is worth an extra 2 points. Here for the B tile yellow player would score:9 points from completed monastery, and blue player would score: (4 tiles * 2 points) + (1 shield * 2 points) = 10 points. Whereas if we choose to go with selecting Tile C, then by the rules we would not be able to place any meeple on the city (as already occupied by blue player) resulting in the player only having one complete component (monastery) thereby receiving 9 points only, and the blue player would have a completed city spanning across 5 tiles gaining: (5 tiles * 2 points) + (1 shield * 2 points) = 12. Since either cases yellow player can get a max of 9 points, the way in which player can minimize the blue player's score is by choosing Tile B.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/best_tile_3.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2211
+}

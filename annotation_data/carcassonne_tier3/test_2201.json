@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Given that it is the blue players turn. Given the different tile options (A, B, C), which tile should the blue player choose in order to maximize thier score at the end of this turn? Also provide the total points the blue player would have after placing this tile. Give your answer in the format: [Tile = <chosen tile>, Total_Points = <total points after placing the tile>]",
+  "Answer": "[Tile = A, Total_Points = 10]",
+  "Rationale": "In the current gamestate, the blue player has a knight in a incomplete city. The only way in which the blue player can score the points is through completing the city. Off the three tile options, both tile A and tile C are having the city segment that can be placed, but only tile A can complete the city (as tile C continues the city and not complete). Therefore the blue player should choose tile A. On adding tile A to the city (adjacent to tile containing the blue meeple), the city is completed and the blue player earns the points. According to the rules of the game, each tile forming the completed city is worth 2 points and each shield (or coat of arms) in the completed city is worth 2 points. In this case, the completed city has 4 tiles and 1 shield, therefore the total points earned by the blue player is (4 * 2) + (1 * 2) = 10 points. Hence the answer is [Tile = A, Total_Points = 10].",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/best_tile_1.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2201
+}

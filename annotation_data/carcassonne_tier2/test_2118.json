@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "How many points do each player gain at the end of this turn, after placing the C tile in the position marked with an `X`? Provide your answer in the format [Blue = <points>, Yellow = <points>].",
+  "Answer": "[Blue = 12, Yellow = 9]",
+  "Rationale": "There is only one way in which the C tile can be placed in the position shown as X. This would complete one city (that has a blue knight), and one monastry (that has a yellow monk). According to the game rules, when a city is completed, the player with the most knights in that city scores points for it. In this case, the blue player has one knight in the completed city, so they score 2 points for each tile in the city. The completed city spans 5 tiles (including the newly placed C tile), so the blue player scores 5 * 2 = 10 points + 2 points for the shield (or the coat of arms) =. 12 points. For the monastry, when it is completed, the player with the monk scores 1 point for the monastry tile itself and 1 point for each surrounding tile. In this case, the yellow player has one monk in the completed monastry, so they score 1 point for the monastry tile and 8 points for the surrounding tiles (total of 9 tiles including the monastry tile). Therefore, the yellow player scores 9 points for the completed monastry. In total, at the end of this turn, the blue player gains 12 points and the yellow player gains 9 points.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/possible_tiles_3.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2118
+}

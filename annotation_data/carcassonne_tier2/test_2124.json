@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Can the given tiles (A, B, C) be placed atleast in one position on the current landscape? Provide your answer as [A = <Yes/No>, B = <Yes/No>, C = <Yes/No>].",
+  "Answer": "[A = Yes, B = Yes, C = Yes]",
+  "Rationale": "By examining the landscape, we can determine the possible placements for each tile. Tile A can be placed in multiple positions (e.x.: the hole to complete the city with blue player on it). Tile B can also be placed in a way that it fits the landscape and completes features (in the hollow space below the top most completed city). Tile C, while more restrictive, still has at least one valid placement (in bottom most row, left most position). Therefore, all tiles can be placed at least once.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/farmers_1.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2124
+}

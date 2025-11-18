@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Considering the situation that the yellow player has two turns one after the other, and that the game ends after these 2 turns. Which tiles should the yellow player choose from the available tile options (A, B, C) so as to get the maximum score by the end of the 2 turns. return the answer in the following format: [total_points_turn = <the maximum points by the end of two turns>, total_points_final = <maximum number of points at the end of game>]",
+  "Answer": "[total_points_turn = 18, total_points_final = 27]",
+  "Rationale": "In the given image of the game State we can observe that the landscape contains one blue meeple  on an incomplete City and one yellow meeple on an incomplete monastery. According to the rules of the game: 1)Each of the monastery’s tiles (the 8 surrounding tiles and the one with the monastery itself) is worth 1 point 2) Each tile in the completed city is worth 2 points. Each coat of arms in the completed city is worth an extra 2 points. The player can achieve the maximum number of points in this way: Turn 1: place the tile B in order to complete 2 city features (one with blue knight on it and one without any) then place a yellow meeple on the field part on the placed tile. After the placement the total score that the yellow player would earn at the end of this turn by rules: 9 points for completed monastery feature = 9 points. Turn 2: Place tile A in the empty square space below the tile containing the road component, and then place a yellow meeple on the monastery. As the monastery is completed at the end of this turn, by rules the yellow player would get a total of 9 more points. The total points received by the blue player at the end of 2 turns = 9 + 9 = 18 points. After the last turn, at the end of game, the blue farmer would be present in the field containing 3 complete cities giving a total of (3 complete city * 3 points) = 9 points. So total points at the end of the game is = 19 + 9 = 27 points.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/best_tile_3.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2220
+}

@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding. Counting the number of dominoes in the player's kingdom.",
+  "Difficulty Notes": "Very easy counting",
+  "Question": "How many meeples are currently placed on the tiles in the given landscape?",
+  "Answer": "2",
+  "Rationale": "In the current landscape, there are 2 meeples placed on the tiles. They are located at: (3,1) and (4,2) from the bottom left corner.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/meeple_landscape_1.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "",
+  "ID": 2018
+}

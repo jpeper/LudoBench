@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "How many points would the red player gain at the end of this turn's scoring if tile A has been placed in position X?",
+  "Answer": "0",
+  "Rationale": "On placing the A tile in position X (only one way), the big city would be completed. IN this city, there are two blue knights (meeples) and one red knight (meeple). According to the game rules, when a city is completed, the player with the most knights in that city scores points for it. In this case, the blue player has the majority with two knights, while the red player has only one knight. Therefore, the red player would not gain any points from this completed city as they do not have the majority of knights in it.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/possible_tiles_2.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2117
+}

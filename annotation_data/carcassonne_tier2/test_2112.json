@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "How many completed features are there in the given landscape?",
+  "Answer": "3",
+  "Rationale": "There are a total of 4 features: grass, roads, city, monastery. Out of these, in the given landscape: there are 2 completed roads (one between tile at (2,3) to tile at the tri-road intersection (5,3), and another between the tri-road intersection (5,3) and the city at (4,3)). Along with this there is one completed city (spread across (2,2) and (3,2)). All coordinates are taken with respect to the bottom-left corner of the landscape as (1,1). Therefore, there are a total of 3 completed features in the given landscape.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/possible_tiles_2.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2112
+}

@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Consider the current landscape without any placement of tiles shown. Assume that the last turn has been completed, and game has come to an end. What is the amount of points each player gets (blue, red) during the final score calculations? Return the answer as: [blue= <blue players final score>, red= <yellow players final score>]",
+  "Answer": "[blue= 23, red= 14]",
+  "Rationale": "According to the landscape in the given image: there are two blue standing meeples on two different incomplete roads, two blue farmers in two different fields: both of them having 2 connected cities connected to them, One red standing meeple on an incomplete Road, one red farmer: in the field that is connected to three complete cities. According to the rules of the game: 1)Each of the monastery’s tiles (the 8 surrounding tiles and the one with the monastery itself) is worth 1 point 2) Each tile in the completed city is worth 2 points. Each coat of arms in the completed city is worth an extra 2 points. 3) Farmers are scored only after all the turns are completed. Each field is worth 3 points per adjacent completed city that the farmer is a part of. 4)At the end of the game (after all turns are completed) Each incomplete city is worth 1 point per tile and 1 point per coat of arms, which is only half the points. 5)At the end of the game, Each incomplete monastery is worth 1 point plus 1 point per adjacent tile, just like during the game. The blue player has one meeple on an incomplete road that spans 6 tiles giving it a total of 6 points, the second blue meeple stands on another incomplete road that spans across 5 tiles giving a total of 5 more points. each of the two blue farmers at present in the fields connected to two completed cities as a result of which they give a total of 12 points. therefore the total score of the Blue player would be 23 points.  the red player has one red maple on an incomplete road that spans across 5 tiles as a result of which the red player gets 5 Points, the red farmer present on the  field has 3 completed cities connected to it as a result of which the red player gains 9 more points. so the total number of points gained by the red player is 14 points.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/farmers_3.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2250
+}

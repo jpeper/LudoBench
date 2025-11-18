@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "How many completed features are there in the given landscape before placing any tiles given?",
+  "Answer": "5",
+  "Rationale": "Before placing any tiles, there are 5 completed features in the landscape: 1 completed city at (5,1) and (6,1). There are 4 completed roads - from moanastry (at (3,2)) to village (at (4,3)), from village (4,3) to tri-road intersection (at (3,4)), from tri-road intersection (at (3,4)) to village (at (2,4)), and from village (at (2,4)) to city (at (2,3)). All coordinates are taken with respect to the bottom-left corner of the landscape as (1,1). Therefore, there are a total of 5 completed features in the given landscape before placing any tiles.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/possible_tiles_3.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2119
+}

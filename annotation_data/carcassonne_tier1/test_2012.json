@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding. Counting the number of dominoes in the player's kingdom.",
+  "Difficulty Notes": "Very easy counting",
+  "Question": "In the given landscape, how many tiles does the longest continuous road pass through?",
+  "Answer": "4",
+  "Rationale": "In the current landscape, the longest continuous road passes through 4 tiles. The road starts from the tile at (2,2) and continues through (3,2), (1,3) and then ends back from where it started at (2,2).",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/features_2.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "",
+  "ID": 2012
+}

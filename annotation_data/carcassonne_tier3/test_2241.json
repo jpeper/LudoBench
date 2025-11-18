@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Consider the current landscape without any placement of tiles shown. Assume that the last turn has been completed, and game has come to an end. What is the amount of points each player gets (blue, yellow) during the final score calculations? Return the answer as: [blue= <blue players final score>, yellow= <yellow players final score>]",
+  "Answer": "[blue= 4, yellow= 8]",
+  "Rationale": "The landscape in the given image contains two meeples: one Blue Meeple standing on the incomplete city,  and one yellow Meeple standing on the monastery.  assuming that the game ends before placing any of the tiles, According to the rules, the blue player would score one point for every completed City and one point for every Shield that is there in the city. in the given landscape that the incomplete city is spread across three different tiles and contains one Shield giving a total score of (3 tiles * 1 point) + (1 shield * 1 point) = 4 points. Considering the yellow player the monastery is incomplete and lacking one surrounding tile, therefore the yellow player scores one point for each tile that giving a total of 8 points to the yellow player.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/best_tile_3.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2241
+}

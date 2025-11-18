@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Considering the situation that the red player has two turns one after the other. which tiles should the red player choose from the available tile options (A, B, C) so as to get the maximum score by the end of the game, with the other players getting the minimum points (that is, other players receive no points or the least points)? Assume that the game ends after these 2 turns. return the answer in the following format: [Tiles = <selected tile, selected tile>; total_points_turn = <the maximum points by the end of two turns>, total_points_final = <the maximum points by the end of the game>]",
+  "Answer": "[Tiles = B, C; total_points_turn = 14; total_points_final = 26]",
+  "Rationale": "The current game state has: One incomplete city with a blue meeple on it, And three farmers (2 red, 1 yellow) present on the fields. According to the rules of the game: 1)Each of the monastery’s tiles (the 8 surrounding tiles and the one with the monastery itself) is worth 1 point 2) Each tile in the completed city is worth 2 points. Each coat of arms in the completed city is worth an extra 2 points. 3) Farmers are scored only after all the turns are completed. Each field is worth 3 points per adjacent completed city that the farmer is a part of. The maximum points the red player can gain by the end of the two turns is: Turn 1: The player can place Tile B (monastery tile) in the hollow square gap below the top left completed city; place a red meeple as a monk on top of the monastery; this would complete the monastery feature and the red player would earn 9 points. Turn 2: The player can place Tile C in the lower left corner of the landscape; place a red meeple on the road feature; since the road feature is completed, the red player has a meeple on it, the player would gain (5 tiles * 1 point) = 5 points in total for the completed road. Therefore by the end of 2 turns the red player can score a maximum of (9 points from turn 1 + 5 points from turn 2) = 14 points in total. Now after the turn is over, the game comes to an end. Now we notice that the red player has 2 farmers in the largest connected field that contains 4 completed cities therefore no other player (yellow farmer gets any points). By the rules, the red player would gain: (4 completed city * 3 points) = 12 more points from the field. Therefore the total points that a red player can gain at the end of the game is (14 from turns + 12 from field) = 26 points. The blue player gets a least possible score of 4 (for the incomplete city) and yellow player gets a least of 0 score this way.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/farmers_2.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2240
+}

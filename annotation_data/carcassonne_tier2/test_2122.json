@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "How many farmers of each player are currently placed in the fields according to the given landscape? Provide your answer as [Red = <num of red farmers>, Black = <num of green farmers>, Blue = <num of blue farmers>, Yellow = <num of yellow farmers>].",
+  "Answer": "[Red = 1, Black = 1, Blue = 0, Yellow = 1]",
+  "Rationale": "By examining the landscape, we can identify the farmers placed in the fields: the meeples put in a sleeping (or laying down) position on grass are considered to be the farmers. There are 1 red farmer in the fields, 1 black farmer, 0 blue farmers, and 1 yellow farmer. Therefore, the total number of farmers for each player is as follows: Red = 1, Black = 1, Blue = 0, Yellow = 1.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/farmers_1.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2122
+}

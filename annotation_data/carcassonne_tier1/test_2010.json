@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding. Counting the number of dominoes in the player's kingdom.",
+  "Difficulty Notes": "Very easy counting",
+  "Question": "What is the size of the minimum rectangle that can enclose all the tiles in the given landscape? Provide the answer in the format 'width x height'.",
+  "Answer": "3 x 2",
+  "Rationale": "The minimum rectangle that can enclose all the tiles spans from (1,1) to (3,2), which gives it a width of 3 tiles and a height of 2 tiles.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/features_2.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "",
+  "ID": 2010
+}

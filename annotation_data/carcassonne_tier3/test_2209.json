@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Considering that it is the blue players turn, which tile should the blue player choose from the available tile options (A, B, C) so as to get the maximum score by the end of this turn. return the answer in the following format: [Tile = <selected tile>, total_points = <the maximum points by the end of this turn>]",
+  "Answer": "[tile = C, total_points = 12]",
+  "Rationale": "In the given image of the game State we can observe that the landscape contains one blue meeple  on an incomplete City and one yellow meeple on an incomplete monastery. In order for the blue player to achieve some points by the end of this round,  the blue player should complete the city which has the blue meeple. The player can achieve this by either placing one of the two tiles: B or C. According to the rules of the game the city once completed would be evaluated by multiplying the number of tiles that forms the City by two and adding on to points for every field that is present on the city. So, on choosing tile B the city containing the blue meeple would be spanning across 4 tiles and the total score would be: (4 tiles * 2 points) + (1 shield * 2 points) =  10 pts. On choosing tile C the city containing the blue meeple would be spanning across 5 tiles and the total score would be: (5 tiles * 2 points) + (1 shield * 2 points) =  12 pts. Of the given options the blue player would get the maximum points by the end of this round if Tile C is selected.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/best_tile_3.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2209
+}

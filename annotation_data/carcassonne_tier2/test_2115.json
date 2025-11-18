@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "How many unique ways can tile A be placed on the current landscape?",
+  "Answer": "19",
+  "Rationale": "According to the placement rules: We have to place a tile such that it continues the landscape. Option A has city on two sides (adjacent) and grass on other two sides (adjacent). In the given landscape, considering the borders: the number of sides (or boundaries) having only one grass (without adjacency constraints) + two adjacent grass sides: 8 + 0 = 8 sides. since there are 8 sides without adj. constraints, tile A can be placed in 2 different ways in each spot (grass to grass matching). therefore a total of 8 * 2 = 16 ways from the sides. Now there is one tile on the border that has a city towards the border and no adjacent constraints, therefore tile A can be placed in 2 different ways (city to city matching). Along with this there is one way in which the tile can be placed in the hole between the landscape. Therefore, the total number of ways tile A can be placed in the current landscape is 16 + 2 + 1 = 19 ways.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/best_tile_2.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2115
+}

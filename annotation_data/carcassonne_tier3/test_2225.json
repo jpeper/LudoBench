@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Considering that it is the yellow player's turn, which tile should the yellow player choose from the available tile options (A, B, C) so as to get the maximum score by the end of this game. Assume that the game would end after this turn. Return the answer in the following format: [Tile = <selected tile>, total_points_turn = <the points by the end of this turn for yellow player>, total_points_final = <maximum points yellow player can achieve at the end of this game>]",
+  "Answer": "[tile = B, total_points_turn = 9, total_points_final = 18]",
+  "Rationale": "The current game state has: One incomplete city with a blue meeple on it, And three farmers (red, yellow, black) present on the fields. According to the rules of the game: 1)Each of the monastery’s tiles (the 8 surrounding tiles and the one with the monastery itself) is worth 1 point 2) Each tile in the completed city is worth 2 points. Each coat of arms in the completed city is worth an extra 2 points. 3) Farmers are scored only after all the turns are completed. Each field is worth 3 points per adjacent completed city that the farmer is a part of. Since the yellow player does not have any meeples standing, the only way that the yellow player can score points by the end of this turn is to complete a feature and place a maple on top of that feature. The yellow player can place tile B (monastery tile) below the top most completed city; and then place a yellow meeple as a monk over the monastery. This would result in the yellow player getting 9 points.Note: The yellow player could also choose to place tile C in the bottom left corner to complete the road, and place a meeple on the road. This would result in the yellow player getting only 5 points (as the road is spread across 5 tiles). In any of the above cases meeple cannot be placed on any of the fields because it would already have other player already having a farmer in that field. So comparing these options the best option would be to choose tile B  and achieve 9 points. therefore the yellow player would choose tile B to achieve the maximum number of points by the end of the turn. Now after the turn is over, the game comes to an end. Now we notice that the yellow player has a farmer in the central field that contains 3 completed and one incomplete city. By the rules, the yellow player would gain: (3 completed city * 3 points) = 9 more points. Therefore the total points that yellow player can gain at the end of the game is (9 from turn + 9 from farmer) = 18 points.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/carcassonne/farmers_1.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2225
+}
