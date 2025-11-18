@@ -29,14 +29,14 @@
     }
   ],
   "Answer_str": "West Trade Fair + Commerce. Max florins earned: 5.",
-  "Rationale": "All possible actions: West trade fair, blue +3, yellow +1; East​ trade fair, blue+2, yellow +1; Commerce, blue +2",
+  "Rationale": "",
   "game_state_url": [
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/205_1.jpg",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/205_2.jpg"
+    "gamestates/images/pax_ren/205_1.jpg",
+    "gamestates/images/pax_ren/205_2.jpg"
   ],
   "Game State Difficulty": 2,
   "Rules Difficulty": 3,
   "Strategy Difficulty": 3,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/205_combined.json"
+  "json_game_state_url": "gamestates/json/pax_ren/205_combined.json"
 }

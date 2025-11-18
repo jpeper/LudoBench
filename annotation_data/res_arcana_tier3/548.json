@@ -1,17 +1,17 @@
 {
   "ID": 548,
-  "Game": "Res Arcana",
+  "Game": "Res\u00a0Arcana",
   "Tier": 3,
   "Test Description": "Testing optimization questions",
   "Difficulty Notes": "Testing the edge-cases of the mermaid card. This tests a case where there may be adversarial paths.",
   "Question": "Assume all other players have already passed. Given this game state, what is the maximum guaranteed net number of VP the player can gain in one action? Output the answer as: Previous amount: <num>, New amount: <num>",
   "Answer": "Previous amount: 4, New amount: 5",
-  "Rationale": "Action 1: Activate mermaid, discarding calm token to place one on sunken reef. This nets three total on sunken reef.",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t3_mermaid_synergy3.png",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/res\u00a0arcana/t3_mermaid_synergy3.png",
   "game_state_description": "",
   "Game State Difficulty": 2,
   "Rules Difficulty": 2,
   "Strategy Difficulty": 3,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t3_mermaid_synergy3.json"
+  "json_game_state_url": "gamestates/json/res\u00a0arcana/t3_mermaid_synergy3.json"
 }

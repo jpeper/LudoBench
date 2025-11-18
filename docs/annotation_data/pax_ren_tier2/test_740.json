@@ -7,11 +7,11 @@
   "Answer": "3",
   "Rationale": "",
   "game_state_url": [
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/219_1.png"
+    "images/pax_ren/219_1.png"
   ],
   "Game State Difficulty": 4,
   "Rules Difficulty": 3,
   "Strategy Difficulty": 0,
   "tier": 2,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/219_1.json"
+  "json_game_state_url": ""
 }

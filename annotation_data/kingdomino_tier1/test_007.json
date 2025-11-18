@@ -5,11 +5,11 @@
   "Difficulty Notes": "Does model hallucinate the presence of game pieces?",
   "Question": "How many crowns are pictured?",
   "Answer": "0",
-  "Rationale": "No crowns are shown, as the game state is essentially empty",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/kingdomino/bare_dominoes.png",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/kingdomino/bare_dominoes.png",
   "Game State Difficulty": 1,
   "Rules Difficulty": 0,
   "Strategy Difficulty": 0,
   "tier": 1,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/kingdomino/bare_dominoes.json"
+  "json_game_state_url": "gamestates/json/kingdomino/bare_dominoes.json"
 }

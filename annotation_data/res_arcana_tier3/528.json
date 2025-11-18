@@ -1,17 +1,17 @@
 {
   "ID": 528,
-  "Game": "Res Arcana",
+  "Game": "Res\u00a0Arcana",
   "Tier": 3,
   "Test Description": "Testing optimization questions",
   "Difficulty Notes": "Focusing this new game state on card tapping combinations.",
   "Question": "Assume this is the game state before the next round begins. What is the maximum number of essences the player can collect at the start of the round? Output the answer as: Previous essence amount: <num>, New essence amount: <num>",
   "Answer": "Previous essence count: 9, New essence count: 9",
-  "Rationale": "Players card contain no 'collect' symbols, so they will not gain any new tokens.",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t3_tapping_1.png",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/res\u00a0arcana/t3_tapping_1.png",
   "game_state_description": "",
   "Game State Difficulty": 2,
   "Rules Difficulty": 1,
   "Strategy Difficulty": 1,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t3_tapping_1.json"
+  "json_game_state_url": "gamestates/json/res\u00a0arcana/t3_tapping_1.json"
 }

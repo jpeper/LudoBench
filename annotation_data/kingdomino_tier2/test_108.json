@@ -5,11 +5,11 @@
   "Difficulty Notes": "Requires model to understand adjacent placement validity",
   "Question": "Is this a valid kingdom state?",
   "Answer": "Yes",
-  "Rationale": "Yes, although the timing of placement could affect the validity of the kingdom, in its static state, this is a valid kingdom.",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/kingdomino/valid_kingdom_1.png",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/kingdomino/valid_kingdom_1.png",
   "Game State Difficulty": 1,
   "Rules Difficulty": 2,
   "Strategy Difficulty": 0,
   "tier": 2,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/kingdomino/valid_kingdom_1.json"
+  "json_game_state_url": "gamestates/json/kingdomino/valid_kingdom_1.json"
 }

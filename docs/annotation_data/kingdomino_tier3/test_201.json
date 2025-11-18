@@ -5,11 +5,11 @@
   "Difficulty Notes": "This is not a comprehensive game test, as we're still focused on a subset of the reasoning. However, we are now trying to make optimal choices, as opposed to simply answering rules comprehension questions.",
   "Question": "What two dominoes should be selected to maximize their combined score? Select one from each column. Assume they will be aligned in the optimal orientations. How many points will these combine to yield? Output as 'Dominoes: [<tile 1 name>, <tile 2 name>], Score: <scalar>]",
   "Answer": "Dominoes: [C, G], Score: 4]",
-  "Rationale": "C and G both contain lake tiles, each with one crown. Combined they result in 2x2 = 4 points. No other combination is better",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/kingdomino/t3_basic_cols.png",
+  "Rationale": "",
+  "game_state_url": "images/kingdomino/t3_basic_cols.png",
   "Game State Difficulty": 1,
   "Rules Difficulty": 1,
   "Strategy Difficulty": 1,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/kingdomino/t3_basic_cols.json"
+  "json_game_state_url": ""
 }

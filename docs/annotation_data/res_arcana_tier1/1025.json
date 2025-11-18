@@ -1,17 +1,17 @@
 {
   "ID": 1025,
-  "Game": "Res Arcana",
+  "Game": "Res\u00a0Arcana",
   "Tier": 1,
   "Test Description": "Counts visible came components",
   "Difficulty Notes": "Simple token counting.",
-  "Rationale": "There are three Gold tokens in the player’s pool and two on the Vault.",
+  "Rationale": "",
   "game_state_description": "Single tableau. Vault artifact holds 2 Gold; player mat shows 3 Gold plus assorted other essences.",
   "Game State Difficulty": 1,
   "Rules Difficulty": 0,
   "Strategy Difficulty": 0,
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t4_2.png",
+  "game_state_url": "images/res\u00a0arcana/t4_2.png",
   "Question": "How many physical tokens are directly on the table / red felt?",
   "Answer": "5",
   "tier": 1,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t4_2.json"
+  "json_game_state_url": ""
 }

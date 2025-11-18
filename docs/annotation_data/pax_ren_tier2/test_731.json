@@ -7,14 +7,14 @@
   "Answer": "Globalization Victory",
   "Rationale": "",
   "game_state_url": [
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/213_1.png",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/213_2.png",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/213_3.png",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/213_4.png"
+    "images/pax_ren/213_1.png",
+    "images/pax_ren/213_2.png",
+    "images/pax_ren/213_3.png",
+    "images/pax_ren/213_4.png"
   ],
   "Game State Difficulty": 4,
   "Rules Difficulty": 4,
   "Strategy Difficulty": 0,
   "tier": 2,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/213_combined.json"
+  "json_game_state_url": ""
 }

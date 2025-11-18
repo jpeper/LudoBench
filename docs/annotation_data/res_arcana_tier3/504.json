@@ -1,17 +1,17 @@
 {
   "ID": 504,
-  "Game": "Res Arcana",
+  "Game": "Res\u00a0Arcana",
   "Tier": 3,
   "Test Description": "Testing optimization questions",
   "Difficulty Notes": "Optimizing the number of resources obtained in X number of actions",
   "Question": "What is the maximum number of calm essences the player could have after 2 actions. Output the answer as: Previous amount: <num>, New amount: <num>",
   "Answer": "Previous amount: 1, New amount: 5",
-  "Rationale": "Player can discard both cards from their hand, netting 2 calm essences each",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t3_full_1.png",
+  "Rationale": "",
+  "game_state_url": "images/res\u00a0arcana/t3_full_1.png",
   "game_state_description": "",
   "Game State Difficulty": 3,
   "Rules Difficulty": 2,
   "Strategy Difficulty": 2,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t3_full_1.json"
+  "json_game_state_url": ""
 }
