@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Considering that it is the red players turn, and the player rolls the dice summing to 6. What is the maximum number of points that the red player can earn by the end of this turn. Report the answer in the following manner: [points_before_turn = <the number of points before the current turn>, points_after_turn = <the number of points after the turn is complete>].",
+  "Answer": "[points_before_turn = 6, points_after_turn = 8]",
+  "Rationale": "In the given game state the red player has 1 city and 2 settlements giving a total of 4 points + 2 points from the longest road = 6 points before the start of the round. The red players resource pool: 3 grain, 1 lumber, 1 brick, 1 wool, 2 ore. In order to gain the maximum points, the player would do the following: the player rolls a 6 so gets 2 ore due to the red city present. This would result in the player having 3 grain, 1 lumber, 1 brick, 1 wool, 4 ore. With these resources, the player can build one settlement and upgrade it to a city at an intersection (6, 4, 3). This would result in an increase of 2 points making the total number of points 8 points.",
+  "game_state_url": ["https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_1.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_1.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_1.png"],
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2503
+}

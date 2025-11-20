@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding.",
+  "Difficulty Notes": "Very easy counting",
+  "Question": "How many number tokens are present on the board in the given game state?",
+  "Answer": "18",
+  "Rationale": "In the given game state, there are 18 number tokens present on the board. (2 to 12)",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_2.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "",
+  "ID": 2304
+}

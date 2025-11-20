@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Considering that it is the blue players turn, and the player rolls the dice summing to 10. What is the maximum number of points that the blue player can earn by the end of this turn. Report the answer in the following manner: [points_before_turn = <the number of points before the current turn>, points_after_turn = <the number of points after the turn is complete>].",
+  "Answer": "[points_before_turn = 3, points_after_turn = 6]",
+  "Rationale": "In the given game state the blue player has 1 city and 1 settlement giving a total of 3 points before the start of the turn. The blue player currently has: 1 grain, 1 brick, and 1 lumber resource cards. And one knight development card in hand, and one knight in the table. The way in which the player can earn the maximum number of points is: The player rolls 10, so since the player has a settlement in 10, gains one wool resource making the total resource pool: 1 grain, 1 wool, 1 brick, 1 lumber.  In order to build a settlement we need: (1 of each grain, lumber, brick, wool). With this the blue player can build a settlement at the intersection of (3, 8, 10). This would result in the player gaining one point for the settlement, and also 2 more points as the settlement placed breaks the longest road, resulting in blue player getting the longest road card. Therefore the blue player would gain 3 more points by the end of this round.",
+  "game_state_url": ["https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_1.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_1.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_1.png"],
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2501
+}

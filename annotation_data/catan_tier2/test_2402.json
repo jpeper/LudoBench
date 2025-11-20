@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "What is the length of the longest road present on the board and which player owns it? If there are multiple players with the longest road, list all of them. Return the answer in the format 'length is X, owned by player1 and/or player2'.",
+  "Answer": "length is 6, owned by red and blue players",
+  "Rationale": "In the given game state, the longest road is 6 units long and is owned by both the red and blue players.",
+  "game_state_url": ["https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_1.png"],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2402
+}
