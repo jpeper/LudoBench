@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Suppose that the blue player rolls a 7, changes the robber to a tile that has 10 numbered on pasture. And takes away one grain resource card from the red player. Now it is the red players turn. What is the maximum number of settlements the red player can build by the end of this turn? Assume that the gamestate given is before the stealing of the resource card. Return the answer in the following format:  [settlement before:<number of settlements before the turn>, settlements after: <number of settlements after the turn>].",
+  "Answer": "[settlements before:2, settlements after:4]",
+  "Rationale": "In the given game state, the red player already has 1 city, and 2 settlements on the board. Also the resource pool of the red player contains 4 grain, 1 lumber, 1 brick, 1 wool, and 4 ore resource cards. The red player also has 3 development cards (2 cards having victory points, 1 monopoly). In order to build a settlement we need: (1 of each grain, lumber, brick, wool). The red player can gain the maximum number of settlements by the end of the round in this way: the player has rolled a 10, but since there is a robber in that location, the player would not gain any resource cards and also loose one grain resource card. Now since the player has access to the maritime trade, the player would trade 2 ores to get 2 brick resource, and trade 2 more ores to get 2 lumber resources. Then the player would play the development card monopoly, and take all the wool resources from the blue player. This would result in a total of: 3 grain, 3 lumber, 3 brick, 2 wool, 0 ore resources. Then the player would have sufficient resources (1 of each grain, lumber, brick, wool) to build 2 settlements. Now seeing the board, we find that there are 2 possible places where red player can have settlements placed: intersections of: (4, dessert, 3), (4, 3, 6). Note there are other places where the settlements can be placed too. Therefore by the end of this turn the red player can have a maximum of 2 more settlements, making a total of 4 settlements by the end of this turn.",
+  "game_state_url": ["https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_2.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_2.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_2.png"],
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2510
+}

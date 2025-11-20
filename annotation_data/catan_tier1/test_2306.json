@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding.",
+  "Difficulty Notes": "Very easy counting",
+  "Question": "How many intersections are occupied in the given game state? Consider the intersection to be the point/corners where the tiles meet.",
+  "Answer": "5",
+  "Rationale": "In the given game state, there are 5 occupied intersections: (6, 11, 4), (6, 11, 3), (11, 10, 9), (4, one with black piece), (3, 10, 8).",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_2.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "",
+  "ID": 2306
+}

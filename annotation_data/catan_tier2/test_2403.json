@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "How many red settlements are there on the board?",
+  "Answer": "2",
+  "Rationale": "In the given game state, there are 2 red settlements on the board: one at the intersection of hexes 4, and desert, and another at the intersection of hexes 3, desert, and 8 .",
+  "game_state_url": ["https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_1.png"],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2403
+}

@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Suppose that the red player rolls a 7, changes the robber to a tile that has 6 numbered on mountains, and steals away one ore resource card from the blue player. Now it is the blue players turn. What is the maximum number of cities the blue player can build by the end of this turn? Assume that the gamestate given is before the stealing of the resource card. Return the answer in the following format:  [cities before:<number of cities before the turn>, cities after: <number of cities after the turn>]",
+  "Answer": "[cities before:1, cities after:2]",
+  "Rationale": "In the given game state, the blue player already has 1 city, and 1 settlement on the board. Also the resource pool of the blue player contains 4 grain, 1 lumber, 1 brick, 1 wool, and 3 ore resource cards. The blue player also has 2 development cards (1 card having knight, 1 year of plenty). In order to build a settlement we need: (1 of each grain, lumber, brick, wool). In order to build a city we need: (1 settlement + 2 grains + 3 ore). The blue player can gain the maximum number of settlements by the end of the round in this way: the player has rolled a 6, since there is a robber in that location, the blue player does not gain any ore resources and -1 ore because of the robbery by the red player. Then the player would play the development card year of plenty, and take 1 ore and 1 grain resources from the central resource pool. This would result in a total of: 5 grain, 1 lumber, 1 brick, 1 wool, 3 ore resources. Then the player would have sufficient resources (1 of each grain, lumber, brick, wool) to build 1 settlement (intersection of 6, 3, 4). As a result of this the player would be breaking the longest road of the red player and would get the longest road card gaining 2 victory points. The number of remaining resources: 4 grain, 0 lumber, 0 brick, 0 wool, 3 ore resources. Now seeing the board, we find that there are 2 settlements of blue player which can be turned into cities. Since the blue player has enough resources only for upgrading one settlement into a city,  the player would gain 1 cities. Note there are any settlements of the 2 that can get converted into a city. Therefore by the end of this turn the blue player can have a maximum of 2 cities.",
+  "game_state_url": ["https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_2.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_2.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_2.png"],
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2509
+}

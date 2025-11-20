@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "What is the total number of points the blue player has in the given game state?",
+  "Answer": "3",
+  "Rationale": "In the given game state, the blue player already has 1 city, and 1 settlement on the board. Also the resource pool of the blue player contains 4 grain, 1 lumber, 1 brick, 1 wool, and 3 ore resource cards. The blue player also has 2 development cards (1 card having knight, 1 year of plenty).the blue player currently has 3 victory points (1 from settlement + 2 from city).",
+  "game_state_url": ["https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/table_2.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_2.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_2.png"],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2408
+}

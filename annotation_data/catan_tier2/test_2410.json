@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Suppose the blue player gains a wool resource and builds a settlement at the intersetion of hexes forest (with number 3), pasture (with number 10), and hills (with number 8), How many points does the blue player have after performing this action?",
+  "Answer": "6",
+  "Rationale": "In the given game state the blue player has 1 city and 1 settlement giving a total of 3 points before the start of the turn. After the blue player builds a settlement in the given location (+1 point), the blue player would break the longest road by the red player and gain the longest road card from the red player gaining 2 more points. The total number of points the blue player has after performing this action is 6 points (3 + 3 = 6).",
+  "game_state_url": ["https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_1.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_1.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/table_1.png"],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2410
+}

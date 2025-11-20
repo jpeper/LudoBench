@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "What is the total number of victory points the red player has in the given game state?",
+  "Answer": "6",
+  "Rationale": "In the given game state, the red player already has 1 city, and 2 settlements on the board. Also the resource pool of the red player contains 4 grain, 1 lumber, 1 brick, 1 wool, and 4 ore resource cards. The red player also has 3 development cards (2 cards having victory points, 1 monopoly). The total number of points that red player has currently is: longest road: 2 points + 1 city = 2 points + 2 settlements = 2 points = 6 points)",
+  "game_state_url": ["https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/table_2.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_2.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_2.png"],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2409
+}
