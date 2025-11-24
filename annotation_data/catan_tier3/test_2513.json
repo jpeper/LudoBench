@@ -1,0 +1,20 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Assume: 1) no-inter player trading occurs, 2) there are no development cards left to draw, 3) in-hand VP cards count as points, 4) can use the combined Trade/Build phase, 5)For maritime trade, a city on a special harbor grants a 1:1 trade rate for its resource, while a city on a generic harbor grants a 3:2 trade rate for any resource. What is the maximum number of brick resource cards the red player can get by the end of the turn, given the player rolls a 10 in this turn? Return the answer in the following format: [prev_cards: <number of cards before this turn of that resource>, new_cards: <number of cards after the turn of that resource>]",
+  "Answer": "[prev_cards: 3, new_cards: 11]",
+  "Rationale": "According to the given board stateIn the question, The red player has three settlements. The red player currently has The following resource cards: bricks: 3, wool: 4, grains: 4, lumber: 3, ore: 3], and also one Year of Plenty development card. Since the player rolls are 10, the player would get 2 wool resource cards. This would result in the player having [brick: 3, wool: 6, grain: 4, lumber: 3, ore: 3]. The maximum number of brick resource cards can be got in the following way: use 2 grains and 3 ore resource cards for upgrading the settlement on the generic harbor into a city. Use the Year of plenty development card and gain 2 brick cards (+2 brick). Now use maritime trade to do the following: 3 wool -> 2 bricks, remaining 3 wool -> 2 bricks, 3 lumber -> 2 bricks resulting in (+6 brick resource cards). As a result of this the red player can get a maximum of 8 more brick resource cards making the amount 11.",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_green_5.png"
+  ],
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 3,
+  "Strategy Difficulty": 3,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2513
+}

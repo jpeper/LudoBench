@@ -1,0 +1,20 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Assume: 1) no-inter player trading occurs, 2) there are no development cards left to draw, 3) in-hand VP cards count as points, 4) can use the combined Trade/Build phase, 5)For maritime trade, a city on a special harbor grants a 1:1 trade rate for its resource, while a city on a generic harbor grants a 3:2 trade rate for any resource, 6) consider that the blue player in total has 4 cities, 5 settlements (including ones on board). What is the maximum number of cities the blue player has by the end of this turn, given that the blue player has rolled 10 in this round? Return your answer in the following format: [Old: <number of cities before this turn>, new: <number of cities after the turn>]",
+  "Answer": "[old: 2, new: 4]",
+  "Rationale": "According to the given board stateIn the question, the blue player has 2 cities on the special harbors, one settlement on the intersection of hexes: (8,5,4). The blue player has the following resources: [brick: 2, wool: 1, grain: 1, lumber: 2, ore: 3]. Along with this the player has development cards: 1 monopoly, 1 Road building. And also has the largest kingdom with 3 knights. Given that the player rolls a 11, the player gets 4 more grain cards: [brick: 2, wool: 1, grain: 5, lumber: 1, ore: 3]. In order to get the maximum bummer of cities the blue player can do the following: use the monopoly development card, and get all the ore resources from the red player (3 ore). Now upgrade the settlement which is present at (8,5,4) to a city by paying 2 grain and 3 ore. The total resource pool now: [brick: 2, wool: 1, grain: 3, lumber: 1, ore: 3]. From the given resources, the red player can build one more settlement at intersection of (9 forest, 8 hills) and upgrade that to a city. This way the blue player can get a maximum of 4 cities at the end of this round.",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_green_5.png"
+  ],
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 3,
+  "Strategy Difficulty": 3,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2516
+}

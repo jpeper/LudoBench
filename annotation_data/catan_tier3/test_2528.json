@@ -1,0 +1,19 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Assume: 1) no-inter player trading occurs, 2) there are no development cards left to draw, 3) in-hand VP cards count as points. What is the maximum number of cities the red player can place by the end of this turn, given the player rolls an 4? Return your answer in the following format: [prev_cities: <number of cities the player has before this turn>, new_cities: <the number of cities the player has after this turn>]",
+  "Answer": "[prev_cities: 2, new_cities: 3]",
+  "Rationale": "According to the given game state, the Red player has two cities on the board and begins the turn with 4 ore, 2 brick, and 2 wool resources. The player’s only development card is Monopoly. After rolling a 4, the Red player receives 4 grain—two from each city. To maximize the number of cities they can obtain, the player first plays the Monopoly card to claim all lumber from the Blue player, gaining 2 lumber. At this point, the Red player’s resources are 2 lumber, 2 brick, 2 wool, 4 grain, and 4 ore. Using these resources, the Red player can build a settlement at the intersection of the 10–6–5 hexes (cost: 1 brick, 1 wool, 1 grain, 1 lumber) and then immediately upgrade that settlement into a city (cost: 2 grain and 3 ore). Therefore, by the end of this turn, the Red player successfully constructs one additional city, bringing their total number of cities to three.",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_3.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_3.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_3.png"
+  ],
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2528
+}
