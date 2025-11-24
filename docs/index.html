@@ -2,148 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>LudoBench Static Viewer</title>
+    <title>LudoBench Dataset Viewer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <style>
-      body {
-        background: #111;
-        color: #eee;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-        margin: 0;
-        padding: 20px;
-      }
-
-      h1 {
-        margin-top: 0;
-      }
-
-      #controls {
-        margin-bottom: 20px;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        align-items: center;
-      }
-
-      label {
-        font-size: 14px;
-      }
-
-      select,
-      input {
-        background: #222;
-        color: #eee;
-        border-radius: 4px;
-        border: 1px solid #444;
-        padding: 4px 8px;
-      }
-
-      button {
-        background: #444;
-        color: #eee;
-        border: 1px solid #666;
-        border-radius: 4px;
-        padding: 4px 10px;
-        cursor: pointer;
-      }
-
-      button:hover {
-        background: #555;
-      }
-
-      #layout {
-        display: grid;
-        grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
-        gap: 20px;
-      }
-
-      #questionCard {
-        background: #181818;
-        padding: 16px;
-        border-radius: 8px;
-        border: 1px solid #333;
-        margin-bottom: 12px;
-      }
-
-      .id-tag {
-        font-size: 0.8em;
-        color: #aaa;
-      }
-
-      .question-label {
-        font-weight: bold;
-        color: #ff6666;
-        margin-bottom: 4px;
-      }
-
-      .question-text {
-        font-size: 16px;
-        line-height: 1.6;
-      }
-
-      #answerBlock {
-        background: #181818;
-        padding: 16px;
-        border-radius: 8px;
-        border: 1px solid #333;
-      }
-
-      .answer-info {
-        margin-top: 8px;
-        font-weight: 500;
-      }
-
-      .answer-info.correct {
-        color: #5fd75f;
-      }
-
-      .answer-info.wrong {
-        color: #ff5555;
-      }
-
-      details {
-        margin-top: 10px;
-      }
-
-      #imageContainer {
-        background: #181818;
-        padding: 16px;
-        border-radius: 8px;
-        border: 1px solid #333;
-      }
-
-      #imageContainer.hidden {
-        display: none;
-      }
-
-      #gameImage {
-        max-width: 100%;
-        height: auto;
-        border-radius: 6px;
-        border: 1px solid #333;
-        display: block;
-        margin-bottom: 6px;
-      }
-
-      #imageCaption {
-        font-size: 13px;
-        color: #ccc;
-        margin-bottom: 4px;
-      }
-
-      a#imageLink {
-        font-size: 13px;
-        color: #66aaff;
-      }
-
-      pre {
-        background: #222;
-        padding: 15px;
-        border-radius: 8px;
-        overflow-x: auto;
-      }
-    </style>
+    <!-- 🔥 Use external CSS only -->
+    <link rel="stylesheet" href="viewer.css" />
   </head>
 
   <body>
@@ -155,18 +18,17 @@
         Folder:
         <select id="folderSelect"></select>
       </label>
-    
+
       <label>
         Example:
         <select id="fileSelect"></select>
       </label>
-    
+
       <div id="navButtons">
         <button id="prevBtn">◀ Prev</button>
         <button id="nextBtn">Next ▶</button>
       </div>
     </div>
-    
 
     <!-- Main two-column layout -->
     <div id="layout">
@@ -184,18 +46,17 @@
           <div id="answerInfo" class="answer-info"></div>
 
           <details>
-            <summary>Show solution / rationale</summary>
+            <summary>Show solution </summary>
             <div id="solutionText"></div>
           </details>
         </div>
       </div>
 
-      <!-- Right: image -->
+      <!-- Right: images -->
       <div>
-        <div id="imageContainer" class="hidden">
-          <img id="gameImage" alt="Game state" />
-          <div id="imageCaption"></div>
-          <a id="imageLink" href="#" target="_blank">Open full image</a>
+        <div id="imageContainer" class="image-wrapper hidden">
+          <h3>Game state</h3>
+          <div id="multiImages"></div>
         </div>
       </div>
     </div>

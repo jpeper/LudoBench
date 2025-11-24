@@ -5,11 +5,11 @@
   "Difficulty Notes": "Model has to differentiate betwen four colors of meeples.",
   "Question": "How many colors of meeples are pictured?",
   "Answer": "4",
-  "Rationale": "A green, brown, white, and pink meeple are present",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/kingdomino/four_meeple_colors.png",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/kingdomino/four_meeple_colors.png",
   "Game State Difficulty": 1,
   "Rules Difficulty": 0,
   "Strategy Difficulty": 0,
   "tier": 1,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/kingdomino/four_meeple_colors.json"
+  "json_game_state_url": "gamestates/json/kingdomino/four_meeple_colors.json"
 }

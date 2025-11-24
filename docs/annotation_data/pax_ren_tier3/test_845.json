@@ -34,16 +34,16 @@
     }
   ],
   "Answer_str": "1. Purchase --- Spend 3 florins to buy Tolfa Alum card from market; 2. Play --- play Tolfa Alum card, and choose to place both the concessions on the map adjacent to the Papal states and where there is space.; 3. Declare Globalization Victory.",
-  "Rationale": "Given the game state, we observe that the blue player has 3 Florins, one Discover prestige (other player doesn’t have any). The blue player also has 2 concessions where as the opponent has one concession. In order to gain the victory in 3 actions, assuming that you are given 3 action steps at a stretch, the best possibility would be to go ahead with the Globalization Victory. This can be achieved by doing the following actions: 1: purchase the Tolfa Alum card with three Florins. 2: Play this card and choose to place both the concessions on the map adjacent to the Papal states and where there is space. This makes sure that there are at least 2 more concessions than the opponent. This makes the blue player satisfy for the Globalization Victory conditions. 3: Declare Globalization Victory. This way the player would win this round in 3 actions.",
+  "Rationale": "",
   "game_state_url": [
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/215_1.png",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/215_2.png",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/215_3.png",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/215_4.png"
+    "images/pax_ren/215_1.png",
+    "images/pax_ren/215_2.png",
+    "images/pax_ren/215_3.png",
+    "images/pax_ren/215_4.png"
   ],
   "Game State Difficulty": 3,
   "Rules Difficulty": 3,
   "Strategy Difficulty": 3,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/215_combined.json"
+  "json_game_state_url": ""
 }

@@ -1,17 +1,17 @@
 {
   "ID": 512,
-  "Game": "Res Arcana",
+  "Game": "Res\u00a0Arcana",
   "Tier": 3,
   "Test Description": "Testing optimization questions",
   "Difficulty Notes": "Optimizing the number of resources obtained in X number of actions",
   "Question": "What is the maximum number of on-component essences the player could have after two more actions. Assume all other players have passed. Output the answer as: Previous amount: <num>, New amount: <num>",
   "Answer": "Previous amount: 2, New amount: 2",
-  "Rationale": "There are two life essences on Sacred Grove. The only way to add more is to have a creature card that can be turned. However, the player has none, and has no immediate access to them. Therefore, the max amount is still two.",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t3_full_2_manyessence.png",
+  "Rationale": "",
+  "game_state_url": "images/res\u00a0arcana/t3_full_2_manyessence.png",
   "game_state_description": "",
   "Game State Difficulty": 3,
   "Rules Difficulty": 2,
   "Strategy Difficulty": 3,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t3_full_2_manyessence.json"
+  "json_game_state_url": ""
 }

@@ -13,16 +13,16 @@
     }
   ],
   "Answer_str": "1. Western tableau ops --- launch vote ops against England, England regime change to republic; 2. Declare Renaissance Victory.",
-  "Rationale": "The blue player launches Vote Ops. Since there are only one blue pawn on the border of the target region, England, the blue player has the majority of concessions and thus win the vote. This results in a regime change and the England king card is flipped into a republic card. After this ops, blue player has two law prestige (Cornish Tin and English Parliament). Also, the blue player has more republic cards. Therefore, the Renaissance Victory winning condition is satisfied.",
+  "Rationale": "",
   "game_state_url": [
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/219_1.png",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/219_2.png",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/219_3.png",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/219_4.png"
+    "images/pax_ren/219_1.png",
+    "images/pax_ren/219_2.png",
+    "images/pax_ren/219_3.png",
+    "images/pax_ren/219_4.png"
   ],
   "Game State Difficulty": 3,
   "Rules Difficulty": 4,
   "Strategy Difficulty": 3,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/219_combined.json"
+  "json_game_state_url": ""
 }

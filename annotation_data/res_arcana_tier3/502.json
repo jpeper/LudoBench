@@ -1,17 +1,17 @@
 {
   "ID": 502,
-  "Game": "Res Arcana",
+  "Game": "Res\u00a0Arcana",
   "Tier": 3,
   "Test Description": "Testing optimization questions",
   "Difficulty Notes": "Optimizing the number of resources obtained in X number of actions",
   "Question": "Given the provided game state, what is the most net essences that the player can gain to their supply in two actions. Output the answer as: Previous amount: <num>, New amount: <num>",
   "Answer": "Previous amount: 10, New amount: 16",
-  "Rationale": "The player currently has 10 essence, and can improve this in one action by activating the top sacred grove ability, losing one calm and gaining five life. Then, they can discard a card for another two non-gold essences.",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t3_full_1.png",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/res\u00a0arcana/t3_full_1.png",
   "game_state_description": "",
   "Game State Difficulty": 3,
   "Rules Difficulty": 2,
   "Strategy Difficulty": 2,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t3_full_1.json"
+  "json_game_state_url": "gamestates/json/res\u00a0arcana/t3_full_1.json"
 }

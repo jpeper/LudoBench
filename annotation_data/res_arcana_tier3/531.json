@@ -1,17 +1,17 @@
 {
   "ID": 531,
-  "Game": "Res Arcana",
+  "Game": "Res\u00a0Arcana",
   "Tier": 3,
   "Test Description": "Testing optimization questions",
   "Difficulty Notes": "Focusing this new game state on card-tapping combinations.",
   "Question": "Assume all other players have already passed. Given this game state, what is the maximum net number of calm essences that can be gained to their pool in two actions? Output the answer as: Previous amount: <num>, New amount: <num>",
   "Answer": "Previous amount: 3, New amount: 8",
-  "Rationale": "Player can activate reanimate, spending a gold essence, to unturn Prism. Once prism is unturned, player can spend an action to convert all of the 5 elan tokens into five more calm tokens.",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t3_tapping_1.png",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/res\u00a0arcana/t3_tapping_1.png",
   "game_state_description": "",
   "Game State Difficulty": 2,
   "Rules Difficulty": 2,
   "Strategy Difficulty": 2,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t3_tapping_1.json"
+  "json_game_state_url": "gamestates/json/res\u00a0arcana/t3_tapping_1.json"
 }

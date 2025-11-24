@@ -19,16 +19,16 @@
     }
   ],
   "Answer_str": "1. West Tableau Ops --- launch Vote Ops against Papal States, Papal State regime change into Republic; 2. Declare Renaissance Victory/Globalization Victory.",
-  "Rationale": "Observing the given game state, In order to win in 2 actions, the best possible victory that we can look at is Renaissance Victory. This is because the blue player already has 2 more law prestiges than the opponent (who has none). All that the blue player needs to do is have one republic, that makes the player achieve all the conditions for Renaissance Victory (Note that the other player has no Republics yet, so gaining just one republic would satisfy the condition). This can be done in the following manner: 1: Play the West Tableau Ops, perform the vote operation on the Tolfa Alum card (Papal States). Since there are no repressed units it would not cost any florins, and also since there is only one concession on Papal states border, it being blue makes the blue player win the vote. This results in a Regime change and blue player gets to put one more concession on the map, anywhere on the border of Papal states. This would result in flipping the kingdom card to a Republic making blue player have maximum number of republics compared to other players. This gives the player a Renaissance Victory. Now due to the placement of the new concession, The blue player would also have 2 more concessions than the other player and also more Discover prestige than the other players, making blue player even go for Globalization Victory. 2: Declare Renaissance Victory or Globalization Victory. This way the blue player can win this game in 2 actions.",
+  "Rationale": "",
   "game_state_url": [
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/217_1.png",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/217_2.png",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/217_3.png",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/217_4.png"
+    "images/pax_ren/217_1.png",
+    "images/pax_ren/217_2.png",
+    "images/pax_ren/217_3.png",
+    "images/pax_ren/217_4.png"
   ],
   "Game State Difficulty": 3,
   "Rules Difficulty": 3,
   "Strategy Difficulty": 2,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/217_combined.json"
+  "json_game_state_url": ""
 }

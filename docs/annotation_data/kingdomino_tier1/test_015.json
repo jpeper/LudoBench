@@ -5,11 +5,11 @@
   "Difficulty Notes": "Model needs to reason over the different sections of the game board.",
   "Question": "How many dominoes are pictured?",
   "Answer": "14",
-  "Rationale": "There are 14 dominoes total, 4 from the round 1 tiles, 4 from the round 2 tiles, 6 from the green kingdom tiles",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/kingdomino/basic_full_env.png",
+  "Rationale": "",
+  "game_state_url": "images/kingdomino/basic_full_env.png",
   "Game State Difficulty": 2,
   "Rules Difficulty": 0,
   "Strategy Difficulty": 0,
   "tier": 1,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/kingdomino/basic_full_env.json"
+  "json_game_state_url": ""
 }

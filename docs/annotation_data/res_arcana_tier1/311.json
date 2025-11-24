@@ -1,17 +1,17 @@
 {
   "ID": 311,
-  "Game": "Res Arcana",
+  "Game": "Res\u00a0Arcana",
   "Tier": 1,
   "Test Description": "Tests card size differentiation",
   "Difficulty Notes": "Test basic ability to discern between all three types of cards",
   "Question": "How many of each size of card are there? Output in the format: 'Smaller: <num>, Medium <num>, Larger <num>'",
   "Answer": "Smaller: 1, Medium: 2, Larger: 1",
   "Rationale": "",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t1_multi_all_sizes.png",
+  "game_state_url": "images/res\u00a0arcana/t1_multi_all_sizes.png",
   "game_state_description": "",
   "Game State Difficulty": 1,
   "Rules Difficulty": 0,
   "Strategy Difficulty": 0,
   "tier": 1,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t1_multi_all_sizes.json"
+  "json_game_state_url": ""
 }

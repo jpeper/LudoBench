@@ -5,11 +5,11 @@
   "Difficulty Notes": "Requires model to basic scoring principles (# total crowns x connected terrain tiles",
   "Question": "How many points does this kingdom score?",
   "Answer": "24",
-  "Rationale": "1x1 + 4x2 + 2x3 + 2x1 + 1x7 = 24.",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/kingdomino/new_domino_blue_5x5.png",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/kingdomino/new_domino_blue_5x5.png",
   "Game State Difficulty": 1,
   "Rules Difficulty": 1,
   "Strategy Difficulty": 0,
   "tier": 2,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/kingdomino/new_domino_blue_5x5.json"
+  "json_game_state_url": "gamestates/json/kingdomino/new_domino_blue_5x5.json"
 }

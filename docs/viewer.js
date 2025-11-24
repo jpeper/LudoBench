@@ -97,7 +97,7 @@ function attachAnswerLogic(data) {
   const sol = document.getElementById("solutionText");
   sol.innerHTML = `
       <strong>Expected:</strong> ${raw || "—"}<br>
-      <strong>Rationale:</strong> ${data.Rationale || "—"}
+  
     `;
 
   button.onclick = () => {
@@ -119,36 +119,119 @@ function attachAnswerLogic(data) {
 // -----------------------
 // Render image (LOCAL)
 // -----------------------
+// function renderImage(data) {
+//   const imgContainer = document.getElementById("imageContainer");
+//   const img = document.getElementById("gameImage");
+//   const caption = document.getElementById("imageCaption");
+//   const link = document.getElementById("imageLink");
+
+//   let url = data.game_state_url;
+//   if (!url) {
+//     imgContainer.classList.add("hidden");
+//     return;
+//   }
+//   if (Array.isArray(url)) url = url[0];
+
+//   const fileName = url.split("/").pop();
+
+//   const folder = data.Game.toLowerCase().replace(/\s+/g, "_");
+
+//   const localPath = `images/${folder}/${fileName}`;
+
+//   console.log("Image:", localPath);
+
+//   imgContainer.classList.remove("hidden");
+//   img.src = localPath;
+//   caption.textContent = fileName;
+//   link.href = localPath;
+
+//   img.onerror = () => {
+//     caption.textContent = "Image failed to load: " + localPath;
+//   };
+// }
+
+// -----------------------
+// Render ALL images (LOCAL) with spinner
+// -----------------------
 function renderImage(data) {
-  const imgContainer = document.getElementById("imageContainer");
-  const img = document.getElementById("gameImage");
-  const caption = document.getElementById("imageCaption");
-  const link = document.getElementById("imageLink");
+  const container = document.getElementById("imageContainer");
+  const multi = document.getElementById("multiImages");
 
-  let url = data.game_state_url;
-  if (!url) {
-    imgContainer.classList.add("hidden");
-    return;
-  }
-  if (Array.isArray(url)) url = url[0];
+  // Clear previous
+  multi.innerHTML = "";
+  container.classList.add("hidden");
 
-  const fileName = url.split("/").pop();
+  let urls = data.game_state_url;
+  if (!urls) return;
 
+  // Ensure array
+  if (!Array.isArray(urls)) urls = [urls];
+
+  // Determine local folder
   const folder = data.Game.toLowerCase().replace(/\s+/g, "_");
 
-  const localPath = `images/${folder}/${fileName}`;
+  urls.forEach(url => {
+    const file = url.split("/").pop();
+    const localPath = `images/${folder}/${file}`;
 
-  console.log("Image:", localPath);
+    // wrapper
+    const block = document.createElement("div");
+    block.className = "multi-img-block";
 
-  imgContainer.classList.remove("hidden");
-  img.src = localPath;
-  caption.textContent = fileName;
-  link.href = localPath;
+    // spinner
+    const spinner = document.createElement("div");
+    spinner.className = "spinner";
+    block.appendChild(spinner);
 
-  img.onerror = () => {
-    caption.textContent = "Image failed to load: " + localPath;
-  };
+    // image
+    const img = document.createElement("img");
+    img.style.display = "none";
+    img.src = localPath;
+
+    img.onload = () => {
+      spinner.style.display = "none";
+      img.style.display = "block";
+    };
+
+    img.onerror = () => {
+      spinner.style.display = "none";
+      const err = document.createElement("div");
+      err.textContent = "Failed to load " + localPath;
+      err.style.color = "#d44";
+      block.appendChild(err);
+    };
+
+    const link = document.createElement("a");
+    link.href = localPath;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.appendChild(img);
+    block.appendChild(link);
+
+    // caption
+    const caption = document.createElement("div");
+    caption.className = "multi-img-caption";
+    caption.textContent = file;
+    block.appendChild(caption);
+
+    // full-size link
+    const full = document.createElement("a");
+    full.href = localPath;
+    full.target = "_blank";
+    full.rel = "noopener noreferrer";
+    full.className = "full-img-link";
+    full.textContent = "🔍 View full image";
+    block.appendChild(full);
+
+    // finally add to DOM
+    multi.appendChild(block);
+
+
+  });
+
+  container.classList.remove("hidden");
 }
+
 
 // prev and next scroller 
 // ---------------------------------------------------------

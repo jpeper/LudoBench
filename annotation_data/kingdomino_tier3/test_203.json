@@ -5,11 +5,11 @@
   "Difficulty Notes": "Focusing on a subset of the score optimization problems. This time, giving it a score and asking it to derive the solution",
   "Question": "Select two tiles from among the eight to combine together. One must contain a one-crown lake half. Subject to this, your goal is to optimize the scoring from the non-lake squares when combined. Follow normal scoring and connection rules. Output as 'Dominoes: [<tile 1 name>, <tile 2 name>], Non-lake score: <scalar>]",
   "Answer": "Dominoes: [G, E], Non-lake score: 2]",
-  "Rationale": "Given the criteria, we must include either domino C or G. Given C only contains blue and yellow, (and yellow has no crowns), we may as well select G. Given G, we can maximize scoring by selecting E, as they combine for 2 forest points (2x1)",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/kingdomino/t3_basic_cols.png",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/kingdomino/t3_basic_cols.png",
   "Game State Difficulty": 1,
   "Rules Difficulty": 2,
   "Strategy Difficulty": 2,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/kingdomino/t3_basic_cols.json"
+  "json_game_state_url": "gamestates/json/kingdomino/t3_basic_cols.json"
 }

@@ -5,13 +5,13 @@
   "Difficulty Notes": "Identify the adjacent country",
   "Question": "Which country borders Papal States to the north according to the map?",
   "Answer": "Holy Roman Empire",
-  "Rationale": "The country on the upper side of Papal States is Holy Roman Empire.",
+  "Rationale": "",
   "game_state_url": [
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/203_1.jpg"
+    "images/pax_ren/203_1.jpg"
   ],
   "Game State Difficulty": 1,
   "Rules Difficulty": 0,
   "Strategy Difficulty": 0,
   "tier": 1,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/203_1.json"
+  "json_game_state_url": ""
 }

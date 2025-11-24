@@ -25,16 +25,16 @@
     }
   ],
   "Answer_str": "1. Purchase --- Spend 3 florins to buy Consent of the Governed card from market; 2. Play --- play Consent of the Governed card, launch Peasant Revolt one-shot, move the Papal States kingdom card to blue player's Tableau, a consession brought by regime change is placed on Papal States's border; 3. Declare Globalization Victory.",
-  "Rationale": "Blue players have 3 florins now so can afford buying Consent of the Governed card with 3 florins from the market. By playing the card and launching Peasant Revolt one-shot, the blue player will win Papal States because the attackers are one concession and one pirate on the border, and the defender is only one knight in Papal States. This results in a regime change and the blue player can play on concession on the border of Papal States and move the kingdom card of Papal States. Now, the blue player has 3 concessions on the map, which are 2 more than the 1 concession that green player has. Additionally, the blue player already has one more Discovery prestige than the opponent purple player. Therefore, the Globalization Victory winning condition is satisfied.",
+  "Rationale": "",
   "game_state_url": [
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/210_1.png",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/210_2.png",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/210_3.png",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/210_4.png"
+    "gamestates/images/pax_ren/210_1.png",
+    "gamestates/images/pax_ren/210_2.png",
+    "gamestates/images/pax_ren/210_3.png",
+    "gamestates/images/pax_ren/210_4.png"
   ],
   "Game State Difficulty": 3,
   "Rules Difficulty": 3,
   "Strategy Difficulty": 3,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/210_combined.json"
+  "json_game_state_url": "gamestates/json/pax_ren/210_combined.json"
 }

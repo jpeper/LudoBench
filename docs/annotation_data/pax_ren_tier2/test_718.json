@@ -7,11 +7,11 @@
   "Answer": "Catholic",
   "Rationale": "",
   "game_state_url": [
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/211_2.png"
+    "images/pax_ren/211_2.png"
   ],
   "Game State Difficulty": 2,
   "Rules Difficulty": 2,
   "Strategy Difficulty": 0,
   "tier": 2,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/211_2.json"
+  "json_game_state_url": ""
 }

@@ -25,16 +25,16 @@
     }
   ],
   "Answer_str": "1. Western tableau ops --- launch vote ops against England, England regime change to republic; 2. Declare Renaissance Victory.",
-  "Rationale": "Observing then given game state, In order to win in 2 actions, the best possible victory that we can look at is globalization victory. This is because the blue player already has more number of discover prestige than opponent and has 2 concessions on the map (opponent has 1), and just requires one more concession with which he would have all conditions required for Globalization victory. The actions that can be played for this are as follows: 1: Play the West Tableau Ops, perform the Vote op on Cornish Tin (on England). Since England does not have any repressed tokens, it does not cost any florins, and because there is only one concession on the border of England which is blue player itself, the player wins the Vote, as a result of which there would be a regime change. Blue player gets to place a concession on any empty spot neighboring England. This way the blue player gets Globalization Victory. (NOTE: if the republic side of England after the regime change has a law prestige then the player can also opt for a Renaissance Victory.) 2: Declare Globalization Victory. This way the blue player wins the game.",
+  "Rationale": "",
   "game_state_url": [
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/219_1.png",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/219_2.png",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/219_3.png",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/219_4.png"
+    "images/pax_ren/219_1.png",
+    "images/pax_ren/219_2.png",
+    "images/pax_ren/219_3.png",
+    "images/pax_ren/219_4.png"
   ],
   "Game State Difficulty": 3,
   "Rules Difficulty": 4,
   "Strategy Difficulty": 3,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/219_combined.json"
+  "json_game_state_url": ""
 }

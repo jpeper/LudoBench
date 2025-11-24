@@ -1,189 +1,192 @@
+/* Global reset */
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background: #0f1116;
-  color: #eee;
-}
-
-#app {
-  display: flex;
-  min-height: 100vh;
-}
-
-/* Sidebar */
-
-#sidebar {
-  width: 260px;
-  background: #181923;
   padding: 20px;
-  border-right: 1px solid #2a2c3a;
+  background: #111;
+  color: #eee;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-#sidebar h2 {
+h1 {
   margin-top: 0;
-  margin-bottom: 24px;
-  font-size: 20px;
 }
 
-.control-group {
+/* Top controls */
+#controls {
   margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
 }
 
 label {
-  display: block;
-  font-size: 13px;
-  margin-bottom: 6px;
+  font-size: 14px;
 }
 
-select, input {
-  width: 100%;
-  padding: 8px 10px;
-  border-radius: 6px;
-  border: 1px solid #2c2f3f;
-  background: #1f2230;
+select,
+input {
+  background: #222;
   color: #eee;
+  border-radius: 4px;
+  border: 1px solid #444;
+  padding: 4px 8px;
 }
 
-/* Main layout */
-
-#main {
-  flex: 1;
-  display: grid;
-  grid-template-columns: minmax(0, 2fr) minmax(0, 2fr);
-  gap: 24px;
-  padding: 28px 32px;
-}
-
-#titleHeading {
-  font-size: 32px;
-  margin-top: 0;
-  margin-bottom: 20px;
-}
-
-/* Question card */
-
-#questionCard {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-#questionBox {
-  background: #181923;
-  border-radius: 12px;
-  padding: 18px 20px;
-  border: 1px solid #2d3041;
-}
-
-#questionHeader {
-  font-size: 16px;
-  margin-bottom: 8px;
-}
-
-#gameName {
-  font-weight: 600;
-}
-
-#qid {
-  margin-left: 6px;
-  color: #b0b3c5;
-}
-
-#questionText {
-  margin: 0;
-  line-height: 1.5;
-}
-
-/* Answer area */
-
-.answer-block {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-#checkBtn {
-  align-self: flex-start;
-  padding: 8px 16px;
-  border-radius: 6px;
-  border: none;
-  background: #3a82ff;
-  color: #fff;
+button {
+  background: #444;
+  color: #eee;
+  border: 1px solid #666;
+  border-radius: 4px;
+  padding: 4px 10px;
   cursor: pointer;
-  margin-top: 4px;
 }
 
-#checkBtn:hover {
-  background: #2f6ad0;
+button:hover {
+  background: #555;
 }
 
-#feedback {
-  margin-top: 6px;
-  min-height: 20px;
+/* Layout (2 columns) */
+#layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+  gap: 20px;
 }
 
-.feedback-ok {
-  color: #6edb8f;
+/* Question section */
+#questionCard {
+  background: #181818;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  margin-bottom: 12px;
 }
 
-.feedback-bad {
+.id-tag {
+  font-size: 0.8em;
+  color: #aaa;
+}
+
+.question-label {
+  font-weight: bold;
   color: #ff6666;
 }
 
-/* Solution details */
+.question-text {
+  font-size: 16px;
+  line-height: 1.6;
+}
 
-#solutionDetails {
+/* Answer block */
+#answerBlock {
+  background: #181818;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #333;
+}
+
+.answer-info {
+  margin-top: 8px;
+}
+
+.answer-info.correct {
+  color: #5fd75f;
+}
+
+.answer-info.wrong {
+  color: #ff5555;
+}
+
+details {
   margin-top: 10px;
-  background: #181923;
-  border-radius: 10px;
-  padding: 10px 14px;
-  border: 1px solid #2d3041;
 }
 
-#solutionDetails summary {
-  cursor: pointer;
+/* Right side image container */
+#imageContainer {
+  background: #181818;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #333;
+
+  max-height: calc(100vh - 150px);
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
-/* Image pane */
+#imageContainer.hidden {
+  display: none;
+}
 
-#imagePane {
+/* Multi-image layout */
+#multiImages {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* Individual image block */
+.multi-img-block {
+  background: #111;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #333;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#imageWrapper {
-  width: 100%;
-  background: #181923;
-  padding: 10px;
-  border-radius: 12px;
-  border: 1px solid #2d3041;
-}
-
-#stateImage {
-  width: 100%;
+/* Actual image – this is the part you were tweaking */
+.multi-img-block img {
+  width: 900px;        
+  max-width: 100%;     /* don’t overflow screens */
   height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 1px solid #bd5858;  
   display: block;
-  border-radius: 8px;
 }
 
-#imageCaption {
-  margin-top: 8px;
-  font-size: 13px;
-  color: #b0b3c5;
-}
-
-#openFullImage {
+/* Caption */
+.multi-img-caption {
   margin-top: 6px;
-  font-size: 13px;
-  color: #4da8ff;
+  font-size: 12px;
+  color: #aaa;
+}
+
+/* Spinner */
+.spinner {
+  margin: 10px auto;
+  width: 38px;
+  height: 38px;
+  border: 4px solid #ddd;
+  border-top-color: #4a90e2;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Preformatted JSON */
+pre {
+  background: #222;
+  padding: 15px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+.full-img-link {
+  margin-top: 4px;
+  font-size: 12px;
+  color: #66aaff;
   text-decoration: none;
 }
-
-#openFullImage:hover {
+.full-img-link:hover {
   text-decoration: underline;
 }

@@ -1,17 +1,17 @@
 {
   "ID": 310,
-  "Game": "Res Arcana",
+  "Game": "Res\u00a0Arcana",
   "Tier": 1,
   "Test Description": "Tests card size differentiation",
   "Difficulty Notes": "Test basic ability to discern between the two different sizes of cards",
   "Question": "What is the sum of all numbers printed on the cards?",
   "Answer": "Smaller cards: 2, Larger cards: 1",
   "Rationale": "",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/res_arcana/t1_multi_card_pp.png",
+  "game_state_url": "images/res\u00a0arcana/t1_multi_card_pp.png",
   "game_state_description": "",
   "Game State Difficulty": 1,
   "Rules Difficulty": 0,
   "Strategy Difficulty": 0,
   "tier": 1,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/res_arcana/t1_multi_card_pp.json"
+  "json_game_state_url": ""
 }

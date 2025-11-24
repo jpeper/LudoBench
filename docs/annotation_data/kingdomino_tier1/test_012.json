@@ -5,11 +5,11 @@
   "Difficulty Notes": "Model has to identify the existence of meeples that sitting on dominoes and then do some additional reasoning over this to count the crowns",
   "Question": "How many crowns are there on the tiles that have meeples on them?",
   "Answer": "3",
-  "Rationale": "There are 3 dominoes with meeples on them, and each has 1 crown. There is also one meeple whose domino has no crowns",
-  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/kingdomino/meeples_on_dominoes.png",
+  "Rationale": "",
+  "game_state_url": "images/kingdomino/meeples_on_dominoes.png",
   "Game State Difficulty": 2,
   "Rules Difficulty": 0,
   "Strategy Difficulty": 0,
   "tier": 1,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/kingdomino/meeples_on_dominoes.json"
+  "json_game_state_url": ""
 }

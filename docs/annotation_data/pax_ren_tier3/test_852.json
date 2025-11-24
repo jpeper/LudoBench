@@ -16,16 +16,16 @@
     }
   ],
   "Answer_str": "1. Purchase --- Spend 2 florins to buy Cornish Tin card from the market; 2. Play Cornish Tin card; 3. Declare Renaissance Victory/Globalization Victory.",
-  "Rationale": "Observing the given game state, the blue player already has more number of republics than the opponent and also has 2 more law prestige than the opponent. This already accounts for Renaissance Victory. Assuming that the player has to make use of all the remaining actions, the player can do the following 3 actions, and gain one more kind of victory: 1: Purchase a cornish tin for 2 Florins. 2: Play Cornish Tin, and place the agent which is a concession anywhere bordering England (that is empty). This makes blue player have 2 more concessions than the opponent. This would make the player qualify for a Globalization victory as well (as already the blue player has more discovery prestige than the opponent. 3: Declare Globalization victory. This way the blue player actually has 2 types of victory to claim: the Renaissance Victory and the Globalization Victory.",
+  "Rationale": "",
   "game_state_url": [
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/218_1.png",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/218_2.png",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/218_3.png",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/218_4.png"
+    "images/pax_ren/218_1.png",
+    "images/pax_ren/218_2.png",
+    "images/pax_ren/218_3.png",
+    "images/pax_ren/218_4.png"
   ],
   "Game State Difficulty": 3,
   "Rules Difficulty": 3,
   "Strategy Difficulty": 2,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/218_combined.json"
+  "json_game_state_url": ""
 }

@@ -34,16 +34,16 @@
     }
   ],
   "Answer_str": "1. Purchase --- Spend 3 florins to buy Nothing New card from market; 2. Play --- play Nothing New card, launch Conspiracy one-shot, move the Hungary kingdom card to blue player's Tableau, a consession brought by regime change is placed on hungary's border; 3. Declare Globalization Victory.",
-  "Rationale": "Blue players have 3 florins now so can afford buying Nothing New card with 3 florins from the market. By playing the card and launching Conspiracy one-shot, the blue player will win Hungary because the attackers are one rook agent on the card plus a blue pirate on the border, and the defender is only one knight in Hungary. This results in a regime change and the blue player can play on concession on the border of Hungary and move the kingdom card of Hungary. Now, the blue player has 3 concessions on the map, which are 2 more than the 1 concession that purple player has. Additionally, the blue player already has one more Discovery prestige than the opponent purple player. Therefore, the Globalization Victory winning condition is satisfied.",
+  "Rationale": "",
   "game_state_url": [
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/209_1.png",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/209_2.png",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/209_3.png",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/209_4.png"
+    "gamestates/images/pax_ren/209_1.png",
+    "gamestates/images/pax_ren/209_2.png",
+    "gamestates/images/pax_ren/209_3.png",
+    "gamestates/images/pax_ren/209_4.png"
   ],
   "Game State Difficulty": 3,
   "Rules Difficulty": 3,
   "Strategy Difficulty": 3,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/209_combined.json"
+  "json_game_state_url": "gamestates/json/pax_ren/209_combined.json"
 }

@@ -25,16 +25,16 @@
     }
   ],
   "Answer_str": "1. East Tableau Ops --- launch Campain Op, spend 1 florin to attack Holy Roman Empire, place one concession on border; 2. Declare Globalization Victory.",
-  "Rationale": "Possibility 1: The player can declare Imperial Victory in first action and win since they have 2 kingdoms while opponent has no kingdoms. Possibility 2: In Campain Op, the attacker is one knight in the Ottoman kingdom and the target Holy Roman Empire kindom does not have any knights/rooks to serve as defenders. Note that the blue player cannot attack the Papal States kindom as it requires two knights from the Ottoman to win, yet the blue player only has one florin (Campain ops requires paying 1 florin per attacker). Now, the blue player has 3 concessions on the map, which are 2 more than the 1 concession that green player has. Additionally, the blue player already has one more Discovery prestige than the opponent purple player. Therefore, the Globalization Victory winning condition is satisfied.",
+  "Rationale": "",
   "game_state_url": [
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/212_1.png",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/212_2.png",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/212_3.png",
-    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/pax_ren/213_4.png"
+    "images/pax_ren/212_1.png",
+    "images/pax_ren/212_2.png",
+    "images/pax_ren/212_3.png",
+    "images/pax_ren/213_4.png"
   ],
   "Game State Difficulty": 3,
   "Rules Difficulty": 3,
   "Strategy Difficulty": 4,
   "tier": 3,
-  "json_game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/json/pax_ren/212_combined_2.json"
+  "json_game_state_url": ""
 }
