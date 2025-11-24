@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "for the given gamestate, what is the current score of each of the players? Return the answer in the following format: [<player_color>: <number of points>]. Assume that there are 3 players: red, blue, and green. Return the answer in the following format: [red: <points>, blue: <points>, green: <points>].",
+  "Answer": "[red: 5, blue: 7, green: 5]",
+  "Rationale": "For the given game state, the red player has: 5 points (3 from 3 setllements and 2 from largest road). the blue player has 7 points: 4 from cities, 1 from setllemnt and 2 from largest army. The green player has 5 points: 2 from one city and 3 from setllements.",
+  "game_state_url": ["https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_5.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_green_5.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_5.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_5.png"],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2436
+}

@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding.",
+  "Difficulty Notes": "Very easy counting",
+  "Question": "How many number tokens occur only once on the board in the given game state? and what are they? Report your answer in the format: [least_number: <number1>, <number2>, ...]",
+  "Answer": "[least_number: 2, 12]",
+  "Rationale": "In the given game state, the number tokens 2 and 12 occur only once on the board, as can be counted from the visual representation of the game state.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_3.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "",
+  "ID": 2313
+}

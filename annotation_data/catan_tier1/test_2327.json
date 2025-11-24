@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding.",
+  "Difficulty Notes": "Very easy counting",
+  "Question": "How many total colored tokens (or bars) present on the sides of the hexagonal tiles in the given game state? Note: we are only concerned on the sides not the corners.",
+  "Answer": "27",
+  "Rationale": "In the given game state, there are 27 total colored tokens or bars present on the sides of the hexagonal tiles: 9 green, 9 blue, and 9 red.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_5.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "",
+  "ID": 2327
+}

@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Consider it is the green players turn. If the green player rolls a 12. and chooses to build 2 roads: one on the common side of 11: forest and 3: fields, and 3:fields, and 10: mountains. After building the roads, how many total resource cards of each type will the green player have? Return the answer in the following format: [<resource_name>: <number of cards of that type of resource>]. If a resource type has zero cards, include it in the answer with amount 0.",
+  "Answer": "[brick: 1, wool: 7, grain: 1, lumber: 1, ore: 3]",
+  "Rationale": "In the current game state, the green player has 3 brick, 4 wool, 1 grain, 3 lumber, and 3 ore resources. given that the player rolls a 12, there is one green setllement and one city: 3 grain resources. now to build 2 roads, the green player needs to spend 2 lumber and 2 brick resources. After building the roads, the green player will have a total of 1 brick (3 - 1 - 1), 7 wool (4 + 3), 1 grain (1 + 0), 1 lumber (3 - 1 - 1), and 3 ore (3 + 0) resources.",
+  "game_state_url": ["https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_5.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_green_5.png"],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2434
+}

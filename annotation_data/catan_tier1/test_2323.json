@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding.",
+  "Difficulty Notes": "Very easy counting",
+  "Question": "How many tiles are not surrounded by any players tokens (including the corners and the sides of hexes)?",
+  "Answer": "1",
+  "Rationale": "In the given game state, there is 1 tile that is not surrounded by any player's tokens: the central tile without any number on it.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_5.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "",
+  "ID": 2323
+}

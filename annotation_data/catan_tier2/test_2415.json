@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "How many resource cards of each type are present in the players resource cards in the current game state? Return the answer in the following format: [<resource_name>: <number of cards of that type of resource>]. If a resource type has zero cards, include it in the answer with amount 0.",
+  "Answer": "[lumber: 2, wool: 1, grain: 1, ore: 2]",
+  "Rationale": "In the given game state, the player has 2 lumber, 1 wool, 1 grain, and 2 ore cards.",
+  "game_state_url": ["https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_3.png"],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2415
+}

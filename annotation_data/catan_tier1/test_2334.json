@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding.",
+  "Difficulty Notes": "Very easy counting",
+  "Question": "What is the total number of cards present in the given image?",
+  "Answer": "20",
+  "Rationale": "In the given image, there are 20 cards in total: 3 knights in the players table, 14 resource cards, 3 in hand cards.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_green_5.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "",
+  "ID": 2334
+}

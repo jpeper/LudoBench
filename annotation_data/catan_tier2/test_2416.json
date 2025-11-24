@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "How many points does the blue player have in the current gamestate?",
+  "Answer": "4",
+  "Rationale": "In the given game state, the blue player has 4 points from 2 settlements (1 point each) and largest army (2 points).",
+  "game_state_url": ["https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_3.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_3.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_3.png"],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2416
+}

@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Consider it is the green players turn. If the green player rolls a 12. and chooses to build 2 roads: one on the common side of 11: forest and 3: fields, and 3:fields, and 10: mountains. After building the roads the green player playes the knight development card, what is the total number of points the green player has at the end of this turn? Return the answer in the following format: [initial: <initial points before the turn>, final: <final points after the turn>].",
+  "Answer": "[initial: 5, final: 9]",
+  "Rationale": "In the current game state, the green player has 5 points before the turn: 2 from one city and 3 (one from each settlement). After building the roads and playing the knight development card, the green player gains: 4 points (2 for logest road (from red player as now green has longest road) and 2 for the larges army (as beats the blue players army size), bringing the total to 9 points.",
+  "game_state_url": ["https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_5.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_green_5.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_5.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_5.png"],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2435
+}

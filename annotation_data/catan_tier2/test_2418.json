@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "It is the blue player's turn. The blue player rolls a 8. Then the player decides to build a settlement at intersection of hexes: 11, 9, 12. How many resources of each kind does the blue player have after performing these actions? Return the answer in the following format: [<resource_name>: <number of cards of that type of resource>]. If a resource type has zero cards, include it in the answer with amount 0.",
+  "Answer": "[brick: 1, wool: 0, grain: 0, lumber: 1, ore: 2]",
+  "Rationale": "According to the given gamestate, the blue player initially has 0 brick, 1 wool, 1 grain, 2 lumber, and 2 ore. When the player rolls an 8, they receive 2 brick resources from their settlements on the 8 hex tile, increasing their brick count to 2. However, building a settlement at the intersection of hexes 11, 9, and 12 costs 1 brick, 1 lumber, 1 wool, and 1 grain. After deducting these costs from their resources, the blue player ends up with 1 brick (2 - 1), 0 wool (1 - 1), 0 grain (1 - 1), 1 lumber (2 - 1), and retains their 2 ore.",
+  "game_state_url": ["https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_3.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_3.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_3.png"],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2418
+}

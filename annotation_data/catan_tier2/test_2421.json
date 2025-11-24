@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Consider that it is the blue player's turn and the blue player rolls a 11. what is the total number of resources of each type the blue player would have after collecting resources from the roll? Return the answer in the following format: [<resource_name>: <number of cards of that type of resource>]. If a resource type has zero cards, include it in the answer with amount 0.",
+  "Answer": "[brick: 0, wool: 1, grain: 2, lumber: 2, ore: 3]",
+  "Rationale": "In the given gamestate, the blue player has 2 settlments on the 11 hex tiles. one 11 hex tile produces grain and the other produces ore. Therefore, when the blue player rolls an 11, they receive 1 grain and 1 ore from their settlements. Initially, the blue player has 0 brick, 1 wool, 1 grain, 2 lumber, and 2 ore. After collecting resources from the roll, the blue player ends up with 0 brick (0 + 0), 1 wool (1 + 0), 2 grain (1 + 1), 2 lumber (2 + 0), and 3 ore (2 + 1).",
+  "game_state_url": ["https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_3.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_3.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_3.png"],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2421
+}

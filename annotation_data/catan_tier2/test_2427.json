@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "How many terrains of each type are present in the current game state? Return the answer in the following format: [<terrain_type>: <number_of_terrains>].",
+  "Answer": "[Hills: 3, forest: 4, mountains: 3, fields: 4, pastures: 4, dessert: 1]",
+  "Rationale": "In the given game state, there are 3 hills, 4 forests, 3 mountains, 4 fields, 4 pastures, and 1 dessert terrain types present on the board.",
+  "game_state_url": ["https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_5.png"],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2427
+}

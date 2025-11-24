@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding.",
+  "Difficulty Notes": "Very easy counting",
+  "Question": "How many cards occur with exactly 3 copies in the given image?",
+  "Answer": "3",
+  "Rationale": "In the given image, there are 3 cards that occur with exactly 3 copies: 3 cards with lumber, ore, and bricks.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_5.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "",
+  "ID": 2337
+}

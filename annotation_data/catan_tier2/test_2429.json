@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Given the current game state, Consider that it is the blue players turn, and the blue player rolls a 5. What is the total number of resources of each type the blue player would have after collecting resources from the roll? Return the answer in the following format: [<resource_name>: <number of cards of that type of resource>]. If a resource type has zero cards, include it in the answer with amount 0.",
+  "Answer": "[brick: 2, lumber: 2, wool: 1, grain: 1, ore: 3]",
+  "Rationale": "In the current game state, the blue player has 2 brick, 2 lumber, 1 wool, 1 grain, and 3 ore resources. After rolling a 5, only one tile (forest) is in contact with blues setllement. but since there is a robber on top of the forest tile, the blue player does not receive any lumber resources from this roll. Therefore, the total number of resources the blue player has after collecting resources from the roll remains the same: 2 brick, 2 lumber, 1 wool, 1 grain, and 3 ore.",
+  "game_state_url": ["https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_5.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_5.png"],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2429
+}

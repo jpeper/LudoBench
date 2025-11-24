@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Consider that it is the red player's turn. The red player rolls a 3. then the player decides to perform a genral trade with the bank: 4 ores for 1 grain. Then the player decides to use the development card: monopoly and get all the lumber resource cards from the blue player. how many resources of each kind does the red player have after performing these actions? return the answer in the following format: [<resource_name>: <number of cards of that type of resource>]. if a resource type has zero cards, include it in the answer with amount 0.",
+  "Answer": "[brick: 2, wool: 2, grain: 1, lumber: 4, ore: 0]",
+  "Rationale": "In the given game state the red player has 2 brick, 2 wool, 0 grain, 0 lumber, and 4 ore initially. When the player rolls a 3, they receive 2 lumber resources from the city on the 3 hex tile, increasing their lumber count to 2. Then, the player trades 4 ores for 1 grain with the bank, reducing their ore count to 0 and increasing their grain count to 1. Finally, when the player plays the monopoly card, they take all the lumber from the blue player (+2), increasing their lumber count to 4. Therefore, after performing all these actions, the red player has 2 brick, 2 wool, 1 grain, 4 lumber, and 0 ore.",
+  "game_state_url": ["https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_3.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_3.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_3.png"],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2422
+}
