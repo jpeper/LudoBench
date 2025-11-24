@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding.",
+  "Difficulty Notes": "Very easy counting",
+  "Question": "How many resource cards are there in the given players image?",
+  "Answer": "14",
+  "Rationale": "In the given players image, there are 14 resource cards: 3 with bricks, 4 with sheep, 1 with grains, 3 with rocks, and 3 with wood.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_green_5.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "",
+  "ID": 2333
+}

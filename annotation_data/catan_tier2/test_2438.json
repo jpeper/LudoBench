@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Assume it is blue players turn. if the blue player rolls a 2. then decides to place one road on common side of hexes: 9 forest along the coast. after these actions, which player would have the longest road card?",
+  "Answer": "red",
+  "Rationale": "The red player currently has the longest road length 8, and the blue player's actions do not create a longer road than what red already has: it is equal. by the rules of the game if it is a tie, the player who got it first would retain the longest road card, which is red player in this case.",
+  "game_state_url": ["https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_5.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_5.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_5.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_green_5.png"],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2438
+}

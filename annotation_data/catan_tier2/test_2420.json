@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Consider that it is the blue player's turn. The blue player rolls a 2. Then the player decides to play the road building development card. the 2 rods are placed at the following positions: side in between 11:mountains and 12:pastures, and 12:pastures and 6:hills. After performing these steps how many points does the player have at the end of this round?",
+  "Answer": "6",
+  "Rationale": "In the given gamestate, the blue player initially has 4 points from 2 settlements (1 point each) and largest army (2 points). After playing the road building development card, the blue player builds 2 roads, which does not directly contribute to points. However, with the new roads, the blue player now has the longest road with a length of 5 roads, earning an additional 2 points. Therefore, at the end of this round, the blue player has a total of 6 points.",
+  "game_state_url": ["https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_3.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_3.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_3.png"],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2420
+}

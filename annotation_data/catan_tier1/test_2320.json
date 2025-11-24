@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding.",
+  "Difficulty Notes": "Very easy counting",
+  "Question": "how many non repeating cards are present in the given game state?",
+  "Answer": "1",
+  "Rationale": "In the given game state, there is only 1 non-repeating card present in the player's hand, which is the 'Monopoly' card. All other cards (resource cards) are present in multiples.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_3.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "",
+  "ID": 2320
+}

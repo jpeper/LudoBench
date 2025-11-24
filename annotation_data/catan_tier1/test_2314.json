@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding.",
+  "Difficulty Notes": "Very easy counting",
+  "Question": "What are the number tokens present on the forest (or dark green) hex tile in the given game state? return your answer in the format: [number_of_forest_tiles = <number of forest hexes present> , tokens: [<number1>, <number2>, ...]]",
+  "Answer": "[number_of_forest_tiles = 3, tokens: [5, 8, 9]]",
+  "Rationale": "In the given game state, there are 3 forest hexes present, with number tokens 5, 8, and 9.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_3.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "",
+  "ID": 2314
+}

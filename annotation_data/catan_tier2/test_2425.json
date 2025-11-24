@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "How many settlements of each color are visible in the given game state? Return the answer in the following format: [<player_color>: <number_of_settlements>]. If a player has zero settlements, include them in the answer with amount 0. Assume there are 3 players: red, blue, green.",
+  "Answer": "[red: 3, blue: 1, green: 3]",
+  "Rationale": "In the given game state, the red player has 3 settlements, the blue player has 1 settlement, and the green player has 3 settlements.",
+  "game_state_url": ["https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_5.png"],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2425
+}

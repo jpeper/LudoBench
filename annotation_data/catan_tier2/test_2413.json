@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Given that it is the red player's turn, and the player rolls a 4. What is the total amount of resources the red player will receive from this roll? Return the answer in the following format: [resource: <name of the resource>, amount: <number of resources>]. If the player receives no resources, return [resource: none, amount: 0].",
+  "Answer": "[resource: grain, amount: 4]",
+  "Rationale": "In the given game state, the red player has 2 cities on a 4 hex tile, which produces grain. Each city gets 2 times the resources of a settlement. Therefore, the red player receives a total of 4 grain resources from this roll.",
+  "game_state_url": ["https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_3.png"],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2413
+}

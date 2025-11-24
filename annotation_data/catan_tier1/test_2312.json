@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding.",
+  "Difficulty Notes": "Very easy counting",
+  "Question": "How many objects are present on the board that belongs to the blue player?",
+  "Answer": "6",
+  "Rationale": "In the given game state, there are 6 objects belonging to the blue player, which can be counted from the visual representation of the game state: 4 long rectangular blocks, and 2 houses.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_3.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "",
+  "ID": 2312
+}

@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding.",
+  "Difficulty Notes": "Very easy counting",
+  "Question": "which card has the highest count (i.e. multiple cards of the same type) in the given image?",
+  "Answer": "the card with sheep",
+  "Rationale": "In the given image, the card with sheep has the highest count with a total of 4 cards, compared to other cards which have lower counts.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_green_5.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "",
+  "ID": 2335
+}

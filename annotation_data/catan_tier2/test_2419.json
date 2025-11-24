@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "consider that it is the red player's turn. the red player rolls a 4. The red player plays the development card: monopoly, and gains all the lumber resources from the blue player. Then the red player build one settlement at the intersection of 10, 6, 5 hexes. upgrades this settlemet into a city. how many resources of each kind does the red player have after performing these actions? return the answer in the following format: [<resource_name>: <number of cards of that type of resource>]. if a resource type has zero cards, include it in the answer with amount 0.",
+  "Answer": "[brick: 1, wool: 1, grain: 1, lumber: 1, ore: 1]",
+  "Rationale": "In the given game state, the red player initially has 2 brick, 2 wool, 0 grain, 0 lumber, and 4 ore. when the player rolls 4, the red player gets 4 grain resources (becuse of the 2 settlement present. When the player plays the monopoly card, they take all the lumber from the blue player (+2), increasing their lumber count to 2. Then, they build a settlement, which costs 1 brick, 1 wool, 1 grain, and 1 lumber. After building the settlement, they upgrade it to a city, which costs an additional 2 grain and 3 ore. After all these actions, the red player has 1 brick , 1 wool, 1 grain, 1 lumber, and 1 ore.",
+  "game_state_url": ["https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_3.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_3.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_3.png"],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2419
+}

@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Considering it is the blue player's turn. The blue player rolls a 8. How many total resources will the blue player receive from this roll? Return the answer in the following format: [resource: <name of the resource>, amount: <number of resources>]. If the player receives no resources, return [resource: none, amount: 0].",
+  "Answer": "[resource: brick, amount: 2]",
+  "Rationale": "In the given game state, the blue player has 2 settlements on a 8 hex tile, which produces brick. Each settlement gets 1 times the resources of a settlement. Therefore, the blue player receives a total of 2 brick resources from this roll.",
+  "game_state_url": ["https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_3.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_3.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_3.png"],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2417
+}

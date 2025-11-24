@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding.",
+  "Difficulty Notes": "Very easy counting",
+  "Question": "How many colored objects are present on the corners of the hexagonal tiles in the given game state? Note: we are only concerned on the corners not the sides.",
+  "Answer": "10",
+  "Rationale": "In the given game state, there are 10 colored objects present on the corners of the hexagonal tiles: 4 green, 3 blue, and 3 red.",
+  "game_state_url": "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_5.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "",
+  "ID": 2330
+}

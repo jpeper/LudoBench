@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Consider that it is the red players turn. If the red player rolls a 10, and then builds a settlement in the intersection of 9, 10, and 8 hexes, and upgrades this setllement to a city. After performing these actions, how many total resource cards of each type will the red player have? Return the answer in the following format: [<resource_name>: <number of cards of that type of resource>]. If a resource type has zero cards, include it in the answer with amount 0.",
+  "Answer": "[brick: 2, wool: 5, grain: 1, lumber: 2, ore: 0]",
+  "Rationale": "In the given gamestate the red player has: 3 brick, 4 wool, 4 grains, 3 lumber, and 3 ore. From this turn the player gets a 10: giving 2 wool resources (2 settlements). To build a settlement the red player needs to spend: 1 brick, 1 lumber, 1 wool, and 1 grain. Upgrading the settlement to a city costs an additional: 2 grain and 3 ore. After performing these actions, the red player will have a total of: 2 brick (3 - 1), 5 wool (4 + 2 - 1), 1 grain (4 - 1 - 2), 2 lumber (3 - 1), and 0 ore (3 - 3).",
+  "game_state_url": ["https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_5.png", "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_5.png"],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2437
+}

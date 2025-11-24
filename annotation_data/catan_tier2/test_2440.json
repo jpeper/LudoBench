@@ -1,0 +1,15 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "How many valid placements for the placement of a settlement does the green player have in the current game state?",
+  "Answer": "2",
+  "Rationale": "In the current game state, the green player has 2 valid placements for a settlement: one at the intersection of 6, 4, dessert hexes, and another at the harbor 9: forest.",
+  "game_state_url": ["https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_5.png"],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2440
+}
