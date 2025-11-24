@@ -1,0 +1,20 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Assume: 1) no-inter player trading occurs, 2) there are no development cards left to draw, 3) in-hand VP cards count as points, 4) can use the combined Trade/Build phase, 5)For maritime trade, a city on a special harbor grants a 1:1 trade rate for its resource, while a city on a generic harbor grants a 3:2 trade rate for any resource. What is the maximum number of unique harbor locations that the green player can have a settlement/city on by the end of the turn, given the player rolls a 3 in this turn? Return the answer in the following format: [prev_harbors: <number of harbors with the players city/settlements before the turn>, new_harbors: <number of harbors with the players city/settlements after the turn>]",
+  "Answer": "[prev_harbors: 1, new_harbors: 3]",
+  "Rationale": "According to the given board state in the question, the green player has: 1 city at special harbour, and 3 settlements. The current resource pool of the green player is: [brick: 3, wool: 4, grain: 1, lumber: 3, ore: 3]. The development cards include: 1 road building, 1 year of plenty and 1 knight. Also has 3 knights already placed on the table. The total number of points the green player currently has is: 5 points (2 from city + 3 settlements). Since the player rolls a 3 in this turn, the green player gets: 4 grain resources. Making the new resource pool: [brick: 3, wool: 4, grain: 5, lumber: 3, ore: 3]. In order to get the maximum unique harbors: Use the development card of road building and build 2 roads: (3,2) and 3 farms, extending the longest road (of the green player). Then we have enough resources for building a settlement at that generic harbor (3 of farm). There is also one more generic port where one more settlement can be built: (9 of forests). This way 2 settlements can be build on 2 generic harbors making the total number of unique harbors by the end of this turn to be: 3.",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_green_5.png"
+  ],
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 3,
+  "Strategy Difficulty": 3,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2524
+}

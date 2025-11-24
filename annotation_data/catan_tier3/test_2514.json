@@ -1,0 +1,20 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Assume: 1) no-inter player trading occurs, 2) there are no development cards left to draw, 3) in-hand VP cards count as points, 4) can use the combined Trade/Build phase, 5)For maritime trade, a city on a special harbor grants a 1:1 trade rate for its resource, while a city on a generic harbor grants a 3:2 trade rate for any resource. What is the maximum number of unique harbor locations that the red player can have a settlement/city on by the end of the turn, given the player rolls a 6 in this turn? Also make sure that there is at least one resource card of each type by the end of this turn.  Return the answer in the following format: [prev_harbors: <number of harbors with the players city/settlements before the turn>, new_harbors: <number of harbors with the players city/settlements after the turn>]",
+  "Answer": "[prev_harbors: 1, new_harbors: 3]",
+  "Rationale": "According to the given board stateIn the question, The red player has three settlements. The red player currently hasThe following resource cards: [bricks: 3, wool: 4, grains: 4, lumber: 3, ore: 3]. Since the player rolls is 6, the player would get 1 brick resource card. This would result in the player having [brick: 4, wool: 4, grain: 4, lumber: 3, ore: 3]. Use the development card: year of plenty, to get 1 lumber and 1 brick resource cards. Build 1 (by paying 1 brick, lumber, wool, and grain) settlement in the (8,10) special harbor location. Use 1 brick and 1 lumber to build a road (along the coast of forest containing 8), then build another settlement on the special harbor (8, 4). This way the red player can get access to 2 more unique harbors. This way the maximum number of unique harbors the player would get access to by the end of this turn is 3.",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_green_5.png"
+  ],
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 3,
+  "Strategy Difficulty": 3,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2514
+}

@@ -1,0 +1,20 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Assume: 1) no-inter player trading occurs, 2) there are no development cards left to draw, 3) in-hand VP cards count as points, 4) can use the combined Trade/Build phase, 5)For maritime trade, a city on a special harbor grants a 1:1 trade rate for its resource, while a city on a generic harbor grants a 3:2 trade rate for any resource. What is the maximum number of ore resource cards the blue player can get by the end of the turn, given the player rolls a 11 in this turn? Return the answer in the following format: [prev_cards: <number of cards before this turn of that resource>, new_cards: <number of cards after the turn of that resource>]",
+  "Answer": "[old_cards: 3, new_cards: 11]",
+  "Rationale": "According to the given board stateIn the question, the blue player has 2 cities on the special harbors, one settlement on the intersection of hexes: (8,5,4). The blue player has the following resources: [brick: 2, wool: 1, grain: 1, lumber: 1, ore: 3]. Along with this the player has development cards: 1 monopoly, 1 Road building. And also has the largest kingdom with 3 knights. The player rolls a 11, giving 4 more grain resource cards. The player can get the maximum number of ore resource cards in the following way: use the monopoly development cards and get all the grain cards from the red player: 4 grain cards. The current pool of resources are: [brick: 2, wool: 1, grain: 9, lumber: 2, ore: 3]. Using the special harbor for 2 grain: 1, since the blue player has a city, the player can get 2 cards of same type, given the player trades it for 2 grain. Performing maritime trade for grains (4 times) getting 8 ore resource cards. This way the blue player can get a maximum of 8 more resource cards at the end of the turn.",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_green_5.png"
+  ],
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 3,
+  "Strategy Difficulty": 3,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2520
+}

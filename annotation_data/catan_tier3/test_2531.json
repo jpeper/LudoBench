@@ -1,0 +1,19 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Assume: 1) no-inter player trading occurs, 2) there are no development cards left to draw, 3) in-hand VP cards count as points. What is the maximum number of wool resources the red player can get by the end of this turn, given the player rolls a 10? Return your answer in the following format: [prev_cards: <number of cards of this resource the player has before this turn>, new_cards: <the number of cards of this resource the player has after this turn>]",
+  "Answer": "[prev_cards: 2, new_cards: 6]",
+  "Rationale": "According to the given game state, the Red player has two cities on the board and begins the turn with 4 ore, 2 brick, and 2 wool. The player’s only development card is Monopoly. After rolling a 10, the Red player gains 2 additional wool from the settlement located at the 10–3–4 intersection. To further increase their wool count, the player can use the generic 4:1 maritime trade by giving up four ore to obtain 1 more wool. Then, by playing the Monopoly development card and calling wool, the Red player collects all wool held by the Blue player, which contributes 1 additional wool. Therefore, in this turn, the Red player can gain a maximum of four new wool cards—two from the roll, one from the generic trade, and one from Monopoly.",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_3.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_3.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_3.png"
+  ],
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2531
+}

@@ -1,0 +1,19 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Assume: 1) no-inter player trading occurs, 2) there are no development cards left to draw, 3) in-hand VP cards count as points. What is the maximum number of lumber resources the blue player can get by the end of this turn, given the player rolls a 5? Return your answer in the following format: [prev_cards: <number of cards of this resource the player has before this turn>, new_cards: <the number of cards of this resource the player has after this turn>]",
+  "Answer": "[prev_cards: 2, new_cards: 6]",
+  "Rationale": "According to the given game state, the Blue player begins the round with two settlements, the following resources—0 brick, 1 wool, 1 grain, 2 lumber, and 2 ore—and two development cards: Year of Plenty and Road Building. The player also holds the Largest Army card with a total of 3 knights. After rolling a 5, the Blue player gains 1 additional lumber from a settlement bordering the 5-hex. To maximize the total lumber obtained during this round, the player first uses the Year of Plenty development card to take 2 more lumber from the resource pool. Then, because the Blue player has a settlement on a 2:1 lumber harbor, they may trade 2 ore at the special harbor rate to obtain 1 additional lumber. As a result, the Blue player gains 1 (from the roll) + 2 (from Year of Plenty) + 1 (from harbor trade) = 4 additional lumber, for a total of 6 lumber when added to their initial 2 lumber.",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_3.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_3.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_3.png"
+  ],
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2530
+}

@@ -1,0 +1,20 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Assume: 1) no-inter player trading occurs, 2) there are no development cards left to draw, 3) in-hand VP cards count as points, 4) can use the combined Trade/Build phase, 5)For maritime trade, a city on a special harbor grants a 1:1 trade rate for its resource, while a city on a generic harbor grants a 3:2 trade rate for any resource. What is the maximum number of ore resource cards the green player can get by the end of the turn, given the player rolls a 12 in this turn? Return the answer in the following format: [prev_cards: <number of cards before this turn of that resource>, new_cards: <number of cards after the turn of that resource>]",
+  "Answer": "[prev_cards: 3, new_cards: 12]",
+  "Rationale": "According to the given board state in the question, the green player has: 1 city at special harbour, and 3 settlements. The current resource pool of the green player is: [brick: 3, wool: 4, grain: 1, lumber: 3, ore: 3]. The development cards include: 1 road building, 1 year of plenty and 1 knight. Also has 3 knights already placed on the table. The total number of points the green player currently has is: 5 points (2 from city + 3 settlements). Since the player rolls a 12 in this turn, the green player gets: 3 wool resources. Making the new resource pool: [brick: 3, wool: 7, grain: 1, lumber: 3, ore: 3]. In order to get the maximum number of ore resource cards the green player can do the following: use the year of plenty resource card and gain 1 wool and 1 ore resource card (+1 ore resource). Use the maritime trade (2 wool for 1 any resource) * 2 (because city is located at the special harbor). So 8 wool would give 8 ores (by using maritime trade 4 times) (+8 ore cards). Therefore by the end f this turn the green player can get a maximum of 9 more ore cards.",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_green_5.png"
+  ],
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 3,
+  "Strategy Difficulty": 3,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2525
+}

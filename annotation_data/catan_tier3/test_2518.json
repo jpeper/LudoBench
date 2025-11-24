@@ -1,0 +1,20 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Assume: 1) no-inter player trading occurs, 2) there are no development cards left to draw, 3) in-hand VP cards count as points, 4) can use the combined Trade/Build phase, 5)For maritime trade, a city on a special harbor grants a 1:1 trade rate for its resource, while a city on a generic harbor grants a 3:2 trade rate for any resource. What is the maximum number of unique harbor locations that the blue player can have a settlement/city on by the end of the turn, given the player rolls a 11 in this turn?  Return the answer in the following format: [prev_harbors: <number of harbors with the players city/settlements before the turn>, new_harbors: <number of harbors with the players city/settlements after the turn>]",
+  "Answer": "[prev_harbors:2 , new_harbors:3]",
+  "Rationale": "According to the given board stateIn the question, the blue player has 2 cities on the special harbors, one settlement on the intersection of hexes: (8,5,4). The blue player has the following resources: [brick: 2, wool: 1, grain: 1, lumber: 2, ore: 3]. Along with this the player has development cards: 1 monopoly, 1 Road building. And also has the largest kingdom with 3 knights. The player rolls a 11, giving 4 more grain resource cards. We can get the maximum number of unique harbors in this way: use the build road development card and build 2 roads along the coast (9 forest), and then build a settlement (by paying 1 brick, wool, grain, lumber). This way the player can get one more unique generic harbor access. No more generic/special harbor connections are possible as they are either blocked by distance rule or are blocked by other players.",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_green_5.png"
+  ],
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 3,
+  "Strategy Difficulty": 3,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2518
+}

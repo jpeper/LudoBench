@@ -1,0 +1,20 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Assume: 1) no-inter player trading occurs, 2) there are no development cards left to draw, 3) in-hand VP cards count as points, 4) can use the combined Trade/Build phase, 5)For maritime trade, a city on a special harbor grants a 1:1 trade rate for its resource, while a city on a generic harbor grants a 3:2 trade rate for any resource. 5) consider that the green player in total has 4 cities, 5 settlements (including ones on board) 6) the green player has 2 continuous turns. What is the maximum number points the green player has by the end of this turn, given that 1) the player should use the least number of resource cards, 2)the green player has rolled 4 in this round and 11 in the next? Return your answer in the following format: [prev_points: <number of points before this turn>, new_points: <number of points after the turn>, total_resource_cards_used: <number of resource cards used>]",
+  "Answer": "[prev_points: 5, new_points: 10, total_resource_cards_used: 4]",
+  "Rationale": "According to the given board state in the question, the green player has: 1 city at special harbour, and 3 settlements. The current resource pool of the green player is: [brick: 3, wool: 4, grain: 1, lumber: 3, ore: 3]. The development cards include: 1 road building, 1 year of plenty and 1 knight. Also has 3 knights already placed on the table. The total number of points the green player currently has is: 5 points (2 from city + 3 settlements). Since the player rolls a 4 in this turn, the green player gets: 1 ore resource. The resource pool is: [brick: 3, wool: 4, grain: 1, lumber: 3, ore: 4]. In order to gain victory the player needs to have at least 10 points. By using the least resource cards in 2 turns we can get there in the following way: Turn 1: use the build road development card, build 2 roads in a way it extends the longest green road (probably at: 11,3 and 3,10), and also build a settlement. This would make the player get +2 points (for the longest road card from the red player) and +1 point for the settlement (1 of each lumber, wool, grain, brick). Then in Turn 2: place the development card: knight, making a largest kingdom of 4 knights and gaining the largest army card from the blue player (+2 points). This way by only spending 4 resource cards we can gain victory.",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_green_5.png"
+  ],
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 3,
+  "Strategy Difficulty": 3,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2523
+}

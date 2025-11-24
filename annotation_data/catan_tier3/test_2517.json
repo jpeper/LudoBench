@@ -1,0 +1,20 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Assume: 1) no-inter player trading occurs, 2) there are no development cards left to draw, 3) in-hand VP cards count as points, 4) can use the combined Trade/Build phase, 5)For maritime trade, a city on a special harbor grants a 1:1 trade rate for its resource, while a city on a generic harbor grants a 3:2 trade rate for any resource, 6) consider that the blue player in total has 4 cities, 5 settlements (including ones on board). Can the blue player get victory by the end of this round, given that the player must use least amount of resource cards, and that the player rolls a 5? Return your answer in the following format: [victory: <yes if the player can declare victory, no if not>, final_resources: <[brick: <no. Of brick resource cards after the turn>, wool: <no. Of wool resource cards after the turn>], grain: <no. Of grain resource cards after the turn>, lumber: <no. Of lumber resource cards after the turn>, ore: <no. Of ore resource cards after the turn>]>]",
+  "Answer": "[victory: yes, final_resources: [brick: 1, wool: 0, grain: 0, lumber: 1, ore: 3]]",
+  "Rationale": "According to the given board stateIn the question, the blue player has 2 cities on the special harbors, one settlement on the intersection of hexes: (8,5,4). The blue player has the following resources: [brick: 2, wool: 1, grain: 1, lumber: 2, ore: 3]. Along with this the player has development cards: 1 monopoly, 1 Road building. And also has the largest kingdom with 3 knights. Therefore the current score of the blue player is: 7 (2 * 2 from cities + 1 settlement + 2 from largest army). The current longest road is present with the red player having 8 continuous roads, and the blue player has 7. Using the development card: build road, the player can build 2 new roads: in such a way that it increases the current longest road for blue. This would lead to the blue player having the maximum road length, getting the longest road card (+2 points). So now the total score is: 9 points. In order to get one more point, the player can spend (1 brick, Wool, lumber, grain) and build a settlement (at any intersection valid) and gain 1 more point. Thus the player can get a victory and with the least resource cards spent.",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_green_5.png"
+  ],
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 3,
+  "Strategy Difficulty": 3,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2517
+}

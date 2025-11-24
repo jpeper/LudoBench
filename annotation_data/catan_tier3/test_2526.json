@@ -1,0 +1,19 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Assume: 1) no-inter player trading occurs, 2) there are no development cards left to draw, 3) in-hand VP cards count as points. What is the maximum points the blue player can get by the end of this turn, given the player rolls an 8? Return your answer in the following format: [prev_points: <number of points the player has before this turn>, new_points: <the number of points the player has after this turn>]",
+  "Answer": "[prev_points: 4, new_points: 7]",
+  "Rationale": "According to the given game state, the Blue player begins the round with two settlements on the board and the following resources: 0 brick, 1 wool, 1 grain, 2 lumber, and 2 ore. The development cards include: year of plenty, and road building. The player also has the longest army card, with an army of 3 knights. After rolling an eight, the Blue player receives 1 additional brick. Currently the player has: 2points from settlements + 2 points from the largest kingdom = 4 points. To maximize points in this round, the player can first use the Road Building development card to place two roads. By extending the existing longest road—specifically by placing the new roads along the paths between the 11–12 hexes and the 12–6 hexes—the Blue player creates a continuous path long enough to claim the Longest Road special card, earning 2 victory points. With the remaining resources, the Blue player can then build a settlement at either the 9–11–12 intersection or the 12–6–3 intersection, gaining an additional point. In total, by strategically using the Road Building card, extending their path, and constructing a settlement, the Blue player can increase their score by up to 3 points this round, reaching a maximum of seven points overall.",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_3.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_3.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_3.png"
+  ],
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2526
+}

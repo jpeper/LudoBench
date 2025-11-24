@@ -1,0 +1,20 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Assume: 1) no-inter player trading occurs, 2) there are no development cards left to draw, 3) in-hand VP cards count as points, 4) can use the combined Trade/Build phase, 5)For maritime trade, a city on a special harbor grants a 1:1 trade rate for its resource, while a city on a generic harbor grants a 3:2 trade rate for any resource. 6) consider that the green player in total has 4 cities, 5 settlements (including ones on board). What is the maximum number of cities + settlements the green player has by the end of this turn, given that the green player has rolled 3 in this round? Return your answer in the following format: [Old_cities: <number of cities before this turn>, old_settlements: < number of settlements before this turn>, new_cities: <number of cities after the turn>, new_settlements: <number of settlements after the turn>]",
+  "Answer": "[old_city: 1, old_settlement: 3, new_city: 2, new_settlement: 5]",
+  "Rationale": "According to the given board state in the question, the green player has: 1 city at special harbour, and 3 settlements. The current resource pool of the green player is: [brick: 3, wool: 4, grain: 1, lumber: 3, ore: 3]. The development cards include: 1 road building, 1 year of plenty and 1 knight. Also has 3 knights already placed on the table. Since the player rolls a 3 in this turn, the green player gets: 4 grain resources. The resource pool is: [brick: 3, wool: 4, grain: 5, lumber: 3, ore: 3]. The way to get maximum number of settlements + cities is: there are 2 intersections where settlements (cost 1 brick, lumber, wool, grain) can be built: (9) near the special harbor, intersection of (4, 6, desert). Now the maximum number of settlements is completed (5). So now in order to increase the sum, one of the settlement should be upgraded to city (2 grain and 3 ore). This results in one settlement return to the players pool. Now using the build road development card, the player can build 2 roads (extending the longest road) -> (3, 11) and (3, 10). This would open up a new place to place another settlement. This way the player can place a maximum of 5 settlements and 2 cities by the end of this round.",
+  "game_state_url": [
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/board_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_blue_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_red_5.png",
+    "https://github.com/jpeper/LudoBench/blob/main/gamestates/images/catan/player_green_5.png"
+  ],
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 3,
+  "Strategy Difficulty": 3,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2521
+}
